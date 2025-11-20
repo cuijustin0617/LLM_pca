@@ -1,0 +1,300 @@
+{
+  "rows": [
+    {
+      "address": "675 PROGRESS AVENUE",
+      "location_relation_to_site": "SE/157.2",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "A.G. SIMPSON CO. LTD. had a spill of 200L of Hydrochloric Acid to the ground and catch-basin on 3/18/1992.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "675 PROGRESS AVENUE",
+      "location_relation_to_site": "SE/157.2",
+      "pca_number": 39,
+      "pca_name": "Paints Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "A.G. SIMPSON CO. LTD. had a spill of 2,250 L of paint to the ground and sewer, reported on 4/12/1991.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "675 PROGRESS AVENUE",
+      "location_relation_to_site": "SE/157.2",
+      "pca_number": 57,
+      "pca_name": "Vehicles and Associated Parts Manufacturing",
+      "description_timeline": "A.G. Simpson Automotive Inc. / A.G. SIMPSON CO. LTD., an automotive parts company, had multiple spills including 20L of oil (4/24/2015) and 23L of gear oil (10/3/2000).",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "300 Consilium Place",
+      "location_relation_to_site": "W/157.9",
+      "pca_number": 42,
+      "pca_name": "Pharmaceutical Manufacturing and Processing",
+      "description_timeline": "Organon Canada Ltd. listed as a Pharmaceuticals and Pharmacy Supplies Wholesaler-Distributors.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "300 Consilium Place",
+      "location_relation_to_site": "W/157.9",
+      "pca_number": 32,
+      "pca_name": "Iron and Steel Manufacturing and Processing",
+      "description_timeline": "Co-Steel Inc. listed with SIC/NAICS code 331110 for Iron and Steel Mills and Ferro-Alloy Manufacturing, established in 1973.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "300 Consilium Place",
+      "location_relation_to_site": "W/157.9",
+      "pca_number": 34,
+      "pca_name": "Metal Fabrication",
+      "description_timeline": "BICC CABLES COMPANY listed with SIC/NAICS code 3357 for Drawing and Insulating of Nonferrous Wire.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "300 Consilium Place",
+      "location_relation_to_site": "W/157.9",
+      "pca_number": 28,
+      "pca_name": "Gasoline and Associated Products Storage in Fixed Tanks",
+      "description_timeline": "Oxford Properties Group reported a 100 L diesel fuel spill on 8/15/2003, likely from a fixed tank for backup generators or heating.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 Progress Ave unit # 17",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 33,
+      "pca_name": "Metal Treatment, Coating, Plating and Finishing",
+      "description_timeline": "Bestwind Industries LTD, a fabricated metal product manufacturer, generated acid and alkaline wastes with heavy metals in years 2004-2016.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 PROGRESS AVENUE, UNIT 25",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 34,
+      "pca_name": "Metal Fabrication",
+      "description_timeline": "MAILCRAFTERS CANADA INC. operated as a machine shop (SIC 3081) and generated petroleum distillates waste from 1995-2005.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 PROGRESS AVENUE, UNIT 63",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 39,
+      "pca_name": "Paints Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "GRASEBY GORING KERR CANADA INC generated paint/pigment/coating residues waste from 1993-1999.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 PROGRESS AVENUE, UNIT 63",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 51,
+      "pca_name": "Solvent Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "GRASEBY GORING KERR CANADA INC generated halogenated solvents waste from 1993-1999.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 PROGRESS AVENUE UNIT 46",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_timeline": "IMAGE VIDEO LIMITED, an electronics and communications equipment company, generated solvent and photoprocessing wastes from 1986-1998.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 Progress Ave. Unit 13 & 14",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 39,
+      "pca_name": "Paints Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Akzo Nobel Coatings Ltd, a paint store, generated paint/pigment/coating residues from 2004-2006.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 Progress Ave. Unit 13 & 14",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 51,
+      "pca_name": "Solvent Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Akzo Nobel Coatings Ltd generated aromatic solvents waste from 2004-2006.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 Progress Ave Unit 38",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 31,
+      "pca_name": "Ink Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Business Printing Inc. operated with SIC codes for Digital Printing and Other Printing, established in 1993.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 Progress Ave Unit 39",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 34,
+      "pca_name": "Metal Fabrication",
+      "description_timeline": "Die-X-Limited listed with SIC code for Other Metalworking Machinery Manufacturing, established in 1987.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 PROGRESS AVE UNIT 7",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 54,
+      "pca_name": "Textile Manufacturing and Processing",
+      "description_timeline": "CLEANWEAR PRODUCTS LTD. listed with SIC codes for Men's and Boys' Work Clothing and other apparel, established in 1976.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 PROGRESS AVE UNIT 10",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_timeline": "TELEX COMMUNICATIONS LTD. listed with SIC codes for Audio and Video Equipment Manufacturing and Semiconductor and Other Electronic Component Manufacturing.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "705 PROGRESS AVE UNIT 17",
+      "location_relation_to_site": "ESE/172.3",
+      "pca_number": 54,
+      "pca_name": "Textile Manufacturing and Processing",
+      "description_timeline": "TRITON FASHION COMPANY listed with SIC codes for Cut and Sew Clothing Contracting and Other Women's and Girls' Cut and Sew Clothing Manufacturing.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "720 PROGRESS AV",
+      "location_relation_to_site": "ENE/187.8",
+      "pca_number": 41,
+      "pca_name": "Petroleum-derived Gas Refining, Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "TORONTO OXYGEN LTD had a licensed capacity of 5,250 L, expiring in 1993.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "721 Progress Ave.",
+      "location_relation_to_site": "ENE/194.9",
+      "pca_number": 39,
+      "pca_name": "Paints Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Brafasco generated waste from the use of pigments, coatings and paints from 2006-2016.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "721 Progress Ave.",
+      "location_relation_to_site": "ENE/194.9",
+      "pca_number": 40,
+      "pca_name": "Pesticides (including Herbicides, Fungicides and Anti-Fouling Agents) Manufacturing, Processing, Bulk Storage and Large-Scale Applications",
+      "description_timeline": "Brafasco generated halogenated pesticides waste from 2006-2012.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "721 Progress Ave.",
+      "location_relation_to_site": "ENE/194.9",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Brafasco generated acid waste with other metals from 2006-2013.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "721 Progress Ave.",
+      "location_relation_to_site": "ENE/194.9",
+      "pca_number": 41,
+      "pca_name": "Petroleum-derived Gas Refining, Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Brafasco generated waste compressed gases from 2006-2013.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "727 PROGRESS AVE",
+      "location_relation_to_site": "ENE/246.7",
+      "pca_number": 41,
+      "pca_name": "Petroleum-derived Gas Refining, Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "LINDE CANADA LTD operated a FS Cylinder Exchange facility.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "108 Corporate Drive",
+      "location_relation_to_site": "NNE/255.9",
+      "pca_number": 56,
+      "pca_name": "Treatment of Sewage equal to or greater than 10,000 litres per day",
+      "description_timeline": "A raw sewage spill from a manhole to a catchbasin was reported on March 7, 2012, indicating the presence of a municipal sewage system.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "1275 MCCOWAN ROAD",
+      "location_relation_to_site": "SSW/258.3",
+      "pca_number": 28,
+      "pca_name": "Gasoline and Associated Products Storage in Fixed Tanks",
+      "description_timeline": "TORONTO TRANSIT COMMISSION registered a Standby Power System on June 7, 2012, which typically involves bulk fuel storage.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "1275 MCCOWAN ROAD",
+      "location_relation_to_site": "SSW/258.3",
+      "pca_number": 52,
+      "pca_name": "Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems",
+      "description_timeline": "TORONTO TRANSIT COMMISSION, an urban transit system, generated oil skimmings and sludges from 1995-2001.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "727 C Progress Avenue",
+      "location_relation_to_site": "ENE/278.4",
+      "pca_number": 5,
+      "pca_name": "Asphalt and Bitumen Manufacturing",
+      "description_timeline": "East Star Asphalt, a residential and commercial paving contractor, was listed as a generator in 2003-2004.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "727 PROGRESS AVENUE",
+      "location_relation_to_site": "ENE/278.4",
+      "pca_number": 31,
+      "pca_name": "Ink Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "615863 ONTARIO LIMITED / THOMAS PRINTING operated as a commercial printing business, generating paint/pigment residues from 1996-2001.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "727 Progress Ave Unit A",
+      "location_relation_to_site": "ENE/278.4",
+      "pca_number": 43,
+      "pca_name": "Plastics (including Fibreglass) Manufacturing and Processing",
+      "description_timeline": "Agincourt Trophy & Gifts Ltd. listed with SIC code 326198 for All Other Plastic Product Manufacturing.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "727 Progress Ave Unit A",
+      "location_relation_to_site": "ENE/278.4",
+      "pca_number": 34,
+      "pca_name": "Metal Fabrication",
+      "description_timeline": "Agincourt Trophy & Gifts Ltd. listed with SIC code 332999 for All Other Miscellaneous Fabricated Metal Product Manufacturing.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "727 Progress Ave Unit A",
+      "location_relation_to_site": "ENE/278.4",
+      "pca_number": 54,
+      "pca_name": "Textile Manufacturing and Processing",
+      "description_timeline": "Agincourt Trophy & Gifts Ltd. listed with SIC codes for All Other Textile Product Mills and Narrow Fabric Mills.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "MCCOWAN RD. LANDFILL SITE",
+      "location_relation_to_site": "Unplottable",
+      "pca_number": 58,
+      "pca_name": "Waste Disposal and Waste Management, including thermal treatment, landfilling and transfer of waste, other than use of biosoils as soil conditioners",
+      "description_timeline": "TORONTO CITY, SCARBOROUGH DISTRICT received an approval for a Passive Landfill Gas Control System at this location in 1998.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "PROGRESS AVE.",
+      "location_relation_to_site": "Unplottable",
+      "pca_number": 31,
+      "pca_name": "Ink Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "METRO LABEL COMPANY LTD. / Tapp Label Ltd generated graphic arts wastes, paint/pigment residues, and solvents, consistent with printing operations (2013-2016).",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "401 EASTBOUND, JUST WEST OF WESTON RD.",
+      "location_relation_to_site": "Unplottable",
+      "pca_number": 11,
+      "pca_name": "Commercial Trucking and Container Terminals",
+      "description_timeline": "PROVOST BULK TRANSPORT, a trucking company, had a spill of 1000L of toluene based resin on 6/13/1995.",
+      "source_pages": "163-246"
+    },
+    {
+      "address": "401 RAMP TO SOUTHBOUND 401, NEAR RENFORTH RD.",
+      "location_relation_to_site": "Unplottable",
+      "pca_number": 12,
+      "pca_name": "Concrete, Cement and Lime Manufacturing",
+      "description_timeline": "RED-D-MIX, a concrete company, had a diesel spill on 5/25/1996.",
+      "source_pages": "163-246"
+    }
+  ]
+}

@@ -1,0 +1,10698 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX E: ECOLOG ERIS REPORT 
+
+
+        Project Property:
+670 to 690 Progress Ave
+670 Progress Ave Toronto On 
+Toronto ON M1H3A4
+        Project No:
+        Report Type:
+RSC Report (Urban)
+        Order No: 
+20170208162
+        Requested by:
+Brownfield Investment Group Inc.
+        Date Completed: 
+February 14, 2017
+
+
+2
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+h-Table of Contents
+Notice: IMPORTANT LIMITATIONS and YOUR LIABILITY
+Reliance on information in Report: This report DOES NOT replace a full Phase I Environmental Site Assessment but is solely intended to be used as
+a database review of environmental records.
+License for use of information in Report: No page of this report can be used without this cover page, this notice and the project property identifier.
+The information in Report(s) may not be modified or re-sold.
+Your Liability for misuse: Using this Service and/or its reports in a manner contrary to this Notice or your agreement will be in breach of copyright and
+contract and ERIS may obtain damages for such mis-use, including damages caused to third parties, and gives ERIS the right to terminate your account,
+rescind your license to any previous reports and to bar you from future use of the Service.
+No warranty of Accuracy or Liability for ERIS: The information contained in this report has been produced by ERIS Information Limited Partnership
+("ERIS") using various sources of information, including information provided by Federal and Provincial government departments. The report applies
+only to the address and up to the date specified on the cover of this report, and any alterations or deviation from this description will require a new report.
+This report and the data contained herein does not purport to be and does not constitute a guarantee of the accuracy of the information contained herein
+and does not constitute a legal opinion nor medical advice. Although ERIS has endeavored to present you with information that is accurate, ERIS
+disclaims, any and all liability for any errors, omissions, or inaccuracies in such information and data, whether attributable to inadvertence, negligence or
+otherwise, and for any consequences arising therefrom. Liability on the part of ERIS is limited to the monetary value paid for this report.
+Trademark and Copyright: You may not use the ERIS trademarks or attribute any work to ERIS other than as outlined above. This Service and
+Report(s) are protected by copyright owned by ERIS Information Limited Partnership. Copyright in data used in the Service or Report(s) (the "Data") is
+owned by ERIS or its licensors. The Service, Report(s) and Data may not be copied or reproduced in whole or in any substantial part without prior
+written consent of ERIS.
+Table of Contents
+Table of Contents...........................................................................................2
+Executive Summary........................................................................................3
+       Executive Summary: Report Summary.......................................................................................................................4
+       Executive Summary: Site Report Summary - Project Property...................................................................................6
+       Executive Summary: Site Report Summary - Surrounding Properties........................................................................9
+       Executive Summary: Summary By Data Source.......................................................................................................24
+Map...............................................................................................................45
+Aerial.............................................................................................................46
+Topographic Map..........................................................................................47
+Detail Report.................................................................................................48
+Unplottable Summary.................................................................................216
+Unplottable Report......................................................................................220
+Appendix: Database Descriptions...............................................................245
+Definitions...................................................................................................253
+
+
+3
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+h-Executive Summary
+Property Information:
+ Project Property:
+670 to 690 Progress Ave
+670 Progress Ave Toronto On  Toronto ON M1H3A4
+ Project No:
+Order Information:
+ Order No:
+20170208162
+ Date Requested:
+February 8, 2017
+ Requested by:
+Brownfield Investment Group Inc.
+ Report Type:
+RSC Report (Urban)
+Additional Products:
+Insurance Products  
+Fire Insurance Maps/Inspection Reports/Site Specific Plans
+Topographic Map  
+Ontario Base Map (OBM)
+Executive Summary
+
+
+4
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+h-Executive Summary: Report Summary
+Database
+ Name
+Searched
+Project 
+Property
+Boundary
+to 0.30km
+Total
+rr-AAGR-aa 
+Abandoned Aggregate Inventory
+Y
+  0
+0
+0
+rr-AGR-aa 
+Aggregate Inventory
+Y
+  0
+0
+0
+rr-AMIS-aa 
+Abandoned Mine Information System
+Y
+  0
+0
+0
+rr-ANDR-aa 
+Anderson's Waste Disposal Sites
+Y
+  0
+0
+0
+rr-AUWR-aa 
+Automobile Wrecking & Supplies
+Y
+  0
+0
+0
+rr-BORE-aa 
+Borehole
+Y
+  0
+13
+13
+rr-CA-aa 
+Certificates of Approval
+Y
+  0
+29
+29
+rr-CFOT-aa 
+Commercial Fuel Oil Tanks
+Y
+  0
+0
+0
+rr-CHEM-aa 
+Chemical Register
+Y
+  0
+0
+0
+rr-CNG-aa 
+Compressed Natural Gas Stations
+Y
+  0
+0
+0
+rr-COAL-aa 
+Inventory of Coal Gasification Plants and Coal Tar Sites
+Y
+  0
+0
+0
+rr-CONV-aa 
+Compliance and Convictions
+Y
+  0
+0
+0
+rr-CPU-aa 
+Certificates of Property Use
+Y
+  0
+0
+0
+rr-DRL-aa 
+Drill Hole Database
+Y
+  0
+0
+0
+rr-EASR-aa 
+Environmental Activity and Sector Registry
+Y
+  0
+4
+4
+rr-EBR-aa 
+Environmental Registry
+Y
+  0
+25
+25
+rr-ECA-aa 
+Environmental Compliance Approval
+Y
+  0
+3
+3
+rr-EEM-aa 
+Environmental Effects Monitoring
+Y
+  0
+0
+0
+rr-EHS-aa 
+ERIS Historical Searches
+Y
+  0
+22
+22
+rr-EIIS-aa 
+Environmental Issues Inventory System
+Y
+  0
+0
+0
+rr-EMHE-aa 
+Emergency Management Historical Event
+Y
+  0
+0
+0
+rr-EXP-aa 
+List of TSSA Expired Facilities
+Y
+  0
+1
+1
+rr-FCON-aa 
+Federal Convictions
+Y
+  0
+0
+0
+rr-FCS-aa 
+Contaminated Sites on Federal Land
+Y
+  0
+0
+0
+rr-FOFT-aa 
+Fisheries & Oceans Fuel Tanks
+Y
+  0
+0
+0
+rr-FST-aa 
+Fuel Storage Tank
+Y
+  0
+0
+0
+rr-FSTH-aa 
+Fuel Storage Tank - Historic
+Y
+  0
+0
+0
+rr-GEN-aa 
+Ontario Regulation 347 Waste Generators Summary
+Y
+  30
+134
+164
+rr-GHG-aa 
+Greenhouse Gas Emissions from Large Facilities
+Y
+  0
+0
+0
+rr-HINC-aa 
+TSSA Historic Incidents
+Y
+  0
+0
+0
+rr-IAFT-aa 
+Indian & Northern Affairs Fuel Tanks
+Y
+  0
+0
+0
+rr-INC-aa 
+TSSA Incidents
+Y
+  0
+0
+0
+rr-LIMO-aa 
+Landfill Inventory Management Ontario
+Y
+  0
+0
+0
+rr-MINE-aa 
+Canadian Mine Locations
+Y
+  0
+0
+0
+rr-MNR-aa 
+Mineral Occurrences
+Y
+  0
+0
+0
+rr-NATE-aa 
+National Analysis of Trends in Emergencies System 
+(NATES)
+Y
+  0
+0
+0
+AAGR
+AGR
+AMIS
+ANDR
+AUWR
+BORE
+CA
+CFOT
+CHEM
+CNG
+COAL
+CONV
+CPU
+DRL
+EASR
+EBR
+ECA
+EEM
+EHS
+EIIS
+EMHE
+EXP
+FCON
+FCS
+FOFT
+FST
+FSTH
+GEN
+GHG
+HINC
+IAFT
+INC
+LIMO
+MINE
+MNR
+NATE
+Executive Summary: Report Summary
+
+
+5
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Database
+ Name
+Searched
+Project 
+Property
+Boundary
+to 0.30km
+Total
+rr-NCPL-aa 
+Non-Compliance Reports
+Y
+  0
+0
+0
+rr-NDFT-aa 
+National Defense & Canadian Forces Fuel Tanks
+Y
+  0
+0
+0
+rr-NDSP-aa 
+National Defense & Canadian Forces Spills
+Y
+  0
+0
+0
+rr-NDWD-aa 
+National Defence & Canadian Forces Waste Disposal 
+Sites
+Y
+  0
+0
+0
+rr-NEBW-aa 
+National Energy Board Wells
+Y
+  0
+0
+0
+rr-NEES-aa 
+National Environmental Emergencies System (NEES)
+Y
+  0
+0
+0
+rr-NPCB-aa 
+National PCB Inventory
+Y
+  0
+8
+8
+rr-NPRI-aa 
+National Pollutant Release Inventory
+Y
+  0
+33
+33
+rr-OGW-aa 
+Oil and Gas Wells
+Y
+  0
+0
+0
+rr-OOGW-aa 
+Ontario Oil and Gas Wells
+Y
+  0
+0
+0
+rr-OPCB-aa 
+Inventory of PCB Storage Sites
+Y
+  0
+8
+8
+rr-ORD-aa 
+Orders
+Y
+  0
+0
+0
+rr-PAP-aa 
+Canadian Pulp and Paper
+Y
+  0
+1
+1
+rr-PCFT-aa 
+Parks Canada Fuel Storage Tanks
+Y
+  0
+0
+0
+rr-PES-aa 
+Pesticide Register
+Y
+  0
+0
+0
+rr-PINC-aa 
+TSSA Pipeline Incidents
+Y
+  0
+0
+0
+rr-PRT-aa 
+Private and Retail Fuel Storage Tanks
+Y
+  0
+2
+2
+rr-PTTW-aa 
+Permit to Take Water
+Y
+  0
+0
+0
+rr-REC-aa 
+Ontario Regulation 347 Waste Receivers Summary
+Y
+  0
+2
+2
+rr-RSC-aa 
+Record of Site Condition
+Y
+  0
+0
+0
+rr-RST-aa 
+Retail Fuel Storage Tanks
+Y
+  0
+0
+0
+rr-SCT-aa 
+Scott's Manufacturing Directory
+Y
+  11
+46
+57
+rr-SPL-aa 
+Ontario Spills
+Y
+  1
+14
+15
+rr-SRDS-aa 
+Wastewater Discharger Registration Database
+Y
+  0
+0
+0
+rr-TANK-aa 
+Anderson's Storage Tanks
+Y
+  0
+0
+0
+rr-TCFT-aa 
+Transport Canada Fuel Storage Tanks
+Y
+  0
+0
+0
+rr-VAR-aa 
+TSSA Variances for Abandonment of Underground 
+Storage Tanks
+Y
+  0
+0
+0
+rr-WDS-aa 
+Waste Disposal Sites - MOE CA Inventory
+Y
+  0
+0
+0
+rr-WDSH-aa 
+Waste Disposal Sites - MOE 1991 Historical Approval 
+Inventory
+Y
+  0
+0
+0
+rr-WWIS-aa 
+Water Well Information System
+Y
+  1
+14
+15
+Total:
+  43
+359
+402
+NCPL
+NDFT
+NDSP
+NDWD
+NEBW
+NEES
+NPCB
+NPRI
+OGW
+OOGW
+OPCB
+ORD
+PAP
+PCFT
+PES
+PINC
+PRT
+PTTW
+REC
+RSC
+RST
+SCT
+SPL
+SRDS
+TANK
+TCFT
+VAR
+WDS
+WDSH
+WWIS
+
+
+6
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+h-Executive Summary: Site Report Summary - Project Property
+Map
+Key
+DB
+ Company/Site Name 
+Address
+Dir/Dist (m)
+ Elev diff 
+(m)
+Page 
+Number
+m1d
+dd-GEN-800880373-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-48-800880373-x
+m1d
+dd-GEN-800857032-aa
+ANRO ELECTRONIC 
+IND.(LEECRAFT LTD)
+670 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-48-800857032-x
+m1d
+dd-GEN-808973916-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-48-808973916-x
+m1d
+dd-GEN-804066190-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-49-804066190-x
+m1d
+dd-GEN-800880372-aa
+ALL-LIFT 
+(SCARBOROUGH)LTD.        02-
+798
+670 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-49-800880372-x
+m1d
+dd-GEN-809000410-aa
+Oxford College of Arts, Business 
+And Technology In
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4
+-/0.0
+0.59
+p-49-809000410-x
+m1d
+dd-GEN-800880374-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-50-800880374-x
+m1d
+dd-GEN-800857033-aa
+LEECRAFT INDUSTRIES 
+LIMITED
+FORMERLY:  ANRO ELECTRIC 670 
+PROGRESS AVE., UNIT #1
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-50-800857033-x
+m1d
+dd-GEN-800857034-aa
+LEECRAFT INDUSTRIES 
+LIMITED       24-633
+FORMERLY:  ANRO ELECTRIC 670 
+PROGRESS AVE., UNIT #1
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-50-800857034-x
+m1d
+dd-GEN-808971594-aa
+Oxford College of Arts, Business 
+And Technology In
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4
+-/0.0
+0.59
+p-51-808971594-x
+m1d
+dd-GEN-809000696-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-51-809000696-x
+m1d
+dd-GEN-814162821-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-52-814162821-x
+m1d
+dd-GEN-850302324-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-52-850302324-x
+m1d
+dd-GEN-814145740-aa
+INVAR BUILDING 
+CORPORATION
+670 PROGRESS AVENUE UNIT 11 
+SCARBOROUGH ON 
+-/0.0
+0.59
+p-52-814145740-x
+m1d
+dd-GEN-850301963-aa
+Oxford College of Arts, Business 
+And Technology In
+670 Progress Ave, Unit 1 
+Scarborough ON M1H3A4
+-/0.0
+0.59
+p-52-850301963-x
+m1d
+dd-GEN-821720901-aa
+Oxford College of Arts, Business 
+And Technology In
+670 Progress Ave, Unit 1 
+Scarborough ON 
+-/0.0
+0.59
+p-53-821720901-x
+48
+48
+48
+49
+49
+49
+50
+50
+50
+51
+51
+52
+52
+52
+52
+53
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+Executive Summary: Site Report Summary - Project Property
+
+
+7
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key
+DB
+ Company/Site Name 
+Address
+Dir/Dist (m)
+ Elev diff 
+(m)
+Page 
+Number
+m1d
+dd-GEN-803698231-aa
+Oxford College of Arts, Business 
+And Technology In
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4
+-/0.0
+0.59
+p-53-803698231-x
+m1d
+dd-GEN-821705203-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON 
+-/0.0
+0.59
+p-54-821705203-x
+m1d
+dd-GEN-803021426-aa
+ALL-LIFT (SCARBOROUGH) 
+LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-54-803021426-x
+m1d
+dd-GEN-814148211-aa
+Oxford College of Arts, Business 
+And Technology In
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4
+-/0.0
+0.59
+p-55-814148211-x
+m1d
+dd-SCT-272316-aa
+COOLTEC COOLERS CANADA
+670 PROGRESS AVE UNIT 8
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-55-272316-x
+m1d
+dd-SCT-300139935-aa
+MICROHOUSE SYSTEMS INC.
+670 PROGRESS AVE 
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-55-300139935-x
+m1d
+dd-SCT-800346639-aa
+Cases Unlimited Inc.
+670 Progress Ave Unit 8
+Scarborough ON M1H 3A4
+-/0.0
+0.59
+p-56-800346639-x
+m1d
+dd-SCT-801871972-aa
+Cases Unlimited Inc.
+670 Progress Ave Unit 8
+Toronto ON M1H 3A4
+-/0.0
+0.59
+p-56-801871972-x
+m1d
+dd-SCT-272131-aa
+TORONTO SEWING CENTRE
+670 PROGRESS AVE UNIT 8
+SCARBOROUGH ON M1H 3A4
+-/0.0
+0.59
+p-56-272131-x
+m1d
+dd-SCT-803817353-aa
+Nedco Ontario
+670 Progress Ave Unit 9
+Scarborough ON M1H 3A4
+-/0.0
+0.59
+p-57-803817353-x
+m2d
+dd-GEN-800861176-aa
+MODU-TRONICS INC (OUT OF 
+BUSINESS)27-347
+680 PROGRESS AVE. 
+SCARBOROUGH ON M1H 3A5
+-/0.0
+-1.41
+p-57-800861176-x
+m2d
+dd-GEN-800861175-aa
+MODU-TRONICS INC (OUT OF 
+BUSINESS)
+680 PROGRESS AVE. 
+SCARBOROUGH ON M1H 3A5
+-/0.0
+-1.41
+p-57-800861175-x
+m2d
+dd-GEN-800861174-aa
+MODU-TRONICS INC.
+ 680 PROGRESS AVE.
+SCARBOROUGH ON M1H 3A5
+-/0.0
+-1.41
+p-57-800861174-x
+m2d
+dd-GEN-800856135-aa
+GAYA INDUSTRIES LTD.
+ 680 PROGRESS AVENUE, UNIT 11
+SCARBOROUGH ON M1H 3A5
+-/0.0
+-1.41
+p-58-800856135-x
+m2d
+dd-GEN-800897861-aa
+EXCELL SCREEN PRINTING
+680 PROGRESS AVE. #5 
+SCARBOROUGH ON M1H 3A5
+-/0.0
+-1.41
+p-58-800897861-x
+m2d
+dd-GEN-800897862-aa
+EXCELL SCREEN PRINTING
+14-704
+680 PROGRESS AVE. #5 
+SCARBOROUGH ON M1H 3A5
+-/0.0
+-1.41
+p-58-800897862-x
+m3d
+dd-WWIS-848820885-aa
+ 
+ ON 
+-/0.0
+0.49
+p-58-848820885-x
+m4d
+dd-GEN-800868753-aa
+CREST CIRCUIT COMPANY 
+LIMITED
+ 690 PROGRESS AVENUE; UNIT 10,
+SCARBOROUGH, ON M1H 3A6
+-/0.0
+-2.28
+p-59-800868753-x
+m4d
+dd-GEN-800868755-aa
+CREST (OUT OF BUS)                
+11-168
+690 PROGRESS AVENUE, UNIT 10 
+SCARBOROUGH ON M1H 3A6
+-/0.0
+-2.28
+p-59-800868755-x
+53
+54
+54
+55
+55
+55
+56
+56
+56
+57
+57
+57
+57
+58
+58
+58
+58
+59
+59
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+3
+4
+4
+GEN
+GEN
+GEN
+GEN
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+WWIS
+GEN
+GEN
+
+
+8
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key
+DB
+ Company/Site Name 
+Address
+Dir/Dist (m)
+ Elev diff 
+(m)
+Page 
+Number
+m4d
+dd-GEN-800842566-aa
+MILMAC COMMUNICATIONS 
+INC.
+690 PROGRESS AVE., SUITE 7 
+SCARBOROUGH ON M1H 3A6
+-/0.0
+-2.28
+p-60-800842566-x
+m4d
+dd-GEN-800868754-aa
+CREST CIRCUIT COMPANY 
+LIMITED
+690 PROGRESS AVENUE, UNIT 10 
+SCARBOROUGH ON M1H 3A6
+-/0.0
+-2.28
+p-60-800868754-x
+m4d
+dd-SCT-800340264-aa
+Hankin Atlas Ozone Systems Ltd.
+690 Progress Ave Unit 12
+Scarborough ON M1H 3A6
+-/0.0
+-2.28
+p-61-800340264-x
+m4d
+dd-SCT-271820-aa
+Classique Manufacturing Inc.
+690 Progress Ave Unit 4
+Scarborough ON M1H 3A6
+-/0.0
+-2.28
+p-61-271820-x
+m4d
+dd-SCT-801874352-aa
+Top Fashion Inc.
+690 Progress Ave Unit 6
+Toronto ON M1H 3A6
+-/0.0
+-2.28
+p-61-801874352-x
+m4d
+dd-SCT-801874861-aa
+Ozocan Corporation
+690 Progress Ave Unit 12
+Scarborough ON M1H 3A6
+-/0.0
+-2.28
+p-61-801874861-x
+m4d
+dd-SCT-271690-aa
+HANKIN ATLAS OZONE 
+SYSTEMS LTD
+690 PROGRESS AVE UNIT 12
+SCARBOROUGH ON M1H 3A6
+-/0.0
+-2.28
+p-62-271690-x
+m4d
+dd-SPL-803960043-aa
+Macusi Wood 
+Products<UNOFFICIAL>
+690 Progress Avenue, Unit 14 
+Toronto ON M1H 2X3
+-/0.0
+-2.28
+p-63-803960043-x
+60
+60
+61
+61
+61
+61
+62
+63
+4
+4
+4
+4
+4
+4
+4
+4
+GEN
+GEN
+SCT
+SCT
+SCT
+SCT
+SCT
+SPL
+
+
+9
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+h-Executive Summary: Site Report Summary - Surrounding Properties
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m5d
+dd-NPRI-802349985-aa
+OXFORD PROPERTIES GROUP
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4
+W/17.2
+0.60
+p-63-802349985-x
+m5d
+dd-NPRI-801773491-aa
+OXFORD PROPERTIES GROUP 
+INC.
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4
+W/17.2
+0.60
+p-63-801773491-x
+m5d
+dd-NPRI-801989324-aa
+OXFORD PROPERTIES GROUP
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4
+W/17.2
+0.60
+p-64-801989324-x
+m6d
+dd-GEN-800826052-aa
+LABELCRAFT PRODUCTS LTD.
+ 651 PROGRESS AVE., UNIT 1
+SCARBOROUGH ON M1H 2W8
+S/25.4
+2.31
+p-64-800826052-x
+m6d
+dd-GEN-800826054-aa
+LABELCRAFT PRODUCTS 
+LIMITED
+651 PROGRESS AVENUE UNIT 1
+SCARBOROUGH ON M1H 2W8
+S/25.4
+2.31
+p-65-800826054-x
+m6d
+dd-GEN-800826053-aa
+LABELCRAFT PRODUCTS LTD.
+24-304
+ 651 PROGRESS AVE., UNIT 1
+SCARBOROUGH ON M1H 2W8
+S/25.4
+2.31
+p-65-800826053-x
+m7d
+dd-CA-803747019-aa
+Quick Circuits Inc. 
+700 Progress Avenue  
+Toronto  ON 
+ENE/30.5
+-3.77
+p-65-803747019-x
+m7d
+dd-CA-803759374-aa
+Quick Circuits Inc. 
+700 Progress Ave  
+Toronto  ON 
+ENE/30.5
+-3.77
+p-65-803759374-x
+m7d
+dd-EBR-803007052-aa
+Quick Circuits Inc.
+700 Progress Avenue 
+Toronto ON 
+ENE/30.5
+-3.77
+p-66-803007052-x
+m7d
+dd-EBR-803573843-aa
+Quick Circuits Inc.
+700 Progress Ave Unit 13 
+Toronto ON M1H 2Z7
+ENE/30.5
+-3.77
+p-66-803573843-x
+m7d
+dd-EBR-803857837-aa
+A+A Graphics Canada Inc
+700 Progress Avenue 
+Toronto ON 
+ENE/30.5
+-3.77
+p-66-803857837-x
+m7d
+dd-ECA-804299595-aa
+A+A Graphics Canada Inc
+700 Progress Ave 
+Toronto ON 
+ENE/30.5
+-3.77
+p-67-804299595-x
+m7d
+dd-GEN-850268277-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-67-850268277-x
+m7d
+dd-GEN-800929856-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE, UNIT 13 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-67-800929856-x
+m7d
+dd-GEN-800869846-aa
+EXPERT CIRCUITS INC.
+700 PROGRESS AVENUE, UNIT #13 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-68-800869846-x
+m7d
+dd-GEN-803021424-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-68-803021424-x
+m7d
+dd-GEN-800913362-aa
+ABILITY MACHINE AND MFG. 
+INC.     02-607
+700 PROGRESS AVE. UNIT #10 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-68-800913362-x
+m7d
+dd-GEN-800899900-aa
+TRILLIUM COMMUNICATIONS
+38-687
+700 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-69-800899900-x
+m7d
+dd-GEN-808966340-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON 
+ENE/30.5
+-3.77
+p-69-808966340-x
+m7d
+dd-GEN-800919568-aa
+INNOVATIVE CHOICES
+700 PROGRESS AVENUE, UNITS 15&16 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-69-800919568-x
+m7d
+dd-GEN-800932921-aa
+INNOV(OUT OF BUSINESS)
+700 PROGRESS AVENUE, UNITS 15 & 16
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-70-800932921-x
+m7d
+dd-GEN-821707844-aa
+DASA MANUFACTURING 2010 
+LTD.
+700 progress ave #7 
+SCARBOROUGH ON 
+ENE/30.5
+-3.77
+p-70-821707844-x
+m7d
+dd-GEN-800869847-aa
+EXPERT CIRCUITS INC.              
+14-191
+ 700 PROGRESS AVENUE, UNIT 13
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-70-800869847-x
+63
+63
+64
+64
+65
+65
+65
+65
+66
+66
+66
+67
+67
+67
+68
+68
+68
+69
+69
+69
+70
+70
+70
+5
+5
+5
+6
+6
+6
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+NPRI
+NPRI
+NPRI
+GEN
+GEN
+GEN
+CA
+CA
+EBR
+EBR
+EBR
+ECA
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+Executive Summary: Site Report Summary - Surrounding Properties
+
+
+10
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m7d
+dd-GEN-809003104-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON 
+ENE/30.5
+-3.77
+p-71-809003104-x
+m7d
+dd-GEN-800917067-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVE. #13 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-71-800917067-x
+m7d
+dd-GEN-800869848-aa
+EXPERT CIRCUITS INC.
+700 PROGRESS AVENUE UNIT #13
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-71-800869848-x
+m7d
+dd-GEN-814150877-aa
+DASA MANUFACTURING 2010 
+LTD.
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-72-814150877-x
+m7d
+dd-GEN-808954132-aa
+DASA MANUFACTURING 2010 
+LTD.
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-72-808954132-x
+m7d
+dd-GEN-800930503-aa
+INNOVATIVE CHOICES
+700 PROGRESS AVENUE, UNITS 15 & 16
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-73-800930503-x
+m7d
+dd-GEN-802108709-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-73-802108709-x
+m7d
+dd-GEN-800869845-aa
+EXPERT CIRCUITS INC.
+ 700 PROGRESS AVENUE, UNIT 13
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-73-800869845-x
+m7d
+dd-GEN-814165404-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-74-814165404-x
+m7d
+dd-GEN-804070717-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON 
+ENE/30.5
+-3.77
+p-74-804070717-x
+m7d
+dd-GEN-800907585-aa
+ABILITY MACHINE (OUT OF 
+BUSINESS) 02-607
+700 PROGRESS AVE. UNIT #10 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-75-800907585-x
+m7d
+dd-GEN-808979739-aa
+DASA MANUFACTURING 2010 
+LTD.
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-75-808979739-x
+m7d
+dd-GEN-821715972-aa
+QUICK CIRCUITS INC.
+700 PROGRESS AVENUE 
+SCARBOROUGH ON 
+ENE/30.5
+-3.77
+p-75-821715972-x
+m7d
+dd-GEN-800908182-aa
+BRITE PLATING LTD.                
+05-875
+700 PROGRESS AVE. UNIT 15-16 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-76-800908182-x
+m7d
+dd-GEN-803696328-aa
+DASA MANUFACTURING 2010 
+LTD.
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-76-803696328-x
+m7d
+dd-SCT-300357386-aa
+CANADIAN STARS 
+SPORTSWEAR INC.
+700 Progress Ave 
+Scarborough ON M1H 2Z7
+ENE/30.5
+-3.77
+p-76-300357386-x
+m7d
+dd-SCT-87706-aa
+CRITICAL MACHINING
+700 PROGRESS AVE UNIT 2
+SCARBOROUGH ON M1H 2Z7
+ENE/30.5
+-3.77
+p-77-87706-x
+m7d
+dd-SCT-281750-aa
+Quick Circuits Inc.
+700 Progress Ave Unit 13
+Scarborough ON M1H 2Z7
+ENE/30.5
+-3.77
+p-77-281750-x
+m7d
+dd-SCT-801871729-aa
+Gold-Tex Garment Manufacturing
+700 Progress Ave Unit 3
+Scarborough ON M1H 2Z7
+ENE/30.5
+-3.77
+p-77-801871729-x
+m7d
+dd-SCT-281692-aa
+Lema Printing Services Inc.
+700 Progress Ave Unit 5
+Scarborough ON M1H 2Z7
+ENE/30.5
+-3.77
+p-77-281692-x
+m7d
+dd-SCT-800679936-aa
+Bowers Bindery Services Inc.
+700 Progress Ave Unit 5
+Scarborough ON M1H 2Z7
+ENE/30.5
+-3.77
+p-78-800679936-x
+m8d
+dd-BORE-803437928-aa
+ 
+ ON 
+SE/34.2
+1.63
+p-78-803437928-x
+m9d
+dd-NPRI-801773433-aa
+OXFORD PROPETIES GROUP 
+INC.
+300 Consilium Place 
+Toronto ON M1H3G2
+SSW/35.2
+2.81
+p-78-801773433-x
+m9d
+dd-NPRI-802349935-aa
+OXFORD PROPETIES GROUP
+300 Consilium Place 
+Toronto ON M1H3G2
+SSW/35.2
+2.81
+p-79-802349935-x
+m9d
+dd-NPRI-801989272-aa
+OXFORD PROPETIES GROUP
+300 Consilium Place 
+Toronto ON M1H3G2
+SSW/35.2
+2.81
+p-79-801989272-x
+m10d
+dd-BORE-803437931-aa
+ 
+ ON 
+ESE/60.0
+-2.32
+p-80-803437931-x
+71
+71
+71
+72
+72
+73
+73
+73
+74
+74
+75
+75
+75
+76
+76
+76
+77
+77
+77
+77
+78
+78
+78
+79
+79
+80
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+8
+9
+9
+9
+10
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+BORE
+NPRI
+NPRI
+NPRI
+BORE
+
+
+11
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m11d
+dd-EHS-849433787-aa
+600 Consilium Pl 
+Toronto ON M1H3E9
+W/60.3
+0.58
+p-80-849433787-x
+m12d
+dd-EHS-803236390-aa
+111 Grangeway Avenue 
+Scarborough (Toronto) ON M1H 3E9
+SSW/65.8
+4.49
+p-80-803236390-x
+m12d
+dd-EHS-801796719-aa
+111 Grangeway Avenue 
+Toronto (Scarborough) ON M1H 3E9
+SSW/65.8
+4.49
+p-81-801796719-x
+m12d
+dd-GEN-800899427-aa
+ROYAL BANK OF CANADA
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-81-800899427-x
+m12d
+dd-GEN-800899426-aa
+ROYAL BANK OF CANADA
+111 GRANGEWAY AVENUE, 
+SCARBOROUGH C/O GLOBE REALTY, 
+PO BOX 5, ROYAL BANK
+TORONTO ON M1H 3E9
+SSW/65.8
+4.49
+p-81-800899426-x
+m12d
+dd-GEN-800899429-aa
+ROYAL BANK OF CANADA
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-81-800899429-x
+m12d
+dd-GEN-800899428-aa
+ROYAL BANK OF CANADA
+33-563
+111 GRANGEWAY AVENUE, 
+SCARBOROUGH C/O GLOBE REALTY, 
+PO BOX 5, ROYAL BANK
+TORONTO ON M1H 3E9
+SSW/65.8
+4.49
+p-82-800899428-x
+m12d
+dd-GEN-801800055-aa
+ROYAL BANK OF CANADA
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-82-801800055-x
+m12d
+dd-NPCB-803360693-aa
+ROYAL BANK - OXFORD 
+PROPERTIES GROUP INC.
+ 111 GRANGEWAYAVE
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-82-803360693-x
+m12d
+dd-NPCB-803360692-aa
+ROYAL BANK REALTY INC.
+ 111 GRANGEWAY AVENUE
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-82-803360692-x
+m12d
+dd-NPCB-96723-aa
+ROYAL BANK REALTY INC.
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-83-96723-x
+m12d
+dd-OPCB-800800491-aa
+ROYAL BANK REALTY INC.
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-83-800800491-x
+m12d
+dd-OPCB-800798408-aa
+ROYAL BANK REALTY INC.
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-83-800798408-x
+m12d
+dd-OPCB-800799527-aa
+ROYAL BANK REALTY INC.
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-84-800799527-x
+m12d
+dd-OPCB-800802187-aa
+ROYAL BANK REALTY INC.
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-84-800802187-x
+m12d
+dd-PAP-803382496-aa
+Hoffman Enclosures Inc.
+111 Grangeway Ave Suite 504
+Scarborough ON M1H 3E9
+SSW/65.8
+4.49
+p-84-803382496-x
+m12d
+dd-SCT-87301-aa
+SCHROFF CANADA INC.
+111 GRANGEWAY AVE UNIT 504
+SCARBOROUGH ON M1H 3E9
+SSW/65.8
+4.49
+p-84-87301-x
+m12d
+dd-SCT-800343301-aa
+Hoffman Enclosures Inc.
+111 Grangeway Ave Suite 504
+Scarborough ON M1H 3E9
+SSW/65.8
+4.49
+p-85-800343301-x
+m13d
+dd-CA-803744327-aa
+Tele-Mobile Company 
+200 Consilium Place  
+Toronto  ON 
+WSW/70.1
+2.46
+p-85-803744327-x
+m13d
+dd-CA-803767957-aa
+Telus Communications Inc. 
+200 Consilium Pl  
+Toronto  ON 
+WSW/70.1
+2.46
+p-85-803767957-x
+m13d
+dd-EBR-803381362-aa
+Telus Communications Inc.
+200 Consilium Place Suite 1600 
+Toronto ON 
+WSW/70.1
+2.46
+p-86-803381362-x
+m13d
+dd-EBR-803070619-aa
+Menkes Consilium Inc.
+200 Consilium Place 
+Toronto ON M1H 3G2
+WSW/70.1
+2.46
+p-86-803070619-x
+m13d
+dd-GEN-850297621-aa
+TELUS Communications Company
+200 Consilium Place 
+Scarborough ON M1H 3J3
+WSW/70.1
+2.46
+p-86-850297621-x
+m13d
+dd-GEN-821718094-aa
+Athlete's Care
+200 Consilium Place Suite #104
+Scarborough ON 
+WSW/70.1
+2.46
+p-86-821718094-x
+m13d
+dd-GEN-822738104-aa
+TELUS Communications Company
+200 Consilium Place 
+Scarborough ON 
+WSW/70.1
+2.46
+p-87-822738104-x
+80
+80
+81
+81
+81
+81
+82
+82
+82
+82
+83
+83
+83
+84
+84
+84
+84
+85
+85
+85
+86
+86
+86
+86
+87
+11
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+13
+13
+13
+13
+13
+13
+13
+EHS
+EHS
+EHS
+GEN
+GEN
+GEN
+GEN
+GEN
+NPCB
+NPCB
+NPCB
+OPCB
+OPCB
+OPCB
+OPCB
+PAP
+SCT
+SCT
+CA
+CA
+EBR
+EBR
+GEN
+GEN
+GEN
+
+
+12
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m13d
+dd-GEN-801698287-aa
+Oxford Properties Group
+200 Consilium Place 
+Toronto ON 
+WSW/70.1
+2.46
+p-87-801698287-x
+m13d
+dd-GEN-804096150-aa
+Athlete's Care
+200 Consilium Place Suite #104
+Scarborough ON M1H 3E4
+WSW/70.1
+2.46
+p-87-804096150-x
+m13d
+dd-GEN-814151264-aa
+Athlete's Care
+200 Consilium Place Suite #104
+Scarborough ON 
+WSW/70.1
+2.46
+p-88-814151264-x
+m13d
+dd-GEN-804076999-aa
+MENKES PROPERTY 
+MANAGMENT SERVICES LTD.
+200 CONSILIUM PLACE, SUITE 104 
+SCARBOROUGH ON 
+WSW/70.1
+2.46
+p-88-804076999-x
+m13d
+dd-GEN-800831291-aa
+PRUDENTIAL INSURANCE CO
+200 CONSILIUM PLACE 
+SCARBOROUGH ON M1H 3E4
+WSW/70.1
+2.46
+p-88-800831291-x
+m13d
+dd-GEN-808962275-aa
+Menkes Developments Ltd.
+200 Consilium Place 
+Scarborough ON M1H 3E4
+WSW/70.1
+2.46
+p-88-808962275-x
+m13d
+dd-GEN-808998214-aa
+Menkes Developments Ltd.
+200 Consilium Place 
+Scarborough ON M1H 3E4
+WSW/70.1
+2.46
+p-89-808998214-x
+m13d
+dd-GEN-850289386-aa
+Athlete's Care
+200 Consilium Place Suite #104
+Scarborough ON M1H 3E4
+WSW/70.1
+2.46
+p-90-850289386-x
+m13d
+dd-GEN-803481322-aa
+MENKES PROPERTY 
+MANAGMENT SERVICES LTD.
+200 CONSILIUM PLACE, SUITE 104 
+SCARBOROUGH ON M1H3E4
+WSW/70.1
+2.46
+p-90-803481322-x
+m13d
+dd-GEN-803482252-aa
+Menkes Developments Ltd.
+200 Consilium Place 
+Scarborough ON M1H 3E4
+WSW/70.1
+2.46
+p-90-803482252-x
+m13d
+dd-GEN-800831292-aa
+PRUDENTIAL INSURANCE CO.
+31-041
+HEAD OFFICE, CANADIAN OPERATIONS
+200 CONSILIUM PLACE
+SCARBOROUGH ON M1H 3E6
+WSW/70.1
+2.46
+p-91-800831292-x
+m13d
+dd-GEN-800831289-aa
+PRUDENTIAL INSURANCE CO
+HEAD OFFICE, CANADIAN OPERATIONS
+200 CONSILIUM PLACE
+SCARBOROUGH ON M1H 3E6
+WSW/70.1
+2.46
+p-91-800831289-x
+m13d
+dd-GEN-800831293-aa
+PRUDENTIAL INSURANCE 
+COMPANY
+200 CONSILIUM PLACE 
+SCARBOROUGH ON M1H 3E6
+WSW/70.1
+2.46
+p-91-800831293-x
+m13d
+dd-GEN-800831290-aa
+PRUDENTIAL INSURANCE CO.
+HEAD OFFICE, CANADIAN OPERATIONS
+200 CONSILIUM PLACE
+SCARBOROUGH ON M1H 3E6
+WSW/70.1
+2.46
+p-92-800831290-x
+m13d
+dd-NPRI-802929651-aa
+OXFORD PROPERTIES GROUP
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4
+WSW/70.1
+2.46
+p-92-802929651-x
+m13d
+dd-SCT-271036-aa
+ORGANON CANADA LTD.
+200 CONSILIUM PL SUITE 700
+SCARBOROUGH ON M1H 3E4
+WSW/70.1
+2.46
+p-92-271036-x
+m13d
+dd-SPL-803302743-aa
+Telus Communications Inc.
+200 Consilium Place 
+Toronto ON 
+WSW/70.1
+2.46
+p-92-803302743-x
+m14d
+dd-EBR-848864679-aa
+8141720 Canada Ltd. operating as
+NRS General Services
+710 Progress Avenue Unit 7&8 Toronto 
+M1H 2X3 CITY OF TORONTO 
+ ON 
+ENE/90.0
+-7.20
+p-93-848864679-x
+m14d
+dd-ECA-858147406-aa
+7 Axis, Inc. operating as PM Retail
+Solutions
+710 Progress Ave 
+Toronto ON 
+ENE/90.0
+-7.20
+p-93-858147406-x
+m14d
+dd-GEN-822737578-aa
+HOPE PRO REFINISHING
+710 PROGRESS AVENUE,UNIT 9&10 
+SCARBOROUGH ON 
+ENE/90.0
+-7.20
+p-93-822737578-x
+m14d
+dd-GEN-800920838-aa
+GINO PRINTING INC.
+710 PROGRESS AVENUE, UNIT 12 
+SCARBOROUGH ON M1H 2X3
+ENE/90.0
+-7.20
+p-94-800920838-x
+m14d
+dd-GEN-800861172-aa
+MODU-TRONICS INC (OUT OF 
+BUSINESS)
+710 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2X3
+ENE/90.0
+-7.20
+p-94-800861172-x
+m14d
+dd-GEN-800861173-aa
+MODU-TRONICS INC (OUT OF 
+BUSINESS)27-346
+710 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2X3
+ENE/90.0
+-7.20
+p-94-800861173-x
+m14d
+dd-GEN-803239984-aa
+LEMA PRINTING SERVICES INC.
+710 PROGRESS AVENUE, UNIT 9 
+SCARBOROUGH ON M1H 2X3
+ENE/90.0
+-7.20
+p-94-803239984-x
+m14d
+dd-GEN-801803757-aa
+LEMA PRINTING SERVICES INC.
+710 PROGRESS AVENUE UNIT 11
+SCARBOROUGH ON M1H 2X3
+ENE/90.0
+-7.20
+p-95-801803757-x
+87
+87
+88
+88
+88
+88
+89
+90
+90
+90
+91
+91
+91
+92
+92
+92
+92
+93
+93
+93
+94
+94
+94
+94
+95
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+14
+14
+14
+14
+14
+14
+14
+14
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+NPRI
+SCT
+SPL
+EBR
+ECA
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+
+
+13
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m14d
+dd-GEN-800861171-aa
+MODU-TRONICS INC.
+ 710 PROGRESS AVENUE
+SCARBOROUGH ON M1H 2X3
+ENE/90.0
+-7.20
+p-95-800861171-x
+m14d
+dd-SCT-800678013-aa
+Go 4 Color Cards Inc.
+710 Progress Ave Unit 12
+Scarborough ON M1H 2X3
+ENE/90.0
+-7.20
+p-95-800678013-x
+m14d
+dd-SCT-803829796-aa
+Sports Lettering Company
+710 Progress Ave 
+Scarborough ON M1H 2X3
+ENE/90.0
+-7.20
+p-96-803829796-x
+m15d
+dd-WWIS-803841690-aa
+ 
+TORONTO ON 
+NNW/99.5
+-2.60
+p-96-803841690-x
+m16d
+dd-EHS-849432357-aa
+100 Consilium Pl Toronto On 
+Toronto ON M1H3E3
+W/107.5
+0.62
+p-98-849432357-x
+m17d
+dd-CA-803765134-aa
+Menkes Consilium Inc. 
+100, 200, 300 Consilium Pl  
+Toronto  ON 
+WSW/108.7
+2.86
+p-98-803765134-x
+m17d
+dd-EHS-803680177-aa
+100 - 300 Consilium Place 
+Toronto ON M1H 3G2
+WSW/108.7
+2.86
+p-99-803680177-x
+m17d
+dd-EHS-801796654-aa
+100, 200 & 300 Consilium Place 
+Scarborough ON 
+WSW/108.7
+2.86
+p-99-801796654-x
+m18d
+dd-WWIS-804889314-aa
+ 
+SCARBOROUGH ON 
+SW/109.3
+4.43
+p-99-804889314-x
+m19d
+dd-NPRI-801773434-aa
+OXFORD PROPERTIES GROUP 
+INC.
+100 Consilium Place 
+TORONTO ON M1H3E3
+NW/123.8
+-2.24
+p-102-801773434-x
+m19d
+dd-NPRI-802349936-aa
+OXFORD PROPERTIES GROUP
+100 Consilium Place 
+TORONTO ON M1H3E3
+NW/123.8
+-2.24
+p-102-802349936-x
+m19d
+dd-NPRI-801989273-aa
+OXFORD PROPERTIES GROUP
+100 Consilium Place 
+TORONTO ON M1H3E3
+NW/123.8
+-2.24
+p-102-801989273-x
+m20d
+dd-BORE-803440769-aa
+ 
+ ON 
+NE/129.4
+-8.53
+p-103-803440769-x
+m21d
+dd-WWIS-803235245-aa
+ 
+SCARBOROUGH ON 
+ENE/134.8
+-8.94
+p-104-803235245-x
+m22d
+dd-WWIS-803367938-aa
+ 
+SCARBOROUGH ON 
+S/135.5
+3.39
+p-105-803367938-x
+m23d
+dd-CA-40768-aa
+MINISTRY OF GOVERNMENT 
+SERVICES
+GRANGEWAY AVE./BUSHBY CT. 
+SCARBOROUGH CITY ON 
+SSW/146.5
+6.24
+p-108-40768-x
+m23d
+dd-CA-31429-aa
+MINISTRY OF GOVERNMENT 
+SERVICES
+GRANGEWAY AVE./BUSHBY GATE 
+SCARBOROUGH CITY ON 
+SSW/146.5
+6.24
+p-108-31429-x
+m23d
+dd-EHS-802048759-aa
+Bushby Dr & Grangeway Ave 
+Scarborough ON 
+SSW/146.5
+6.24
+p-108-802048759-x
+m24d
+dd-NPRI-801437404-aa
+A.G.SIMPSON CO. LIMITED
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-108-801437404-x
+m24d
+dd-NPRI-300379357-aa
+A.G.Simpson Co. Limited
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-109-300379357-x
+m24d
+dd-NPRI-801985466-aa
+A.G.SIMPSON AUTOMOTIVE
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-109-801985466-x
+m24d
+dd-NPRI-848601918-aa
+A.G. Simpson Automotive Inc.
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-110-848601918-x
+m24d
+dd-NPRI-803795659-aa
+A.G.SIMPSON AUTOMOTIVE
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-111-803795659-x
+m24d
+dd-NPRI-822171346-aa
+A.G. SIMPSON AUTOMOTIVE 
+INC.
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-111-822171346-x
+m24d
+dd-NPRI-300375583-aa
+A.G.Simpson Co. Limited
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-111-300375583-x
+m24d
+dd-NPRI-803486852-aa
+A.G.SIMPSON AUTOMOTIVE
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-112-803486852-x
+95
+95
+96
+96
+98
+98
+99
+99
+99
+102
+102
+102
+103
+104
+105
+10
+10
+108
+108
+109
+109
+110
+111
+111
+111
+112
+14
+14
+14
+15
+16
+17
+17
+17
+18
+19
+19
+19
+20
+21
+22
+23
+23
+23
+24
+24
+24
+24
+24
+24
+24
+24
+GEN
+SCT
+SCT
+WWIS
+EHS
+CA
+EHS
+EHS
+WWIS
+NPRI
+NPRI
+NPRI
+BORE
+WWIS
+WWIS
+CA
+CA
+EHS
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+
+
+14
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m24d
+dd-NPRI-300374433-aa
+A.G.Simpson Co. Limited
+ 
+Scarborough ON 
+SSE/146.7
+1.15
+p-112-300374433-x
+m24d
+dd-NPRI-300378375-aa
+A.G.Simpson Co. Limited
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-113-300378375-x
+m24d
+dd-NPRI-820283928-aa
+A.G. SIMPSON AUTOMOTIVE 
+INC.
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-114-820283928-x
+m24d
+dd-NPRI-300377393-aa
+A.G.Simpson Co. Limited
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-114-300377393-x
+m24d
+dd-NPRI-801771674-aa
+A.G. SIMPSON AUTOMOTIVE 
+INC.
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-115-801771674-x
+m24d
+dd-NPRI-802920849-aa
+A.G.SIMPSON AUTOMOTIVE
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-115-802920849-x
+m24d
+dd-NPRI-800544733-aa
+A.G.Simpson Co. Limited
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-116-800544733-x
+m24d
+dd-NPRI-300374688-aa
+A.G.Simpson Co. Limited
+675 Prgress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-116-300374688-x
+m24d
+dd-NPRI-802346252-aa
+A.G.SIMPSON AUTOMOTIVE
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-116-802346252-x
+m24d
+dd-NPRI-800022936-aa
+A.G.Simpson Co. Limited
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-117-800022936-x
+m24d
+dd-NPRI-300376476-aa
+A.G.Simpson Co. Limited
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SSE/146.7
+1.15
+p-117-300376476-x
+m24d
+dd-NPRI-803206392-aa
+A.G.SIMPSON AUTOMOTIVE
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-118-803206392-x
+m24d
+dd-NPRI-804043225-aa
+A.G. SIMPSON AUTOMOTIVE 
+INC.
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SSE/146.7
+1.15
+p-118-804043225-x
+m25d
+dd-BORE-803437927-aa
+ 
+ ON 
+ESE/149.6
+-1.56
+p-119-803437927-x
+m26d
+dd-GEN-808982388-aa
+MTCC1102
+80 Coporate drive #208 
+Toronto ON 
+N/151.2
+-1.37
+p-119-808982388-x
+m27d
+dd-GEN-814146848-aa
+Corporate Medical Centre
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4
+NNW/152.2
+0.58
+p-119-814146848-x
+m27d
+dd-GEN-821730300-aa
+Corporate Medical Centre
+78 Corporate Drive unit 10
+Scarborough ON 
+NNW/152.2
+0.58
+p-119-821730300-x
+m27d
+dd-GEN-803021432-aa
+SCARBOROUGH HOSPITAL, 
+THE SCARBOROUGH 
+REGIONAL DIALYSIS PROGRAM
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-120-803021432-x
+m27d
+dd-GEN-803696217-aa
+Corporate Medical Centre
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4
+NNW/152.2
+0.58
+p-120-803696217-x
+m27d
+dd-GEN-801698599-aa
+THE SCARBOROUGH 
+REGIONAL DIALYSIS PROGRAM
+78 CORPERATE DRIVE, HEMODIALYSIS 
+UNIT 
+SCARBOROUGH ON 
+NNW/152.2
+0.58
+p-120-801698599-x
+m27d
+dd-GEN-821729816-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON 
+NNW/152.2
+0.58
+p-121-821729816-x
+m27d
+dd-GEN-814163793-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-121-814163793-x
+m27d
+dd-GEN-808949748-aa
+Corporate Medical Centre
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4
+NNW/152.2
+0.58
+p-121-808949748-x
+m27d
+dd-GEN-808984697-aa
+Corporate Medical Centre
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4
+NNW/152.2
+0.58
+p-122-808984697-x
+m27d
+dd-GEN-808973102-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-122-808973102-x
+112
+113
+114
+114
+115
+115
+116
+116
+116
+117
+117
+118
+118
+119
+119
+119
+119
+120
+120
+120
+121
+121
+121
+122
+122
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+25
+26
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+NPRI
+BORE
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+
+
+15
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m27d
+dd-GEN-800933254-aa
+GUARDIAN CORPORATE 
+PHARMACY
+78 CORPORATE DRIVE 
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-122-800933254-x
+m27d
+dd-GEN-800833257-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 CORPORATE DRIVE 
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-123-800833257-x
+m27d
+dd-GEN-803478641-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-123-803478641-x
+m27d
+dd-GEN-804062046-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-123-804062046-x
+m27d
+dd-GEN-808988884-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-123-808988884-x
+m27d
+dd-GEN-800833258-aa
+SCARBOROUGH HOSPITAL, 
+THE
+78 CORPORATE DRIVE DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/152.2
+0.58
+p-124-800833258-x
+m28d
+dd-BORE-803437936-aa
+ 
+ ON 
+E/152.3
+-9.43
+p-124-803437936-x
+m29d
+dd-EHS-821126996-aa
+705 Progress Ave 
+Toronto ON M1H2X1
+ESE/152.5
+-3.96
+p-125-821126996-x
+m30d
+dd-GEN-850299492-aa
+Corporate Medical Centre
+78 Corporate Drive unit 10
+Scarborough ON M1H3G4
+NNW/153.7
+0.58
+p-125-850299492-x
+m30d
+dd-GEN-850270470-aa
+SCARBOROUGH HOSPITAL, 
+THE SCARBOROUGH 
+REGIONAL DIALYSIS PROGRAM
+78 Corporate Drive Unit 1-6 DIALYSIS 
+UNIT
+SCARBOROUGH ON M1H 3G4
+NNW/153.7
+0.58
+p-125-850270470-x
+m31d
+dd-EHS-804093917-aa
+Lots A B and D Corporate Dr
+Toronto ON 
+NNW/154.1
+0.94
+p-125-804093917-x
+m32d
+dd-SCT-803827537-aa
+Atopone E & M Ltd.
+68 Corporate Dr Suite 2032
+Toronto ON M1H 3H3
+NNW/156.9
+0.58
+p-126-803827537-x
+m33d
+dd-CA-800406443-aa
+100 Consilium Place 
+Toronto ON 
+WSW/157.2
+4.69
+p-126-800406443-x
+m33d
+dd-CA-803747946-aa
+Oxford Properties Group Inc. 
+100 Consilium Place  
+Toronto  ON M1H 3E3
+WSW/157.2
+4.69
+p-126-803747946-x
+m33d
+dd-EASR-803960518-aa
+DECARIA ENGINEERING 
+LIMITED
+100 CONSILIUM PLACE SCARBOROUGH
+ ON 
+WSW/157.2
+4.69
+p-127-803960518-x
+m33d
+dd-EBR-803006643-aa
+Oxford Properties Group Inc.
+100 Consilium Place 
+Toronto ON M1H 3E3
+WSW/157.2
+4.69
+p-127-803006643-x
+m33d
+dd-GEN-822740483-aa
+CITY OF TORONTO PROPERTY 
+DEPARTMENT
+100 Consilium Place, 10th Fl 
+Toronto ON 
+WSW/157.2
+4.69
+p-127-822740483-x
+m33d
+dd-GEN-819038429-aa
+8174709 Canada Inc.
+100 Consilium Place 
+Scarborough ON 
+WSW/157.2
+4.69
+p-127-819038429-x
+m33d
+dd-GEN-850286616-aa
+8174709 Canada Inc.
+100 Consilium Place 
+Scarborough ON M1H 3E3
+WSW/157.2
+4.69
+p-128-850286616-x
+m33d
+dd-GEN-850283283-aa
+1582235 Ontario Limited
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3
+WSW/157.2
+4.69
+p-129-850283283-x
+m33d
+dd-GEN-821724515-aa
+1582235 Ontario Limited
+100 Consillium Place Suite 309
+Toronto ON 
+WSW/157.2
+4.69
+p-129-821724515-x
+m33d
+dd-GEN-804095767-aa
+1582235 Ontario Limited
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3
+WSW/157.2
+4.69
+p-129-804095767-x
+m33d
+dd-GEN-814144378-aa
+8174709 Canada Inc.
+100 Consilium Place 
+Scarborough ON 
+WSW/157.2
+4.69
+p-129-814144378-x
+m33d
+dd-GEN-814143815-aa
+1582235 Ontario Limited
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3
+WSW/157.2
+4.69
+p-130-814143815-x
+m33d
+dd-GEN-850301379-aa
+Dr. Jack Train and Assocation
+100 Consilium Place Suite 312
+Scarborough ON M1H3E3
+WSW/157.2
+4.69
+p-130-850301379-x
+122
+123
+123
+123
+123
+124
+124
+125
+125
+125
+125
+126
+126
+126
+127
+127
+127
+127
+128
+129
+129
+129
+129
+130
+130
+27
+27
+27
+27
+27
+27
+28
+29
+30
+30
+31
+32
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+BORE
+EHS
+GEN
+GEN
+EHS
+SCT
+CA
+CA
+EASR
+EBR
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+
+
+16
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m33d
+dd-GEN-821717087-aa
+8174709 Canada Inc.
+100 Consilium Place 
+Scarborough ON 
+WSW/157.2
+4.69
+p-131-821717087-x
+m33d
+dd-GEN-850268704-aa
+CITY OF TORONTO PROPERTY 
+DEPARTMENT
+100 Consilium Place, 10th Fl 
+Toronto ON M1H3E3
+WSW/157.2
+4.69
+p-131-850268704-x
+m33d
+dd-GEN-800894779-aa
+STATE FARM INSURANCE
+34-732
+100 CONSILIUM PLACE SUITE 102 9TH-
+17TH FLOOR
+SCARBOROUGH ON M1H 3G9
+WSW/157.2
+4.69
+p-131-800894779-x
+m33d
+dd-GEN-800894781-aa
+STATE FARM INSURANCE 
+COMPANIES
+REGIONAL  ZONE  OFFICE 100 
+CONSILIUM PLACE SUITE 102
+SCARBOROUGH ON MIH 3G9
+WSW/157.2
+4.69
+p-132-800894781-x
+m33d
+dd-GEN-800894780-aa
+STATE FARM INSURANCE
+100 CONSILIUM PLACE SUITE 102,  9TH 
+- 17TH FLOOR
+SCARBOROUGH ON M1H 3G9
+WSW/157.2
+4.69
+p-132-800894780-x
+m33d
+dd-GEN-800894778-aa
+STATE FARM INSURANCE
+100 CONSILIUM PLACE SUITE 102,  9TH 
+- 17TH FL.
+SCARBOROUGH ON M1H 3G9
+WSW/157.2
+4.69
+p-133-800894778-x
+m33d
+dd-GEN-808981232-aa
+1582235 Ontario Limited
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3
+WSW/157.2
+4.69
+p-133-808981232-x
+m33d
+dd-NPRI-802929649-aa
+OXFORD PROPERTIES GROUP
+100 Consilium Place 
+TORONTO ON M1H3E3
+WSW/157.2
+4.69
+p-133-802929649-x
+m33d
+dd-SCT-277080-aa
+FIRST BRANDS (CANADA) 
+CORP.
+100 CONSILIUM PL SUITE 500
+SCARBOROUGH ON M1H 3E3
+WSW/157.2
+4.69
+p-134-277080-x
+m33d
+dd-SCT-803816265-aa
+SAP Lab
+100 Consilium Pl Suite 400
+Scarborough ON M1H 3E3
+WSW/157.2
+4.69
+p-134-803816265-x
+m34d
+dd-CA-55834-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-134-55834-x
+m34d
+dd-CA-55675-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-134-55675-x
+m34d
+dd-CA-55843-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-135-55843-x
+m34d
+dd-CA-55830-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-135-55830-x
+m34d
+dd-CA-803738977-aa
+A.G. Simpson Automotive Inc. 
+675 Progress Avenue  
+Toronto  ON M1H 2W9
+SE/157.2
+0.61
+p-135-803738977-x
+m34d
+dd-CA-16412-aa
+A.G. SIMPSON CO. LTD.
+675 PROGRESS AVENUE 
+SCARBOROUGH CITY ON M1H 2W9
+SE/157.2
+0.61
+p-136-16412-x
+m34d
+dd-CA-803759252-aa
+A.G. Simpson Automotive Inc. 
+675 Progress Avenue  
+Toronto  ON M1H 2W9
+SE/157.2
+0.61
+p-136-803759252-x
+m34d
+dd-CA-55677-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-136-55677-x
+m34d
+dd-CA-55836-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-137-55836-x
+m34d
+dd-CA-800406436-aa
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-137-800406436-x
+m34d
+dd-CA-800411891-aa
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-137-800411891-x
+m34d
+dd-CA-800406435-aa
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-138-800406435-x
+m34d
+dd-CA-54582-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVENUE 
+TORONTO ON 
+SE/157.2
+0.61
+p-138-54582-x
+m34d
+dd-CA-800406434-aa
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-138-800406434-x
+m34d
+dd-CA-300295727-aa
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC.
+675 PROGRESS AVENUE, SCAR. 
+TORONTO CITY ON 
+SE/157.2
+0.61
+p-139-300295727-x
+131
+131
+131
+132
+132
+133
+133
+133
+13
+134
+13
+13
+13
+13
+135
+13
+136
+13
+13
+137
+137
+138
+13
+138
+139
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+NPRI
+SCT
+SCT
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+CA
+
+
+17
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m34d
+dd-CA-800406433-aa
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-139-800406433-x
+m34d
+dd-CA-800401652-aa
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-139-800401652-x
+m34d
+dd-EASR-804273921-aa
+A.G. SIMPSON AUTOMOTIVE 
+INC.
+675 PROGRESS AVE SCARBOROUGH 
+ ON M1H 2W9
+SE/157.2
+0.61
+p-139-804273921-x
+m34d
+dd-EASR-804273891-aa
+A.G. SIMPSON AUTOMOTIVE 
+INC.
+675 PROGRESS AVE SCARBOROUGH 
+ ON M1H 2W9
+SE/157.2
+0.61
+p-140-804273891-x
+m34d
+dd-EBR-800472486-aa
+A.G. Simpson Company Limited
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-140-800472486-x
+m34d
+dd-EBR-800475007-aa
+A.G. Simpson Company Limited
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-140-800475007-x
+m34d
+dd-EBR-800472485-aa
+A.G. Simpson Company Limited
+675 Progress AvenueIA8E   
+City of Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-140-800472485-x
+m34d
+dd-EBR-800478564-aa
+A.G. Simpson Co. Limited
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-141-800478564-x
+m34d
+dd-EBR-803900864-aa
+A.G. Simpson Automotive Inc.
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-141-803900864-x
+m34d
+dd-EBR-800720159-aa
+A.G. Simpson Co. Limited
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-141-800720159-x
+m34d
+dd-EBR-800472989-aa
+A.G. Simpson Company Limited
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-141-800472989-x
+m34d
+dd-EBR-800472991-aa
+A.G. Simpson Company Limited
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-142-800472991-x
+m34d
+dd-EBR-800474537-aa
+A.G. Simpson Company Limited
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-142-800474537-x
+m34d
+dd-EBR-800473452-aa
+A.G. Simpson Company Limited
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-142-800473452-x
+m34d
+dd-EBR-800476720-aa
+A.G. Simpson Co. Limited
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-142-800476720-x
+m34d
+dd-EBR-800720328-aa
+A.G. Simpson Co. Limited
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-143-800720328-x
+m34d
+dd-EBR-803001762-aa
+A.G. Simpson Co. Limited 
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-143-803001762-x
+m34d
+dd-EBR-800473002-aa
+A.G. Simpson Company Limited
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-143-800473002-x
+m34d
+dd-EBR-800476251-aa
+A.G. Simpson Co. Ltd
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-143-800476251-x
+m34d
+dd-EBR-800475647-aa
+A.G. Simpson Co. Ltd.
+675 Progress Avenue 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-144-800475647-x
+m34d
+dd-ECA-814212896-aa
+A.G. Simpson Automotive Inc.
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-144-814212896-x
+m34d
+dd-EHS-803680335-aa
+675 Progress Avenue 
+Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-144-803680335-x
+m34d
+dd-EHS-803846910-aa
+675 Progress Ave 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-144-803846910-x
+m34d
+dd-GEN-814158084-aa
+A.G. SIMPSON CO LIMITED
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9
+SE/157.2
+0.61
+p-145-814158084-x
+m34d
+dd-GEN-850285167-aa
+104712815RC002
+675 Progress Avenue 
+Scarborough ON M1H2W9
+SE/157.2
+0.61
+p-146-850285167-x
+m34d
+dd-GEN-821708601-aa
+A.G. SIMPSON CO LIMITED
+675 PROGRESS AVENUE 
+TORONTO ON 
+SE/157.2
+0.61
+p-146-821708601-x
+139
+139
+139
+140
+140
+140
+140
+141
+141
+141
+141
+142
+142
+142
+142
+143
+143
+143
+143
+144
+144
+144
+144
+145
+146
+146
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+CA
+CA
+EASR
+EASR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+EBR
+ECA
+EHS
+EHS
+GEN
+GEN
+GEN
+
+
+18
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m34d
+dd-GEN-803021410-aa
+A.G. SIMPSON CO LIMITED
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9
+SE/157.2
+0.61
+p-147-803021410-x
+m34d
+dd-GEN-808997249-aa
+A.G. SIMPSON CO LIMITED
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9
+SE/157.2
+0.61
+p-148-808997249-x
+m34d
+dd-GEN-804098351-aa
+Material Handling Systems of 
+Canada Inc.
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-149-804098351-x
+m34d
+dd-GEN-808975180-aa
+A.G. SIMPSON CO LIMITED
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9
+SE/157.2
+0.61
+p-150-808975180-x
+m34d
+dd-GEN-800810474-aa
+A.G. SIMPSON LTD.
+ 675 PROGRESS AVE.
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-151-800810474-x
+m34d
+dd-GEN-822740999-aa
+104712815RC002
+675 Progress Avenue 
+Scarborough ON 
+SE/157.2
+0.61
+p-151-822740999-x
+m34d
+dd-GEN-800815848-aa
+A.G. SIMPSON CO. LTD.
+ 675 PROGRESS AVENUE
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-151-800815848-x
+m34d
+dd-GEN-814152421-aa
+Material Handling Systems of 
+Canada Inc.
+675 Progress Avenue 
+Toronto ON 
+SE/157.2
+0.61
+p-152-814152421-x
+m34d
+dd-GEN-804060742-aa
+A.G. SIMPSON CO LIMITED
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9
+SE/157.2
+0.61
+p-152-804060742-x
+m34d
+dd-NPCB-801793023-aa
+A. G. SIMPSON
+675 PROGRESS AVENUE 
+Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-153-801793023-x
+m34d
+dd-NPCB-96175-aa
+A. G. SIMPSON LTD.
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-154-96175-x
+m34d
+dd-NPCB-94138-aa
+A.G. SIMPSON
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-154-94138-x
+m34d
+dd-NPCB-803353669-aa
+A.G.SIMPSON LTD.
+ 675 PROGRESS AVE.
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-154-803353669-x
+m34d
+dd-NPCB-803353680-aa
+A.G.SIMPSON
+ 675 PROGRESS AVENUE
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-155-803353680-x
+m34d
+dd-OPCB-800794244-aa
+A. G. SIMPSON LTD.
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-158-800794244-x
+m34d
+dd-OPCB-800798358-aa
+A. G. SIMPSON LTD.
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-158-800798358-x
+m34d
+dd-OPCB-800792671-aa
+A. G. SIMPSON LTD.
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-158-800792671-x
+m34d
+dd-OPCB-800802116-aa
+A. G. SIMPSON LTD.
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-158-800802116-x
+m34d
+dd-PRT-206698-aa
+A G SIMPSON
+675 PROGRESS AV 
+SCARBOROUGH ON M1H2W9
+SE/157.2
+0.61
+p-159-206698-x
+m34d
+dd-REC-800419959-aa
+A.G. SIMPSON LTD.
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-159-800419959-x
+m34d
+dd-REC-800744824-aa
+A.G. SIMPSON LTD.
+ 675 PROGRESS AVE.
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-159-800744824-x
+m34d
+dd-SCT-801451707-aa
+A.G. Simpson Automotive Inc.
+675 Progress Ave 
+Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-159-801451707-x
+m34d
+dd-SCT-801867736-aa
+AGS Automotive Systems Inc.
+675 Progress Ave 
+Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-160-801867736-x
+m34d
+dd-SCT-266805-aa
+A.G. SIMPSON CO. LIMITED
+675 PROGRESS AVE 
+SCARBOROUGH ON M1H 2W9
+SE/157.2
+0.61
+p-161-266805-x
+m34d
+dd-SCT-800338294-aa
+A.G. Simpson Co. Ltd.
+675 Progress Ave 
+Scarborough ON M1H 2W9
+SE/157.2
+0.61
+p-161-800338294-x
+m34d
+dd-SPL-827320437-aa
+675 Progress Ave 
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-161-827320437-x
+147
+148
+149
+150
+151
+151
+151
+152
+152
+153
+15
+15
+154
+155
+158
+158
+158
+158
+15
+159
+159
+159
+160
+16
+161
+161
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+NPCB
+NPCB
+NPCB
+NPCB
+NPCB
+OPCB
+OPCB
+OPCB
+OPCB
+PRT
+REC
+REC
+SCT
+SCT
+SCT
+SCT
+SPL
+
+
+19
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m34d
+dd-SPL-803088738-aa
+A.G. Simpson Automotive Inc.
+675 Progress Avenue 675 PROGRESS 
+AVENUE
+Toronto ON M1H 2W9
+SE/157.2
+0.61
+p-162-803088738-x
+m34d
+dd-SPL-166821-aa
+A.G. SIMPSON CO. LTD.
+675 PROGRESS AVE SCARBOROUGH 
+PLANT                       675 PROGRESS 
+AVENUE
+TORONTO CITY ON 
+SE/157.2
+0.61
+p-162-166821-x
+m34d
+dd-SPL-300360339-aa
+A.G. SIMPSON CO. LTD.
+675 PROGRESS AVENUE 
+SCARBOROUGH PLANT 675 PROGRESS
+AVENUE
+TORONTO ON 
+SE/157.2
+0.61
+p-162-300360339-x
+m34d
+dd-SPL-169707-aa
+A.G. SIMPSON CO. LTD.
+675 PROGRESS AVENUE 
+SCARBOROUGH PLANT                       
+675 PROGRESS AVENUE
+TORONTO CITY ON 
+SE/157.2
+0.61
+p-163-169707-x
+m34d
+dd-SPL-320589-aa
+A.G. SIMPSON CO. LTD.
+675 PROGRESS AVE. IN 
+SCARBOROUGH SCARBOROUGH 
+PLANT                       675 PROGRESS 
+AVENUE
+TORONTO CITY ON 
+SE/157.2
+0.61
+p-163-320589-x
+m35d
+dd-CA-803753080-aa
+Oxford Properties Group Inc. 
+300 Consilium Place  
+Toronto  ON M1H 3G2
+W/157.9
+1.60
+p-164-803753080-x
+m35d
+dd-CA-12389-aa
+PRUDENTIAL INSURANCE CO. 
+OF AMERICA, THE
+300 CONSILIUM PLACE 
+SCARBOROUGH CITY ON 
+W/157.9
+1.60
+p-164-12389-x
+m35d
+dd-EBR-803006665-aa
+Oxford Properties Group Inc. 
+300 Consilium Place 
+Toronto ON M1H 3G2
+W/157.9
+1.60
+p-164-803006665-x
+m35d
+dd-EHS-849439329-aa
+300 Consilium Pl 
+Toronto ON M1H3G2
+W/157.9
+1.60
+p-164-849439329-x
+m35d
+dd-EHS-802049143-aa
+300 Consilium Place 
+Scarborough ON M1H 3G2
+W/157.9
+1.60
+p-165-802049143-x
+m35d
+dd-GEN-800943957-aa
+Oxford Properties
+300 Consilium Place 
+Scarborough ON M1H 3G2
+W/157.9
+1.60
+p-165-800943957-x
+m35d
+dd-GEN-803239988-aa
+Oxford Properties Group
+300 Consillium Place 
+Toronto ON 
+W/157.9
+1.60
+p-165-803239988-x
+m35d
+dd-NPRI-802929648-aa
+OXFORD PROPETIES GROUP
+300 Consilium Place 
+Toronto ON M1H3G2
+W/157.9
+1.60
+p-166-802929648-x
+m35d
+dd-SCT-801868599-aa
+Organon Canada Ltd.
+300 Consilium Pl Suite 1000
+Scarborough ON 
+W/157.9
+1.60
+p-166-801868599-x
+m35d
+dd-SCT-800341683-aa
+Co-Steel Inc.
+300 Consilium Pl Suite 800
+Scarborough ON 
+W/157.9
+1.60
+p-166-800341683-x
+m35d
+dd-SCT-300349069-aa
+CO-STEEL INC.
+300 Consilium Pl Suite 800
+Toronto ON M1H 3G2
+W/157.9
+1.60
+p-166-300349069-x
+m35d
+dd-SCT-271085-aa
+BICC CABLES COMPANY
+300 CONSILIUM PL SUITE 300
+SCARBOROUGH ON M1H 3G2
+W/157.9
+1.60
+p-166-271085-x
+m35d
+dd-SCT-801868327-aa
+Hitachi Data Systems Inc.
+300 Consilium Pl Suite 1100
+Scarborough ON M1H 3G2
+W/157.9
+1.60
+p-166-801868327-x
+m35d
+dd-SPL-803075224-aa
+Oxford Properties Group Toronto, 
+Ontario M5J 2X8<UNOFFICIAL>
+300 Consilium Place  
+Toronto ON M1H 3G2
+W/157.9
+1.60
+p-167-803075224-x
+m36d
+dd-BORE-803413111-aa
+ 
+ ON 
+ENE/165.0
+-8.69
+p-167-803413111-x
+m37d
+dd-CA-803756279-aa
+Bestwind Industries Ltd. 
+705 Progress Ave. East, Unit 17  
+Toronto  ON 
+ESE/172.3
+-1.79
+p-168-803756279-x
+m37d
+dd-EBR-803002311-aa
+Bestwind Industries Ltd.
+705 Progress Ave East 
+Toronto ON M1H 2X1
+ESE/172.3
+-1.79
+p-168-803002311-x
+m37d
+dd-EHS-802834934-aa
+705 Progress Ave 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-168-802834934-x
+162
+16
+162
+16
+16
+164
+16
+164
+164
+165
+165
+165
+166
+166
+166
+166
+16
+166
+167
+167
+168
+168
+168
+34
+34
+34
+34
+34
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+35
+36
+37
+37
+37
+SPL
+SPL
+SPL
+SPL
+SPL
+CA
+CA
+EBR
+EHS
+EHS
+GEN
+GEN
+NPRI
+SCT
+SCT
+SCT
+SCT
+SCT
+SPL
+BORE
+CA
+EBR
+EHS
+
+
+20
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m37d
+dd-EHS-800760034-aa
+705 Progress Avenue 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-169-800760034-x
+m37d
+dd-EHS-802394656-aa
+705 Progress Avenue 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-169-802394656-x
+m37d
+dd-EHS-803575406-aa
+705 Progress Avenue 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-169-803575406-x
+m37d
+dd-EHS-804093323-aa
+705 Progress Avenue 
+Toronto ON M1H 2X1
+ESE/172.3
+-1.79
+p-169-804093323-x
+m37d
+dd-EHS-801703124-aa
+705 Progress Ave, Unit 1 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-169-801703124-x
+m37d
+dd-GEN-800929556-aa
+MAILCRAFTERS CANADA INC.
+705 PROGRESS AVENUE, UNIT 25 
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-170-800929556-x
+m37d
+dd-GEN-800928511-aa
+GRASEBY GORING (OUT OF 
+BUSINESS)
+705 PROGRESS AVENUE, UNIT 63 
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-170-800928511-x
+m37d
+dd-GEN-800910400-aa
+GRASEBY GORING KERR 
+CANADA INC
+705 PROGRESS AVENUE UNIT #63
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-170-800910400-x
+m37d
+dd-GEN-800872552-aa
+IMAGE VIDEO LIMITED               
+21-203
+705 PROGRESS AVENUE UNIT 46
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-171-800872552-x
+m37d
+dd-GEN-800872551-aa
+IMAGE VIDEO LIMITED
+705 PROGRESS AVENUE UNIT 46
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-171-800872551-x
+m37d
+dd-GEN-800861102-aa
+RODNEY-SPENCER GRAPHICS 
+INC.
+ 705 PROGRESS AVENUE, UNIT 15
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-171-800861102-x
+m37d
+dd-GEN-800914044-aa
+GRASEBY GORING KERR 
+CANADA INC.   16-330
+705 PROGRESS AVENUE UNIT #63
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-172-800914044-x
+m37d
+dd-GEN-803239983-aa
+City of Toronto
+705 Progress Crescent 
+Toronto ON M1H 2X1
+ESE/172.3
+-1.79
+p-172-803239983-x
+m37d
+dd-GEN-801801888-aa
+Akzo Nobel Coatings Ltd
+705 Progress Ave. Unit 13 & 14 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-172-801801888-x
+m37d
+dd-GEN-800916610-aa
+MAILCRAFTERS CANADA INC.
+705 PROGRESS AVENUE UNIT 25
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-173-800916610-x
+m37d
+dd-GEN-800861103-aa
+RODNEY-SPENCER GRAPHICS 
+INC.      33-102
+ 705 PROGRESS AVENUE, UNIT 15
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-173-800861103-x
+m37d
+dd-GEN-804083038-aa
+Bestwind Industries LTD
+705 Progress Ave unit # 17 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-173-804083038-x
+m37d
+dd-GEN-801804144-aa
+Bestwind Industries LTD
+705 Progress Ave unit # 17 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-174-801804144-x
+m37d
+dd-GEN-850281311-aa
+Bestwind Industries LTD
+705 Progress Ave unit # 17 
+Scarborough ON M1H-2X1
+ESE/172.3
+-1.79
+p-174-850281311-x
+m37d
+dd-GEN-814152261-aa
+Bestwind Industries LTD
+705 Progress Ave unit # 17 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-175-814152261-x
+m37d
+dd-GEN-813042979-aa
+Bestwind Industries LTD
+705 Progress Ave unit # 17 
+Scarborough ON 
+ESE/172.3
+-1.79
+p-175-813042979-x
+m37d
+dd-SCT-86143-aa
+ITC Systems Inc.
+705 Progress Ave 
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-176-86143-x
+m37d
+dd-SCT-802408323-aa
+Business Printing Inc.
+705 Progress Ave Unit 38
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-176-802408323-x
+m37d
+dd-SCT-300353138-aa
+VIBRATION TECHNOLOGY LTD.
+705 Progress Ave Unit 61
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-177-300353138-x
+m37d
+dd-SCT-300046253-aa
+K D M ELECTRONICS INC.
+705 PROGRESS AVE 
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-177-300046253-x
+m37d
+dd-SCT-300353298-aa
+Die-X-Limited
+705 Progress Ave Unit 39
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-177-300353298-x
+169
+169
+169
+169
+169
+170
+170
+170
+171
+171
+171
+172
+172
+172
+173
+173
+173
+174
+174
+175
+175
+17
+176
+177
+177
+177
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+EHS
+EHS
+EHS
+EHS
+EHS
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+GEN
+SCT
+SCT
+SCT
+SCT
+SCT
+
+
+21
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m37d
+dd-SCT-270678-aa
+IMAGE VIDEO DIV. 1077541 ONT
+705 PROGRESS AVE UNIT 46
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-177-270678-x
+m37d
+dd-SCT-300355577-aa
+SOUTHERN NT LTD.
+705 Progress Ave Unit 28
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-178-300355577-x
+m37d
+dd-SCT-801868679-aa
+VT Commercial Amplifiers
+705 Progress Ave Unit 61
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-178-801868679-x
+m37d
+dd-SCT-272064-aa
+CLEANWEAR PRODUCTS LTD.
+705 PROGRESS AVE UNIT 7
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-178-272064-x
+m37d
+dd-SCT-269786-aa
+TELEX COMMUNICATIONS LTD.
+705 PROGRESS AVE UNIT 10
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-178-269786-x
+m37d
+dd-SCT-300044079-aa
+SILENT GLISS CANADA LTD.
+705 PROGRESS AVE 
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-179-300044079-x
+m37d
+dd-SCT-269353-aa
+GRASEBY/GORING KERR 
+CANADA INC
+705 PROGRESS AVE UNIT 63
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-179-269353-x
+m37d
+dd-SCT-802408164-aa
+Lawries Bindery Equipment Ltd.
+705 Progress Ave Unit 2
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-180-802408164-x
+m37d
+dd-SCT-281388-aa
+SOUTHERN N T LIMITED
+705 PROGRESS AVE UNIT 28
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-180-281388-x
+m37d
+dd-SCT-271504-aa
+VIBRATION TECHNOLOGY 
+LIMITED
+705 PROGRESS AVE UNIT 61
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-180-271504-x
+m37d
+dd-SCT-272581-aa
+DIE-X-LTD.
+705 PROGRESS AVE UNIT 39
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-180-272581-x
+m37d
+dd-SCT-801868229-aa
+Avon Fluid System Technologies
+705 Progress Ave Unit 55
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-180-801868229-x
+m37d
+dd-SCT-802407265-aa
+Drake-Infoproducts Inc.
+705 Progress Ave Unit 6
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-181-802407265-x
+m37d
+dd-SCT-275764-aa
+TRITON FASHION COMPANY
+705 PROGRESS AVE UNIT 17
+SCARBOROUGH ON M1H 2X1
+ESE/172.3
+-1.79
+p-181-275764-x
+m37d
+dd-SCT-800675552-aa
+Avon Fluid Sytems Technologies 
+Inc.
+705 Progress Ave Unit 55
+Scarborough ON M1H 2X1
+ESE/172.3
+-1.79
+p-181-800675552-x
+m37d
+dd-SPL-803834326-aa
+705 Progress Ave 
+Toronto ON M1H 2X1
+ESE/172.3
+-1.79
+p-182-803834326-x
+m38d
+dd-BORE-803437918-aa
+ 
+ ON 
+SSE/173.5
+0.60
+p-182-803437918-x
+m39d
+dd-BORE-803440494-aa
+ 
+ ON 
+NNE/186.1
+0.31
+p-182-803440494-x
+m40d
+dd-PRT-206699-aa
+TORONTO OXYGEN LTD
+720 PROGRESS AV 
+SCARBOROUGH ON M1H 2X3
+ENE/187.8
+-5.20
+p-183-206699-x
+m40d
+dd-SCT-16012723-aa
+TORONTO OXYGEN DIV OF 
+LIQUID C
+720 PROGRESS AVE 
+SCARBOROUGH ON M1H 2X3
+ENE/187.8
+-5.20
+p-183-16012723-x
+m41d
+dd-EHS-801796389-aa
+721 Progress Ave. 
+Scarborough ON M1H 2W7
+ENE/191.2
+-5.61
+p-183-801796389-x
+m42d
+dd-EHS-849435802-aa
+721 Progress Ave 
+Scarborough ON M1H 2W7
+ENE/194.9
+-4.31
+p-184-849435802-x
+m42d
+dd-GEN-803299530-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON M1H 2W7
+ENE/194.9
+-4.31
+p-184-803299530-x
+m42d
+dd-GEN-808956015-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON 
+ENE/194.9
+-4.31
+p-184-808956015-x
+m42d
+dd-GEN-803239982-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON M1H 2W7
+ENE/194.9
+-4.31
+p-185-803239982-x
+m42d
+dd-GEN-808978223-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON 
+ENE/194.9
+-4.31
+p-185-808978223-x
+17
+178
+178
+17
+17
+179
+17
+180
+18
+18
+18
+180
+181
+18
+181
+182
+182
+182
+18
+183
+183
+184
+184
+184
+185
+185
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+38
+39
+40
+40
+41
+42
+42
+42
+42
+42
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SCT
+SPL
+BORE
+BORE
+PRT
+SCT
+EHS
+EHS
+GEN
+GEN
+GEN
+GEN
+
+
+22
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+m42d
+dd-GEN-850287558-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON M1H 2W7
+ENE/194.9
+-4.31
+p-186-850287558-x
+m42d
+dd-GEN-814155730-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON M1H 2W7
+ENE/194.9
+-4.31
+p-186-814155730-x
+m42d
+dd-GEN-821709862-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON 
+ENE/194.9
+-4.31
+p-187-821709862-x
+m42d
+dd-GEN-804080264-aa
+Brafasco
+721 Progress Ave. 
+Scarborough ON 
+ENE/194.9
+-4.31
+p-187-804080264-x
+m42d
+dd-SPL-163307-aa
+UNKNOWN
+721 PROGRESS (SEWER) 
+TORONTO CITY ON M1H 2W7
+ENE/194.9
+-4.31
+p-188-163307-x
+m43d
+dd-BORE-803440768-aa
+ 
+ ON 
+E/203.1
+-9.24
+p-188-803440768-x
+m44d
+dd-BORE-803437923-aa
+ 
+ ON 
+SE/220.6
+0.08
+p-189-803437923-x
+m45d
+dd-SPL-803525710-aa
+Toronto Transit Commission
+At the intersection of Triton and McCowan 
+Toronto ON 
+SW/234.9
+10.02
+p-189-803525710-x
+m46d
+dd-EXP-803985372-aa
+LINDE CANADA LTD ATTN LINE 
+ARSENEAU
+727 PROGRESS AVE 
+SCARBOROUGH ON 
+ENE/246.7
+0.46
+p-189-803985372-x
+m47d
+dd-BORE-803437930-aa
+ 
+ ON 
+E/247.8
+-5.41
+p-190-803437930-x
+m48d
+dd-WWIS-848799655-aa
+ 
+Toronto ON 
+SW/255.4
+10.66
+p-190-848799655-x
+m49d
+dd-SPL-804330962-aa
+108 Corporate Drive 
+Toronto ON M1H 3H9
+NNE/255.9
+0.70
+p-192-804330962-x
+m50d
+dd-WWIS-848799653-aa
+ 
+Toronto ON 
+SW/256.2
+10.66
+p-193-848799653-x
+m50d
+dd-WWIS-848799654-aa
+ 
+Toronto ON 
+SW/256.2
+10.66
+p-195-848799654-x
+m51d
+dd-BORE-803413238-aa
+ 
+ ON 
+ENE/257.6
+1.24
+p-197-803413238-x
+m52d
+dd-EASR-804129145-aa
+TORONTO TRANSIT 
+COMMISSION
+1275 MCCOWAN ROAD TORONTO 
+ ON 
+SSW/258.3
+10.39
+p-198-804129145-x
+m52d
+dd-GEN-800835587-aa
+TORONTO TRANSIT 
+COMMISSION
+1275 MCCOWAN ROAD MCCOWAN 
+SUBWAY STATION
+SCARBOROUGH ON M1P 3H5
+SSW/258.3
+10.39
+p-198-800835587-x
+m53d
+dd-WWIS-802991728-aa
+ 
+TORONTO ON 
+S/272.1
+4.98
+p-198-802991728-x
+m54d
+dd-SPL-848860269-aa
+McCowan Rd and Consilium Place 
+Toronto ON 
+WNW/276.7
+2.81
+p-201-848860269-x
+m55d
+dd-GEN-801701427-aa
+East Star Asphalt
+727 C Progress Avenue 
+Scarborough ON M1H 2W7
+ENE/278.4
+2.44
+p-201-801701427-x
+m55d
+dd-GEN-800918736-aa
+615863 ONTARIO LIMITED
+727 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W7
+ENE/278.4
+2.44
+p-201-800918736-x
+m55d
+dd-SCT-16047831-aa
+THOMAS PRINTING
+727 PROGRESS AVE 
+SCARBOROUGH ON M1H 2W7
+ENE/278.4
+2.44
+p-202-16047831-x
+m55d
+dd-SCT-803829585-aa
+Agincourt Trophy & Gifts Ltd.
+727 Progress Ave Unit A
+Scarborough ON M1H 2W7
+ENE/278.4
+2.44
+p-202-803829585-x
+m56d
+dd-WWIS-802171450-aa
+ 
+SCARBOROUGH ON 
+ENE/286.0
+2.46
+p-203-802171450-x
+m57d
+dd-WWIS-802627663-aa
+ 
+TORONTO ON 
+NNW/286.6
+0.49
+p-204-802627663-x
+m58d
+dd-SPL-827316771-aa
+Toronto Transit Commission
+southbound at McCowan Rd. and 
+Consilium Pl. 
+WNW/290.0
+4.11
+p-206-827316771-x
+186
+186
+187
+187
+18
+188
+189
+189
+189
+190
+190
+192
+193
+195
+197
+198
+198
+198
+201
+201
+201
+202
+202
+203
+204
+206
+42
+42
+42
+42
+42
+43
+44
+45
+46
+47
+48
+49
+50
+50
+51
+52
+52
+53
+54
+55
+55
+55
+55
+56
+57
+58
+GEN
+GEN
+GEN
+GEN
+SPL
+BORE
+BORE
+SPL
+EXP
+BORE
+WWIS
+SPL
+WWIS
+WWIS
+BORE
+EASR
+GEN
+WWIS
+SPL
+GEN
+GEN
+SCT
+SCT
+WWIS
+WWIS
+SPL
+
+
+23
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Map
+Key 
+DB
+Company/Site Name
+ Address 
+Dir/Dist (m)
+ Elev Diff 
+(m) 
+Page 
+Number
+Toronto ON 
+m59d
+dd-WWIS-803235264-aa
+ 
+SCARBOROUGH ON 
+NE/291.8
+0.62
+p-206-803235264-x
+m60d
+dd-WWIS-803936641-aa
+ 
+Toronto ON 
+E/293.0
+-2.06
+p-208-803936641-x
+m61d
+dd-BORE-803413239-aa
+ 
+ ON 
+ENE/294.4
+2.63
+p-210-803413239-x
+m62d
+dd-WWIS-803936640-aa
+ 
+Toronto ON 
+ENE/295.0
+2.05
+p-211-803936640-x
+m63d
+dd-EHS-802048775-aa
+Bushby Dr && McCowan Rd 
+Scarborough ON 
+SSW/295.8
+10.51
+p-213-802048775-x
+m64d
+dd-WWIS-803936639-aa
+ 
+Toronto ON 
+E/296.1
+-3.50
+p-213-803936639-x
+206
+208
+210
+211
+213
+213
+59
+60
+61
+62
+63
+64
+WWIS
+WWIS
+BORE
+WWIS
+EHS
+WWIS
+
+
+24
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+h-Executive Summary: Summary By Data Source 
+BORE - Borehole
+A search of the BORE database, dated 1875-Jul 2014 has found that there are 13 BORE site(s) within approximately 0.30 kilometers of
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+ 
+ 
+ ON   
+34.2
+m-8-803437928-a 
+ 
+ 
+ ON   
+60.0
+m-10-803437931-a 
+ 
+ 
+ ON   
+129.4
+m-20-803440769-a 
+ 
+ 
+ ON   
+149.6
+m-25-803437927-a 
+ 
+ 
+ ON   
+152.3
+m-28-803437936-a 
+ 
+ 
+ ON   
+165.0
+m-36-803413111-a 
+ 
+ 
+ ON   
+173.5
+m-38-803437918-a 
+ 
+ 
+ ON   
+186.1
+m-39-803440494-a 
+ 
+ 
+ ON   
+203.1
+m-43-803440768-a 
+ 
+ 
+ ON   
+220.6
+m-44-803437923-a 
+ 
+ 
+ ON   
+247.8
+m-47-803437930-a 
+ 
+ 
+ ON   
+257.6
+m-51-803413238-a 
+ 
+ 
+ ON   
+294.4
+m-61-803413239-a 
+CA - Certificates of Approval
+A search of the CA database, dated 1985-Oct 30, 2011* has found that there are 29 CA site(s) within approximately 0.30 kilometers of 
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+Quick Circuits Inc.  
+700 Progress Ave  
+Toronto  ON   
+30.5
+m-7-803759374-a 
+Quick Circuits Inc.  
+700 Progress Avenue  
+Toronto  ON   
+30.5
+m-7-803747019-a 
+8
+10
+20
+25
+28
+36
+38
+39
+43
+44
+47
+51
+61
+7
+7
+Executive Summary: Summary By Data Source
+
+
+25
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+Telus Communications Inc.  
+200 Consilium Pl  
+Toronto  ON   
+70.1
+m-13-803767957-a 
+Tele-Mobile Company  
+200 Consilium Place  
+Toronto  ON   
+70.1
+m-13-803744327-a 
+Menkes Consilium Inc.  
+100, 200, 300 Consilium Pl  
+Toronto  ON   
+108.7
+m-17-803765134-a 
+MINISTRY OF GOVERNMENT 
+SERVICES 
+GRANGEWAY AVE./BUSHBY CT. 
+SCARBOROUGH CITY ON   
+146.5
+m-23-40768-a 
+MINISTRY OF GOVERNMENT 
+SERVICES 
+GRANGEWAY AVE./BUSHBY GATE 
+SCARBOROUGH CITY ON   
+146.5
+m-23-31429-a 
+ 
+100 Consilium Place 
+Toronto ON   
+157.2
+m-33-800406443-a 
+Oxford Properties Group Inc.  
+100 Consilium Place  
+Toronto  ON M1H 3E3  
+157.2
+m-33-803747946-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-55834-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-55675-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-55843-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-55830-a 
+A.G. Simpson Automotive Inc.  
+675 Progress Avenue  
+Toronto  ON M1H 2W9  
+157.2
+m-34-803738977-a 
+A.G. SIMPSON CO. LTD. 
+675 PROGRESS AVENUE 
+SCARBOROUGH CITY ON M1H 2W9  
+157.2
+m-34-16412-a 
+A.G. Simpson Automotive Inc.  
+675 Progress Avenue  
+Toronto  ON M1H 2W9  
+157.2
+m-34-803759252-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-55677-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-55836-a 
+ 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-800406436-a 
+ 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-800411891-a 
+ 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-800406435-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVENUE 
+TORONTO ON   
+157.2
+m-34-54582-a 
+ 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-800406434-a 
+A.G. SIMPSON CO. LTD., 
+SCARBOROUGH FAC. 
+675 PROGRESS AVENUE, SCAR. 
+TORONTO CITY ON   
+157.2
+m-34-300295727-a 
+ 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-800406433-a 
+13
+13
+17
+23
+23
+33
+33
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+
+
+26
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+ 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-800401652-a 
+Oxford Properties Group Inc.  
+300 Consilium Place  
+Toronto  ON M1H 3G2  
+157.9
+m-35-803753080-a 
+PRUDENTIAL INSURANCE CO. OF 
+AMERICA, THE 
+300 CONSILIUM PLACE 
+SCARBOROUGH CITY ON   
+157.9
+m-35-12389-a 
+Bestwind Industries Ltd.  
+705 Progress Ave. East, Unit 17  
+Toronto  ON   
+172.3
+m-37-803756279-a 
+EASR - Environmental Activity and Sector Registry
+A search of the EASR database, dated Oct 2011-Nov 2016 has found that there are 4 EASR site(s) within approximately 0.30 
+kilometers of the project property. 
+Site
+Address
+Distance (m)
+Map Key
+DECARIA ENGINEERING LIMITED 
+100 CONSILIUM PLACE SCARBOROUGH 
+ ON   
+157.2
+m-33-803960518-a 
+A.G. SIMPSON AUTOMOTIVE INC. 
+675 PROGRESS AVE SCARBOROUGH 
+ ON M1H 2W9  
+157.2
+m-34-804273891-a 
+A.G. SIMPSON AUTOMOTIVE INC. 
+675 PROGRESS AVE SCARBOROUGH 
+ ON M1H 2W9  
+157.2
+m-34-804273921-a 
+TORONTO TRANSIT COMMISSION 
+1275 MCCOWAN ROAD TORONTO 
+ ON   
+258.3
+m-52-804129145-a 
+EBR - Environmental Registry
+A search of the EBR database, dated 1994-Dec 2016 has found that there are 25 EBR site(s) within approximately 0.30 kilometers of 
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+Quick Circuits Inc. 
+700 Progress Avenue 
+Toronto ON   
+30.5
+m-7-803007052-a 
+Quick Circuits Inc. 
+700 Progress Ave Unit 13 
+Toronto ON M1H 2Z7  
+30.5
+m-7-803573843-a 
+A+A Graphics Canada Inc 
+700 Progress Avenue 
+Toronto ON   
+30.5
+m-7-803857837-a 
+Menkes Consilium Inc. 
+200 Consilium Place 
+Toronto ON M1H 3G2  
+70.1
+m-13-803070619-a 
+Telus Communications Inc. 
+200 Consilium Place Suite 1600 
+Toronto ON   
+70.1
+m-13-803381362-a 
+8141720 Canada Ltd. operating as NRS
+General Services 
+710 Progress Avenue Unit 7&8 Toronto M1H 
+2X3 CITY OF TORONTO 
+ ON   
+90.0
+m-14-848864679-a 
+Oxford Properties Group Inc. 
+100 Consilium Place 
+Toronto ON M1H 3E3  
+157.2
+m-33-803006643-a 
+A.G. Simpson Co. Ltd. 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-800475647-a 
+34
+35
+35
+37
+33
+34
+34
+52
+7
+7
+7
+13
+13
+14
+33
+34
+
+
+27
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+A.G. Simpson Co. Ltd 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-800476251-a 
+A.G. Simpson Company Limited 
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9  
+157.2
+m-34-800473002-a 
+A.G. Simpson Co. Limited  
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-803001762-a 
+A.G. Simpson Co. Limited 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-800720328-a 
+A.G. Simpson Co. Limited 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-800476720-a 
+A.G. Simpson Company Limited 
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9  
+157.2
+m-34-800473452-a 
+A.G. Simpson Company Limited 
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9  
+157.2
+m-34-800474537-a 
+A.G. Simpson Company Limited 
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9  
+157.2
+m-34-800472991-a 
+A.G. Simpson Company Limited 
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9  
+157.2
+m-34-800472989-a 
+A.G. Simpson Co. Limited 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-800720159-a 
+A.G. Simpson Automotive Inc. 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-803900864-a 
+A.G. Simpson Co. Limited 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-800478564-a 
+A.G. Simpson Company Limited 
+675 Progress AvenueIA8E   
+City of Scarborough ON M1H 2W9  
+157.2
+m-34-800472485-a 
+A.G. Simpson Company Limited 
+675 Progress Avenue 
+Toronto ON M1H 2W9  
+157.2
+m-34-800475007-a 
+A.G. Simpson Company Limited 
+675 Progress Avenue   
+City of Scarborough ON M1H 2W9  
+157.2
+m-34-800472486-a 
+Oxford Properties Group Inc.  
+300 Consilium Place 
+Toronto ON M1H 3G2  
+157.9
+m-35-803006665-a 
+Bestwind Industries Ltd. 
+705 Progress Ave East 
+Toronto ON M1H 2X1  
+172.3
+m-37-803002311-a 
+ECA - Environmental Compliance Approval
+A search of the ECA database, dated Oct 2011-Nov 2016 has found that there are 3 ECA site(s) within approximately 0.30 kilometers 
+of the project property. 
+Site
+Address
+Distance (m)
+Map Key
+A+A Graphics Canada Inc 
+700 Progress Ave 
+Toronto ON   
+30.5
+m-7-804299595-a 
+7 Axis, Inc. operating as PM Retail 
+Solutions 
+710 Progress Ave 
+Toronto ON   
+90.0
+m-14-858147406-a 
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+35
+37
+7
+14
+
+
+28
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+A.G. Simpson Automotive Inc. 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-814212896-a 
+EHS - ERIS Historical Searches
+A search of the EHS database, dated 1999-Aug 2016 has found that there are 22 EHS site(s) within approximately 0.30 kilometers of 
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+ 
+600 Consilium Pl 
+Toronto ON M1H3E9  
+60.3
+m-11-849433787-a 
+ 
+111 Grangeway Avenue 
+Toronto (Scarborough) ON M1H 3E9  
+65.8
+m-12-801796719-a 
+ 
+111 Grangeway Avenue 
+Scarborough (Toronto) ON M1H 3E9  
+65.8
+m-12-803236390-a 
+ 
+100 Consilium Pl Toronto On 
+Toronto ON M1H3E3  
+107.5
+m-16-849432357-a 
+ 
+100, 200 & 300 Consilium Place 
+Scarborough ON   
+108.7
+m-17-801796654-a 
+ 
+100 - 300 Consilium Place 
+Toronto ON M1H 3G2  
+108.7
+m-17-803680177-a 
+ 
+Bushby Dr & Grangeway Ave 
+Scarborough ON   
+146.5
+m-23-802048759-a 
+ 
+705 Progress Ave 
+Toronto ON M1H2X1  
+152.5
+m-29-821126996-a 
+ 
+Lots A B and D Corporate Dr
+Toronto ON   
+154.1
+m-31-804093917-a 
+ 
+675 Progress Ave 
+Toronto ON M1H 2W9  
+157.2
+m-34-803846910-a 
+ 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+157.2
+m-34-803680335-a 
+ 
+300 Consilium Place 
+Scarborough ON M1H 3G2  
+157.9
+m-35-802049143-a 
+ 
+300 Consilium Pl 
+Toronto ON M1H3G2  
+157.9
+m-35-849439329-a 
+ 
+705 Progress Ave, Unit 1 
+Scarborough ON M1H 2X1  
+172.3
+m-37-801703124-a 
+ 
+705 Progress Avenue 
+Toronto ON M1H 2X1  
+172.3
+m-37-804093323-a 
+ 
+705 Progress Avenue 
+Scarborough ON M1H 2X1  
+172.3
+m-37-803575406-a 
+ 
+705 Progress Avenue 
+Scarborough ON M1H 2X1  
+172.3
+m-37-802394656-a 
+ 
+705 Progress Avenue 
+Scarborough ON M1H 2X1  
+172.3
+m-37-800760034-a 
+34
+11
+12
+12
+16
+17
+17
+23
+29
+31
+34
+34
+35
+35
+37
+37
+37
+37
+37
+
+
+29
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+ 
+705 Progress Ave 
+Scarborough ON M1H 2X1  
+172.3
+m-37-802834934-a 
+ 
+721 Progress Ave. 
+Scarborough ON M1H 2W7  
+191.2
+m-41-801796389-a 
+ 
+721 Progress Ave 
+Scarborough ON M1H 2W7  
+194.9
+m-42-849435802-a 
+ 
+Bushby Dr && McCowan Rd 
+Scarborough ON   
+295.8
+m-63-802048775-a 
+EXP - List of TSSA Expired Facilities
+A search of the EXP database, dated Oct 31, 2016 has found that there are 1 EXP site(s) within approximately 0.30 kilometers of the 
+project property. 
+Site
+Address
+Distance (m)
+Map Key
+LINDE CANADA LTD ATTN LINE 
+ARSENEAU 
+727 PROGRESS AVE 
+SCARBOROUGH ON   
+246.7
+m-46-803985372-a 
+GEN - Ontario Regulation 347 Waste Generators Summary
+A search of the GEN database, dated 1986-Sep 2016 has found that there are 164 GEN site(s) within approximately 0.30 kilometers of 
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+LEECRAFT INDUSTRIES LIMITED       
+24-633 
+FORMERLY:  ANRO ELECTRIC 670 
+PROGRESS AVE., UNIT #1
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-800857034-a 
+Oxford College of Arts, Business And 
+Technology In 
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4  
+0.0
+m-1-808971594-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-809000696-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-814162821-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-850302324-a 
+INVAR BUILDING CORPORATION 
+670 PROGRESS AVENUE UNIT 11 
+SCARBOROUGH ON   
+0.0
+m-1-814145740-a 
+Oxford College of Arts, Business And 
+Technology In 
+670 Progress Ave, Unit 1 
+Scarborough ON M1H3A4  
+0.0
+m-1-850301963-a 
+Oxford College of Arts, Business And 
+Technology In 
+670 Progress Ave, Unit 1 
+Scarborough ON   
+0.0
+m-1-821720901-a 
+Oxford College of Arts, Business And 
+Technology In 
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4  
+0.0
+m-1-803698231-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON   
+0.0
+m-1-821705203-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-803021426-a 
+37
+41
+42
+63
+46
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+
+30
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-800880373-a 
+ANRO ELECTRONIC IND.(LEECRAFT 
+LTD) 
+670 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-800857032-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-808973916-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-804066190-a 
+ALL-LIFT (SCARBOROUGH)LTD.        
+02-798 
+670 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-800880372-a 
+Oxford College of Arts, Business And 
+Technology In 
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4  
+0.0
+m-1-809000410-a 
+ALL-LIFT (SCARBOROUGH) LIMITED 
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-800880374-a 
+LEECRAFT INDUSTRIES LIMITED 
+FORMERLY:  ANRO ELECTRIC 670 
+PROGRESS AVE., UNIT #1
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-800857033-a 
+Oxford College of Arts, Business And 
+Technology In 
+670 Progress Ave, Unit 1 
+Scarborough ON M1H 3A4  
+0.0
+m-1-814148211-a 
+MODU-TRONICS INC (OUT OF 
+BUSINESS)27-347 
+680 PROGRESS AVE. 
+SCARBOROUGH ON M1H 3A5  
+0.0
+m-2-800861176-a 
+MODU-TRONICS INC (OUT OF 
+BUSINESS) 
+680 PROGRESS AVE. 
+SCARBOROUGH ON M1H 3A5  
+0.0
+m-2-800861175-a 
+MODU-TRONICS INC. 
+ 680 PROGRESS AVE.
+SCARBOROUGH ON M1H 3A5  
+0.0
+m-2-800861174-a 
+GAYA INDUSTRIES LTD. 
+ 680 PROGRESS AVENUE, UNIT 11
+SCARBOROUGH ON M1H 3A5  
+0.0
+m-2-800856135-a 
+EXCELL SCREEN PRINTING 
+680 PROGRESS AVE. #5 
+SCARBOROUGH ON M1H 3A5  
+0.0
+m-2-800897861-a 
+EXCELL SCREEN PRINTING            
+14-704 
+680 PROGRESS AVE. #5 
+SCARBOROUGH ON M1H 3A5  
+0.0
+m-2-800897862-a 
+CREST CIRCUIT COMPANY LIMITED 
+690 PROGRESS AVENUE, UNIT 10 
+SCARBOROUGH ON M1H 3A6  
+0.0
+m-4-800868754-a 
+CREST CIRCUIT COMPANY LIMITED 
+ 690 PROGRESS AVENUE; UNIT 10,
+SCARBOROUGH, ON M1H 3A6  
+0.0
+m-4-800868753-a 
+CREST (OUT OF BUS)                11-
+168 
+690 PROGRESS AVENUE, UNIT 10 
+SCARBOROUGH ON M1H 3A6  
+0.0
+m-4-800868755-a 
+MILMAC COMMUNICATIONS INC. 
+690 PROGRESS AVE., SUITE 7 
+SCARBOROUGH ON M1H 3A6  
+0.0
+m-4-800842566-a 
+LABELCRAFT PRODUCTS LTD. 
+ 651 PROGRESS AVE., UNIT 1
+SCARBOROUGH ON M1H 2W8  
+25.4
+m-6-800826052-a 
+LABELCRAFT PRODUCTS LIMITED 
+651 PROGRESS AVENUE UNIT 1
+SCARBOROUGH ON M1H 2W8  
+25.4
+m-6-800826054-a 
+LABELCRAFT PRODUCTS LTD.          
+24-304 
+ 651 PROGRESS AVE., UNIT 1
+SCARBOROUGH ON M1H 2W8  
+25.4
+m-6-800826053-a 
+INNOVATIVE CHOICES 
+700 PROGRESS AVENUE, UNITS 15&16 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800919568-a 
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+4
+4
+4
+4
+6
+6
+6
+7
+
+
+31
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+INNOV(OUT OF BUSINESS) 
+700 PROGRESS AVENUE, UNITS 15 & 16 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800932921-a 
+DASA MANUFACTURING 2010 LTD. 
+700 progress ave #7 
+SCARBOROUGH ON   
+30.5
+m-7-821707844-a 
+EXPERT CIRCUITS INC.              14-
+191 
+ 700 PROGRESS AVENUE, UNIT 13
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800869847-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON   
+30.5
+m-7-809003104-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVE. #13 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800917067-a 
+EXPERT CIRCUITS INC. 
+700 PROGRESS AVENUE UNIT #13
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800869848-a 
+DASA MANUFACTURING 2010 LTD. 
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-814150877-a 
+DASA MANUFACTURING 2010 LTD. 
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-808954132-a 
+INNOVATIVE CHOICES 
+700 PROGRESS AVENUE, UNITS 15 & 16 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800930503-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-802108709-a 
+EXPERT CIRCUITS INC. 
+ 700 PROGRESS AVENUE, UNIT 13
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800869845-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-814165404-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON   
+30.5
+m-7-804070717-a 
+ABILITY MACHINE (OUT OF 
+BUSINESS) 02-607 
+700 PROGRESS AVE. UNIT #10 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800907585-a 
+DASA MANUFACTURING 2010 LTD. 
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-808979739-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON   
+30.5
+m-7-821715972-a 
+BRITE PLATING LTD.                05-875 
+700 PROGRESS AVE. UNIT 15-16 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800908182-a 
+DASA MANUFACTURING 2010 LTD. 
+700 progress ave #7 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-803696328-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-850268277-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE, UNIT 13 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800929856-a 
+EXPERT CIRCUITS INC. 
+700 PROGRESS AVENUE, UNIT #13 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800869846-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-803021424-a 
+ABILITY MACHINE AND MFG. INC.     
+02-607 
+700 PROGRESS AVE. UNIT #10 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800913362-a 
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+
+
+32
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+TRILLIUM COMMUNICATIONS           
+38-687 
+700 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-800899900-a 
+QUICK CIRCUITS INC. 
+700 PROGRESS AVENUE 
+SCARBOROUGH ON   
+30.5
+m-7-808966340-a 
+ROYAL BANK OF CANADA 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-800899427-a 
+ROYAL BANK OF CANADA 
+111 GRANGEWAY AVENUE, 
+SCARBOROUGH C/O GLOBE REALTY, PO 
+BOX 5, ROYAL BANK
+TORONTO ON M1H 3E9  
+65.8
+m-12-800899426-a 
+ROYAL BANK OF CANADA 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-800899429-a 
+ROYAL BANK OF CANADA              33-
+563 
+111 GRANGEWAY AVENUE, 
+SCARBOROUGH C/O GLOBE REALTY, PO 
+BOX 5, ROYAL BANK
+TORONTO ON M1H 3E9  
+65.8
+m-12-800899428-a 
+ROYAL BANK OF CANADA 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-801800055-a 
+TELUS Communications Company 
+200 Consilium Place 
+Scarborough ON M1H 3J3  
+70.1
+m-13-850297621-a 
+Athlete's Care 
+200 Consilium Place Suite #104
+Scarborough ON   
+70.1
+m-13-821718094-a 
+TELUS Communications Company 
+200 Consilium Place 
+Scarborough ON   
+70.1
+m-13-822738104-a 
+Oxford Properties Group 
+200 Consilium Place 
+Toronto ON   
+70.1
+m-13-801698287-a 
+Athlete's Care 
+200 Consilium Place Suite #104
+Scarborough ON M1H 3E4  
+70.1
+m-13-804096150-a 
+Athlete's Care 
+200 Consilium Place Suite #104
+Scarborough ON   
+70.1
+m-13-814151264-a 
+MENKES PROPERTY MANAGMENT 
+SERVICES LTD. 
+200 CONSILIUM PLACE, SUITE 104 
+SCARBOROUGH ON   
+70.1
+m-13-804076999-a 
+PRUDENTIAL INSURANCE CO 
+200 CONSILIUM PLACE 
+SCARBOROUGH ON M1H 3E4  
+70.1
+m-13-800831291-a 
+Menkes Developments Ltd. 
+200 Consilium Place 
+Scarborough ON M1H 3E4  
+70.1
+m-13-808962275-a 
+Menkes Developments Ltd. 
+200 Consilium Place 
+Scarborough ON M1H 3E4  
+70.1
+m-13-808998214-a 
+Athlete's Care 
+200 Consilium Place Suite #104
+Scarborough ON M1H 3E4  
+70.1
+m-13-850289386-a 
+MENKES PROPERTY MANAGMENT 
+SERVICES LTD. 
+200 CONSILIUM PLACE, SUITE 104 
+SCARBOROUGH ON M1H3E4  
+70.1
+m-13-803481322-a 
+Menkes Developments Ltd. 
+200 Consilium Place 
+Scarborough ON M1H 3E4  
+70.1
+m-13-803482252-a 
+PRUDENTIAL INSURANCE CO.          
+31-041 
+HEAD OFFICE, CANADIAN OPERATIONS 
+200 CONSILIUM PLACE
+SCARBOROUGH ON M1H 3E6  
+70.1
+m-13-800831292-a 
+PRUDENTIAL INSURANCE CO 
+HEAD OFFICE, CANADIAN OPERATIONS 
+200 CONSILIUM PLACE
+SCARBOROUGH ON M1H 3E6  
+70.1
+m-13-800831289-a 
+7
+7
+12
+12
+12
+12
+12
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+13
+
+
+33
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+PRUDENTIAL INSURANCE COMPANY
+200 CONSILIUM PLACE 
+SCARBOROUGH ON M1H 3E6  
+70.1
+m-13-800831293-a 
+PRUDENTIAL INSURANCE CO. 
+HEAD OFFICE, CANADIAN OPERATIONS 
+200 CONSILIUM PLACE
+SCARBOROUGH ON M1H 3E6  
+70.1
+m-13-800831290-a 
+HOPE PRO REFINISHING 
+710 PROGRESS AVENUE,UNIT 9&10 
+SCARBOROUGH ON   
+90.0
+m-14-822737578-a 
+GINO PRINTING INC. 
+710 PROGRESS AVENUE, UNIT 12 
+SCARBOROUGH ON M1H 2X3  
+90.0
+m-14-800920838-a 
+MODU-TRONICS INC (OUT OF 
+BUSINESS) 
+710 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2X3  
+90.0
+m-14-800861172-a 
+MODU-TRONICS INC (OUT OF 
+BUSINESS)27-346 
+710 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2X3  
+90.0
+m-14-800861173-a 
+LEMA PRINTING SERVICES INC. 
+710 PROGRESS AVENUE, UNIT 9 
+SCARBOROUGH ON M1H 2X3  
+90.0
+m-14-803239984-a 
+LEMA PRINTING SERVICES INC. 
+710 PROGRESS AVENUE UNIT 11
+SCARBOROUGH ON M1H 2X3  
+90.0
+m-14-801803757-a 
+MODU-TRONICS INC. 
+ 710 PROGRESS AVENUE
+SCARBOROUGH ON M1H 2X3  
+90.0
+m-14-800861171-a 
+MTCC1102 
+80 Coporate drive #208 
+Toronto ON   
+151.2
+m-26-808982388-a 
+Corporate Medical Centre 
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4  
+152.2
+m-27-814146848-a 
+Corporate Medical Centre 
+78 Corporate Drive unit 10
+Scarborough ON   
+152.2
+m-27-821730300-a 
+SCARBOROUGH HOSPITAL, THE 
+SCARBOROUGH REGIONAL 
+DIALYSIS PROGRAM 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-803021432-a 
+Corporate Medical Centre 
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4  
+152.2
+m-27-803696217-a 
+THE SCARBOROUGH REGIONAL 
+DIALYSIS PROGRAM 
+78 CORPERATE DRIVE, HEMODIALYSIS 
+UNIT 
+SCARBOROUGH ON   
+152.2
+m-27-801698599-a 
+SCARBOROUGH HOSPITAL, THE 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON   
+152.2
+m-27-821729816-a 
+SCARBOROUGH HOSPITAL, THE 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-814163793-a 
+Corporate Medical Centre 
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4  
+152.2
+m-27-808949748-a 
+Corporate Medical Centre 
+78 Corporate Drive unit 10
+Scarborough ON M1H 3G4  
+152.2
+m-27-808984697-a 
+SCARBOROUGH HOSPITAL, THE 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-808973102-a 
+GUARDIAN CORPORATE PHARMACY
+78 CORPORATE DRIVE 
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-800933254-a 
+SCARBOROUGH HOSPITAL, THE 
+78 CORPORATE DRIVE 
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-800833257-a 
+SCARBOROUGH HOSPITAL, THE 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-803478641-a 
+13
+13
+14
+14
+14
+14
+14
+14
+14
+26
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+27
+
+
+34
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+SCARBOROUGH HOSPITAL, THE 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-804062046-a 
+SCARBOROUGH HOSPITAL, THE 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-808988884-a 
+SCARBOROUGH HOSPITAL, THE 
+78 CORPORATE DRIVE DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+152.2
+m-27-800833258-a 
+Corporate Medical Centre 
+78 Corporate Drive unit 10
+Scarborough ON M1H3G4  
+153.7
+m-30-850299492-a 
+SCARBOROUGH HOSPITAL, THE 
+SCARBOROUGH REGIONAL 
+DIALYSIS PROGRAM 
+78 Corporate Drive Unit 1-6 DIALYSIS UNIT
+SCARBOROUGH ON M1H 3G4  
+153.7
+m-30-850270470-a 
+CITY OF TORONTO PROPERTY 
+DEPARTMENT 
+100 Consilium Place, 10th Fl 
+Toronto ON   
+157.2
+m-33-822740483-a 
+8174709 Canada Inc. 
+100 Consilium Place 
+Scarborough ON   
+157.2
+m-33-819038429-a 
+8174709 Canada Inc. 
+100 Consilium Place 
+Scarborough ON M1H 3E3  
+157.2
+m-33-850286616-a 
+1582235 Ontario Limited 
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3  
+157.2
+m-33-850283283-a 
+1582235 Ontario Limited 
+100 Consillium Place Suite 309
+Toronto ON   
+157.2
+m-33-821724515-a 
+1582235 Ontario Limited 
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3  
+157.2
+m-33-804095767-a 
+8174709 Canada Inc. 
+100 Consilium Place 
+Scarborough ON   
+157.2
+m-33-814144378-a 
+1582235 Ontario Limited 
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3  
+157.2
+m-33-814143815-a 
+Dr. Jack Train and Assocation 
+100 Consilium Place Suite 312
+Scarborough ON M1H3E3  
+157.2
+m-33-850301379-a 
+8174709 Canada Inc. 
+100 Consilium Place 
+Scarborough ON   
+157.2
+m-33-821717087-a 
+CITY OF TORONTO PROPERTY 
+DEPARTMENT 
+100 Consilium Place, 10th Fl 
+Toronto ON M1H3E3  
+157.2
+m-33-850268704-a 
+STATE FARM INSURANCE              34-
+732 
+100 CONSILIUM PLACE SUITE 102 9TH-
+17TH FLOOR
+SCARBOROUGH ON M1H 3G9  
+157.2
+m-33-800894779-a 
+STATE FARM INSURANCE 
+COMPANIES 
+REGIONAL  ZONE  OFFICE 100 CONSILIUM
+PLACE SUITE 102
+SCARBOROUGH ON MIH 3G9  
+157.2
+m-33-800894781-a 
+STATE FARM INSURANCE 
+100 CONSILIUM PLACE SUITE 102,  9TH - 
+17TH FLOOR
+SCARBOROUGH ON M1H 3G9  
+157.2
+m-33-800894780-a 
+STATE FARM INSURANCE 
+100 CONSILIUM PLACE SUITE 102,  9TH - 
+17TH FL.
+SCARBOROUGH ON M1H 3G9  
+157.2
+m-33-800894778-a 
+1582235 Ontario Limited 
+100 Consillium Place Suite 309
+Toronto ON M1H 3E3  
+157.2
+m-33-808981232-a 
+A.G. SIMPSON CO LIMITED 
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9  
+157.2
+m-34-814158084-a 
+104712815RC002 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+157.2
+m-34-850285167-a 
+27
+27
+27
+30
+30
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+33
+34
+34
+
+
+35
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+A.G. SIMPSON CO LIMITED 
+675 PROGRESS AVENUE 
+TORONTO ON   
+157.2
+m-34-821708601-a 
+A.G. SIMPSON CO LIMITED 
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9  
+157.2
+m-34-803021410-a 
+A.G. SIMPSON CO LIMITED 
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9  
+157.2
+m-34-808997249-a 
+Material Handling Systems of Canada 
+Inc. 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-804098351-a 
+A.G. SIMPSON CO LIMITED 
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9  
+157.2
+m-34-808975180-a 
+A.G. SIMPSON LTD. 
+ 675 PROGRESS AVE.
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800810474-a 
+104712815RC002 
+675 Progress Avenue 
+Scarborough ON   
+157.2
+m-34-822740999-a 
+A.G. SIMPSON CO. LTD. 
+ 675 PROGRESS AVENUE
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800815848-a 
+Material Handling Systems of Canada 
+Inc. 
+675 Progress Avenue 
+Toronto ON   
+157.2
+m-34-814152421-a 
+A.G. SIMPSON CO LIMITED 
+675 PROGRESS AVENUE 
+TORONTO ON M1H 2W9  
+157.2
+m-34-804060742-a 
+Oxford Properties 
+300 Consilium Place 
+Scarborough ON M1H 3G2  
+157.9
+m-35-800943957-a 
+Oxford Properties Group 
+300 Consillium Place 
+Toronto ON   
+157.9
+m-35-803239988-a 
+MAILCRAFTERS CANADA INC. 
+705 PROGRESS AVENUE, UNIT 25 
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800929556-a 
+GRASEBY GORING (OUT OF 
+BUSINESS) 
+705 PROGRESS AVENUE, UNIT 63 
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800928511-a 
+GRASEBY GORING KERR CANADA 
+INC 
+705 PROGRESS AVENUE UNIT #63
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800910400-a 
+IMAGE VIDEO LIMITED               21-
+203 
+705 PROGRESS AVENUE UNIT 46
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800872552-a 
+IMAGE VIDEO LIMITED 
+705 PROGRESS AVENUE UNIT 46
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800872551-a 
+RODNEY-SPENCER GRAPHICS INC. 
+ 705 PROGRESS AVENUE, UNIT 15
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800861102-a 
+GRASEBY GORING KERR CANADA 
+INC.   16-330 
+705 PROGRESS AVENUE UNIT #63
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800914044-a 
+City of Toronto 
+705 Progress Crescent 
+Toronto ON M1H 2X1  
+172.3
+m-37-803239983-a 
+Akzo Nobel Coatings Ltd 
+705 Progress Ave. Unit 13 & 14 
+Scarborough ON M1H 2X1  
+172.3
+m-37-801801888-a 
+MAILCRAFTERS CANADA INC. 
+705 PROGRESS AVENUE UNIT 25
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800916610-a 
+RODNEY-SPENCER GRAPHICS INC.
+33-102 
+ 705 PROGRESS AVENUE, UNIT 15
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-800861103-a 
+34
+34
+34
+34
+34
+34
+34
+34
+34
+34
+35
+35
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+
+
+36
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+Bestwind Industries LTD 
+705 Progress Ave unit # 17 
+Scarborough ON M1H 2X1  
+172.3
+m-37-804083038-a 
+Bestwind Industries LTD 
+705 Progress Ave unit # 17 
+Scarborough ON M1H 2X1  
+172.3
+m-37-801804144-a 
+Bestwind Industries LTD 
+705 Progress Ave unit # 17 
+Scarborough ON M1H-2X1  
+172.3
+m-37-850281311-a 
+Bestwind Industries LTD 
+705 Progress Ave unit # 17 
+Scarborough ON M1H 2X1  
+172.3
+m-37-814152261-a 
+Bestwind Industries LTD 
+705 Progress Ave unit # 17 
+Scarborough ON   
+172.3
+m-37-813042979-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON M1H 2W7  
+194.9
+m-42-803299530-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON   
+194.9
+m-42-808956015-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON M1H 2W7  
+194.9
+m-42-803239982-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON   
+194.9
+m-42-808978223-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON M1H 2W7  
+194.9
+m-42-850287558-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON M1H 2W7  
+194.9
+m-42-814155730-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON   
+194.9
+m-42-821709862-a 
+Brafasco 
+721 Progress Ave. 
+Scarborough ON   
+194.9
+m-42-804080264-a 
+TORONTO TRANSIT COMMISSION 
+1275 MCCOWAN ROAD MCCOWAN 
+SUBWAY STATION
+SCARBOROUGH ON M1P 3H5  
+258.3
+m-52-800835587-a 
+East Star Asphalt 
+727 C Progress Avenue 
+Scarborough ON M1H 2W7  
+278.4
+m-55-801701427-a 
+615863 ONTARIO LIMITED 
+727 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W7  
+278.4
+m-55-800918736-a 
+NPCB - National PCB Inventory
+A search of the NPCB database, dated 1988-2008* has found that there are 8 NPCB site(s) within approximately 0.30 kilometers of the 
+project property. 
+Site
+Address
+Distance (m)
+Map Key
+ROYAL BANK - OXFORD 
+PROPERTIES GROUP INC. 
+ 111 GRANGEWAYAVE
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-803360693-a 
+ROYAL BANK REALTY INC. 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-96723-a 
+ROYAL BANK REALTY INC. 
+ 111 GRANGEWAY AVENUE
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-803360692-a 
+37
+37
+37
+37
+37
+42
+42
+42
+42
+42
+42
+42
+42
+52
+55
+55
+12
+12
+12
+
+
+37
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+A.G.SIMPSON 
+ 675 PROGRESS AVENUE
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-803353680-a 
+A.G.SIMPSON LTD. 
+ 675 PROGRESS AVE.
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-803353669-a 
+A.G. SIMPSON 
+675 PROGRESS AVENUE 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-94138-a 
+A. G. SIMPSON LTD. 
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-96175-a 
+A. G. SIMPSON 
+675 PROGRESS AVENUE 
+Scarborough ON M1H 2W9  
+157.2
+m-34-801793023-a 
+NPRI - National Pollutant Release Inventory
+A search of the NPRI database, dated 1993-2014 has found that there are 33 NPRI site(s) within approximately 0.30 kilometers of the 
+project property. 
+Site
+Address
+Distance (m)
+Map Key
+OXFORD PROPERTIES GROUP 
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4  
+17.2
+m-5-802349985-a 
+OXFORD PROPERTIES GROUP INC. 
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4  
+17.2
+m-5-801773491-a 
+OXFORD PROPERTIES GROUP 
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4  
+17.2
+m-5-801989324-a 
+OXFORD PROPETIES GROUP 
+300 Consilium Place 
+Toronto ON M1H3G2  
+35.2
+m-9-801989272-a 
+OXFORD PROPETIES GROUP INC. 
+300 Consilium Place 
+Toronto ON M1H3G2  
+35.2
+m-9-801773433-a 
+OXFORD PROPETIES GROUP 
+300 Consilium Place 
+Toronto ON M1H3G2  
+35.2
+m-9-802349935-a 
+OXFORD PROPERTIES GROUP 
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4  
+70.1
+m-13-802929651-a 
+OXFORD PROPERTIES GROUP 
+100 Consilium Place 
+TORONTO ON M1H3E3  
+123.8
+m-19-801989273-a 
+OXFORD PROPERTIES GROUP 
+100 Consilium Place 
+TORONTO ON M1H3E3  
+123.8
+m-19-802349936-a 
+OXFORD PROPERTIES GROUP INC. 
+100 Consilium Place 
+TORONTO ON M1H3E3  
+123.8
+m-19-801773434-a 
+A.G.SIMPSON CO. LIMITED 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-801437404-a 
+A.G.Simpson Co. Limited 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-300379357-a 
+A.G.SIMPSON AUTOMOTIVE 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-801985466-a 
+A.G. Simpson Automotive Inc. 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-848601918-a 
+34
+34
+34
+34
+34
+5
+5
+5
+9
+9
+9
+13
+19
+19
+19
+24
+24
+24
+24
+
+
+38
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+A.G.SIMPSON AUTOMOTIVE 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-803795659-a 
+A.G. SIMPSON AUTOMOTIVE INC. 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-822171346-a 
+A.G.Simpson Co. Limited 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-300375583-a 
+A.G.SIMPSON AUTOMOTIVE 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-803486852-a 
+A.G.Simpson Co. Limited 
+ 
+Scarborough ON   
+146.7
+m-24-300374433-a 
+A.G.Simpson Co. Limited 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-300378375-a 
+A.G. SIMPSON AUTOMOTIVE INC. 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-820283928-a 
+A.G.Simpson Co. Limited 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-300377393-a 
+A.G. SIMPSON AUTOMOTIVE INC. 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-801771674-a 
+A.G.SIMPSON AUTOMOTIVE 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-802920849-a 
+A.G.Simpson Co. Limited 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-800544733-a 
+A.G.Simpson Co. Limited 
+675 Prgress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-300374688-a 
+A.G.SIMPSON AUTOMOTIVE 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-802346252-a 
+A.G.Simpson Co. Limited 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-800022936-a 
+A.G.Simpson Co. Limited 
+675 Progress Avenue 
+Scarborough ON M1H 2W9  
+146.7
+m-24-300376476-a 
+A.G.SIMPSON AUTOMOTIVE 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-803206392-a 
+A.G. SIMPSON AUTOMOTIVE INC. 
+675 Progress Avenue 
+Scarborough ON M1H2W9  
+146.7
+m-24-804043225-a 
+OXFORD PROPERTIES GROUP 
+100 Consilium Place 
+TORONTO ON M1H3E3  
+157.2
+m-33-802929649-a 
+OXFORD PROPETIES GROUP 
+300 Consilium Place 
+Toronto ON M1H3G2  
+157.9
+m-35-802929648-a 
+OPCB - Inventory of PCB Storage Sites
+A search of the OPCB database, dated 1987-Oct 2004; 2012-Dec 2013 has found that there are 8 OPCB site(s) within approximately 
+0.30 kilometers of the project property. 
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+24
+33
+35
+
+
+39
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+ROYAL BANK REALTY INC. 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-800800491-a 
+ROYAL BANK REALTY INC. 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-800798408-a 
+ROYAL BANK REALTY INC. 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-800799527-a 
+ROYAL BANK REALTY INC. 
+111 GRANGEWAY AVENUE 
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-800802187-a 
+A. G. SIMPSON LTD. 
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800802116-a 
+A. G. SIMPSON LTD. 
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800794244-a 
+A. G. SIMPSON LTD. 
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800798358-a 
+A. G. SIMPSON LTD. 
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800792671-a 
+PAP - Canadian Pulp and Paper
+A search of the PAP database, dated 1999, 2002, 2004, 2005, 2009 has found that there are 1 PAP site(s) within approximately 0.30 
+kilometers of the project property. 
+Site
+Address
+Distance (m)
+Map Key
+Hoffman Enclosures Inc. 
+111 Grangeway Ave Suite 504
+Scarborough ON M1H 3E9  
+65.8
+m-12-803382496-a 
+PRT - Private and Retail Fuel Storage Tanks
+A search of the PRT database, dated 1989-1996* has found that there are 2 PRT site(s) within approximately 0.30 kilometers of the 
+project property. 
+Site
+Address
+Distance (m)
+Map Key
+A G SIMPSON 
+675 PROGRESS AV 
+SCARBOROUGH ON M1H2W9  
+157.2
+m-34-206698-a 
+TORONTO OXYGEN LTD 
+720 PROGRESS AV 
+SCARBOROUGH ON M1H 2X3  
+187.8
+m-40-206699-a 
+REC - Ontario Regulation 347 Waste Receivers Summary
+A search of the REC database, dated 1986-2013 has found that there are 2 REC site(s) within approximately 0.30 kilometers of the 
+project property. 
+Site
+Address
+Distance (m)
+Map Key
+A.G. SIMPSON LTD. 
+ 675 PROGRESS AVE.
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800744824-a 
+12
+12
+12
+12
+34
+34
+34
+34
+12
+34
+40
+34
+
+
+40
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+A.G. SIMPSON LTD. 
+675 PROGRESS AVE. 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-800419959-a 
+SCT - Scott's Manufacturing Directory
+A search of the SCT database, dated 1992-Mar 2011* has found that there are 57 SCT site(s) within approximately 0.30 kilometers of 
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+COOLTEC COOLERS CANADA 
+670 PROGRESS AVE UNIT 8
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-272316-a 
+MICROHOUSE SYSTEMS INC. 
+670 PROGRESS AVE 
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-300139935-a 
+Cases Unlimited Inc. 
+670 Progress Ave Unit 8
+Scarborough ON M1H 3A4  
+0.0
+m-1-800346639-a 
+Cases Unlimited Inc. 
+670 Progress Ave Unit 8
+Toronto ON M1H 3A4  
+0.0
+m-1-801871972-a 
+TORONTO SEWING CENTRE 
+670 PROGRESS AVE UNIT 8
+SCARBOROUGH ON M1H 3A4  
+0.0
+m-1-272131-a 
+Nedco Ontario 
+670 Progress Ave Unit 9
+Scarborough ON M1H 3A4  
+0.0
+m-1-803817353-a 
+Hankin Atlas Ozone Systems Ltd. 
+690 Progress Ave Unit 12
+Scarborough ON M1H 3A6  
+0.0
+m-4-800340264-a 
+Top Fashion Inc. 
+690 Progress Ave Unit 6
+Toronto ON M1H 3A6  
+0.0
+m-4-801874352-a 
+Ozocan Corporation 
+690 Progress Ave Unit 12
+Scarborough ON M1H 3A6  
+0.0
+m-4-801874861-a 
+HANKIN ATLAS OZONE SYSTEMS 
+LTD 
+690 PROGRESS AVE UNIT 12
+SCARBOROUGH ON M1H 3A6  
+0.0
+m-4-271690-a 
+Classique Manufacturing Inc. 
+690 Progress Ave Unit 4
+Scarborough ON M1H 3A6  
+0.0
+m-4-271820-a 
+CANADIAN STARS SPORTSWEAR 
+INC. 
+700 Progress Ave 
+Scarborough ON M1H 2Z7  
+30.5
+m-7-300357386-a 
+CRITICAL MACHINING 
+700 PROGRESS AVE UNIT 2
+SCARBOROUGH ON M1H 2Z7  
+30.5
+m-7-87706-a 
+Quick Circuits Inc. 
+700 Progress Ave Unit 13
+Scarborough ON M1H 2Z7  
+30.5
+m-7-281750-a 
+Gold-Tex Garment Manufacturing 
+700 Progress Ave Unit 3
+Scarborough ON M1H 2Z7  
+30.5
+m-7-801871729-a 
+Lema Printing Services Inc. 
+700 Progress Ave Unit 5
+Scarborough ON M1H 2Z7  
+30.5
+m-7-281692-a 
+Bowers Bindery Services Inc. 
+700 Progress Ave Unit 5
+Scarborough ON M1H 2Z7  
+30.5
+m-7-800679936-a 
+SCHROFF CANADA INC. 
+111 GRANGEWAY AVE UNIT 504
+SCARBOROUGH ON M1H 3E9  
+65.8
+m-12-87301-a 
+34
+1
+1
+1
+1
+1
+1
+4
+4
+4
+4
+4
+7
+7
+7
+7
+7
+7
+12
+
+
+41
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+Hoffman Enclosures Inc. 
+111 Grangeway Ave Suite 504
+Scarborough ON M1H 3E9  
+65.8
+m-12-800343301-a 
+ORGANON CANADA LTD. 
+200 CONSILIUM PL SUITE 700
+SCARBOROUGH ON M1H 3E4  
+70.1
+m-13-271036-a 
+Go 4 Color Cards Inc. 
+710 Progress Ave Unit 12
+Scarborough ON M1H 2X3  
+90.0
+m-14-800678013-a 
+Sports Lettering Company 
+710 Progress Ave 
+Scarborough ON M1H 2X3  
+90.0
+m-14-803829796-a 
+Atopone E & M Ltd. 
+68 Corporate Dr Suite 2032
+Toronto ON M1H 3H3  
+156.9
+m-32-803827537-a 
+FIRST BRANDS (CANADA) CORP. 
+100 CONSILIUM PL SUITE 500
+SCARBOROUGH ON M1H 3E3  
+157.2
+m-33-277080-a 
+SAP Lab 
+100 Consilium Pl Suite 400
+Scarborough ON M1H 3E3  
+157.2
+m-33-803816265-a 
+A.G. Simpson Co. Ltd. 
+675 Progress Ave 
+Scarborough ON M1H 2W9  
+157.2
+m-34-800338294-a 
+A.G. Simpson Automotive Inc. 
+675 Progress Ave 
+Scarborough ON M1H 2W9  
+157.2
+m-34-801451707-a 
+AGS Automotive Systems Inc. 
+675 Progress Ave 
+Scarborough ON M1H 2W9  
+157.2
+m-34-801867736-a 
+A.G. SIMPSON CO. LIMITED 
+675 PROGRESS AVE 
+SCARBOROUGH ON M1H 2W9  
+157.2
+m-34-266805-a 
+Organon Canada Ltd. 
+300 Consilium Pl Suite 1000
+Scarborough ON   
+157.9
+m-35-801868599-a 
+Co-Steel Inc. 
+300 Consilium Pl Suite 800
+Scarborough ON   
+157.9
+m-35-800341683-a 
+CO-STEEL INC. 
+300 Consilium Pl Suite 800
+Toronto ON M1H 3G2  
+157.9
+m-35-300349069-a 
+BICC CABLES COMPANY 
+300 CONSILIUM PL SUITE 300
+SCARBOROUGH ON M1H 3G2  
+157.9
+m-35-271085-a 
+Hitachi Data Systems Inc. 
+300 Consilium Pl Suite 1100
+Scarborough ON M1H 3G2  
+157.9
+m-35-801868327-a 
+ITC Systems Inc. 
+705 Progress Ave 
+Scarborough ON M1H 2X1  
+172.3
+m-37-86143-a 
+Business Printing Inc. 
+705 Progress Ave Unit 38
+Scarborough ON M1H 2X1  
+172.3
+m-37-802408323-a 
+VIBRATION TECHNOLOGY LTD. 
+705 Progress Ave Unit 61
+Scarborough ON M1H 2X1  
+172.3
+m-37-300353138-a 
+K D M ELECTRONICS INC. 
+705 PROGRESS AVE 
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-300046253-a 
+Die-X-Limited 
+705 Progress Ave Unit 39
+Scarborough ON M1H 2X1  
+172.3
+m-37-300353298-a 
+IMAGE VIDEO DIV. 1077541 ONT 
+705 PROGRESS AVE UNIT 46
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-270678-a 
+SOUTHERN NT LTD. 
+705 Progress Ave Unit 28
+Scarborough ON M1H 2X1  
+172.3
+m-37-300355577-a 
+12
+13
+14
+14
+32
+33
+33
+34
+34
+34
+34
+35
+35
+35
+35
+35
+37
+37
+37
+37
+37
+37
+37
+
+
+42
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+VT Commercial Amplifiers 
+705 Progress Ave Unit 61
+Scarborough ON M1H 2X1  
+172.3
+m-37-801868679-a 
+CLEANWEAR PRODUCTS LTD. 
+705 PROGRESS AVE UNIT 7
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-272064-a 
+TELEX COMMUNICATIONS LTD. 
+705 PROGRESS AVE UNIT 10
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-269786-a 
+SILENT GLISS CANADA LTD. 
+705 PROGRESS AVE 
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-300044079-a 
+GRASEBY/GORING KERR CANADA 
+INC 
+705 PROGRESS AVE UNIT 63
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-269353-a 
+Lawries Bindery Equipment Ltd. 
+705 Progress Ave Unit 2
+Scarborough ON M1H 2X1  
+172.3
+m-37-802408164-a 
+SOUTHERN N T LIMITED 
+705 PROGRESS AVE UNIT 28
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-281388-a 
+VIBRATION TECHNOLOGY LIMITED 
+705 PROGRESS AVE UNIT 61
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-271504-a 
+DIE-X-LTD. 
+705 PROGRESS AVE UNIT 39
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-272581-a 
+Avon Fluid System Technologies 
+705 Progress Ave Unit 55
+Scarborough ON M1H 2X1  
+172.3
+m-37-801868229-a 
+Drake-Infoproducts Inc. 
+705 Progress Ave Unit 6
+Scarborough ON M1H 2X1  
+172.3
+m-37-802407265-a 
+TRITON FASHION COMPANY 
+705 PROGRESS AVE UNIT 17
+SCARBOROUGH ON M1H 2X1  
+172.3
+m-37-275764-a 
+Avon Fluid Sytems Technologies Inc. 
+705 Progress Ave Unit 55
+Scarborough ON M1H 2X1  
+172.3
+m-37-800675552-a 
+TORONTO OXYGEN DIV OF LIQUID C
+720 PROGRESS AVE 
+SCARBOROUGH ON M1H 2X3  
+187.8
+m-40-16012723-a 
+THOMAS PRINTING 
+727 PROGRESS AVE 
+SCARBOROUGH ON M1H 2W7  
+278.4
+m-55-16047831-a 
+Agincourt Trophy & Gifts Ltd. 
+727 Progress Ave Unit A
+Scarborough ON M1H 2W7  
+278.4
+m-55-803829585-a 
+SPL - Ontario Spills
+A search of the SPL database, dated 1988-Dec 2016 has found that there are 15 SPL site(s) within approximately 0.30 kilometers of 
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+Macusi Wood Products<UNOFFICIAL> 
+690 Progress Avenue, Unit 14 
+Toronto ON M1H 2X3  
+0.0
+m-4-803960043-a 
+Telus Communications Inc. 
+200 Consilium Place 
+Toronto ON   
+70.1
+m-13-803302743-a 
+A.G. SIMPSON CO. LTD. 
+675 PROGRESS AVENUE SCARBOROUGH 
+PLANT                       675 PROGRESS 
+AVENUE
+TORONTO CITY ON   
+157.2
+m-34-169707-a 
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+37
+40
+55
+55
+4
+13
+34
+
+
+43
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+A.G. SIMPSON CO. LTD. 
+675 PROGRESS AVE. IN SCARBOROUGH 
+SCARBOROUGH PLANT                       675 
+PROGRESS AVENUE
+TORONTO CITY ON   
+157.2
+m-34-320589-a 
+ 
+675 Progress Ave 
+Toronto ON M1H 2W9  
+157.2
+m-34-827320437-a 
+A.G. Simpson Automotive Inc. 
+675 Progress Avenue 675 PROGRESS 
+AVENUE
+Toronto ON M1H 2W9  
+157.2
+m-34-803088738-a 
+A.G. SIMPSON CO. LTD. 
+675 PROGRESS AVE SCARBOROUGH 
+PLANT                       675 PROGRESS 
+AVENUE
+TORONTO CITY ON   
+157.2
+m-34-166821-a 
+A.G. SIMPSON CO. LTD. 
+675 PROGRESS AVENUE SCARBOROUGH 
+PLANT 675 PROGRESS AVENUE
+TORONTO ON   
+157.2
+m-34-300360339-a 
+Oxford Properties Group Toronto, 
+Ontario M5J 2X8<UNOFFICIAL> 
+300 Consilium Place  
+Toronto ON M1H 3G2  
+157.9
+m-35-803075224-a 
+ 
+705 Progress Ave 
+Toronto ON M1H 2X1  
+172.3
+m-37-803834326-a 
+UNKNOWN 
+721 PROGRESS (SEWER) 
+TORONTO CITY ON M1H 2W7  
+194.9
+m-42-163307-a 
+Toronto Transit Commission 
+At the intersection of Triton and McCowan 
+Toronto ON   
+234.9
+m-45-803525710-a 
+ 
+108 Corporate Drive 
+Toronto ON M1H 3H9  
+255.9
+m-49-804330962-a 
+ 
+McCowan Rd and Consilium Place 
+Toronto ON   
+276.7
+m-54-848860269-a 
+Toronto Transit Commission 
+southbound at McCowan Rd. and Consilium 
+Pl. 
+Toronto ON   
+290.0
+m-58-827316771-a 
+WWIS - Water Well Information System
+A search of the WWIS database, dated Jun 30, 2016 has found that there are 15 WWIS site(s) within approximately 0.30 kilometers of 
+the project property. 
+Site
+Address
+Distance (m)
+Map Key
+ 
+ 
+ ON   
+0.0
+m-3-848820885-a 
+ 
+ 
+TORONTO ON   
+99.5
+m-15-803841690-a 
+ 
+ 
+SCARBOROUGH ON   
+109.3
+m-18-804889314-a 
+ 
+ 
+SCARBOROUGH ON   
+134.8
+m-21-803235245-a 
+ 
+ 
+SCARBOROUGH ON   
+135.5
+m-22-803367938-a 
+ 
+ 
+Toronto ON   
+255.4
+m-48-848799655-a 
+ 
+ 
+Toronto ON   
+256.2
+m-50-848799653-a 
+34
+34
+34
+34
+34
+35
+37
+42
+45
+49
+54
+58
+3
+15
+18
+21
+22
+48
+50
+
+
+44
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+Site
+Address
+Distance (m)
+Map Key
+ 
+ 
+Toronto ON   
+256.2
+m-50-848799654-a 
+ 
+ 
+TORONTO ON   
+272.1
+m-53-802991728-a 
+ 
+ 
+SCARBOROUGH ON   
+286.0
+m-56-802171450-a 
+ 
+ 
+TORONTO ON   
+286.6
+m-57-802627663-a 
+ 
+ 
+SCARBOROUGH ON   
+291.8
+m-59-803235264-a 
+ 
+ 
+Toronto ON   
+293.0
+m-60-803936641-a 
+ 
+ 
+Toronto ON   
+295.0
+m-62-803936640-a 
+ 
+ 
+Toronto ON   
+296.1
+m-64-803936639-a 
+50
+53
+56
+57
+59
+60
+62
+64
+
+
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#* #*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+#*
+m8c
+m3c
+m64c
+m63c
+m62c
+m61c
+m60c
+m59c
+m58c
+m57c
+m56c
+m54c
+m53c
+m51c
+m49c
+m48c
+m47c
+m46c
+m45c
+m44c
+m43c
+m41c
+m39c
+m38c
+m36c
+m32c
+m31c
+m29c
+m28c
+m26c
+m25c
+m22c
+m21c
+m20c
+m18c
+m16c
+m15c
+m11c
+m10c
+m9c(3)
+m6c(3)
+m5c(3)
+m2c(6)
+m55c(4)
+m52c(2)
+m50c(2)
+m40c(2)
+m30c(2)
+m23c(3)
+m19c(3)
+m17c(3)
+m7c(38)
+m4c(10)
+m1c(26)
+m42c(10)
+m37c(45)
+m35c(14)
+m34c(72)
+m33c(23)
+m27c(16)
+m24c(21)
+m14c(11)
+m13c(24)
+m12c(17)
+MCCOWAN RD
+HIGHWAY 401
+PROGRESS AVE
+CORPORATE DR
+TRITON RD
+CONSILIUM PL
+ELLESMERE RD
+BUSHBY DR
+TOYOTA PL
+GRANGEWAY AVE
+BOROUGH DR
+HIGHWAY 401 (EXPRESS TO COLLECTORS)
+TOWN CENTRE CRT
+BELLAMY RD N
+LEE CENTRE DR
+HIGHWAY 401
+HIGHWAY 401
+79°15'W
+43°46'30"N
+43°46'30"N
+Project Property
+Buffer Outline
+#*
+Eris Sites with Higher Elevation
+")
+Eris Sites with Same Elevation
+#*
+Eris Sites with Lower Elevation
+(
+Eris Sites with Unknown Elevation
+Expressway
+Principal Highway
+Secondary Highway
+Major Road
+Local road
+Trail
+Proposed Road
+Ferry Route/Ice Road
+Industrial and Resource - Regions
+Main Line
+Sidetrack
+Transit Line
+Abandoned Line
+National Park
+Provincial or Territorial Park
+Other Park
+Golf Course or Driving Range
+Park or Sports Field
+Other Recreation Area
+140
+0
+140
+70
+m
+Order No: 20170208162
+Map : 0.3 Kilometer Radius
+1:4900
+Address: 670 Progress Ave Toronto On, Toronto, ON, M1H3A4
+Source:  © 2015 DMTI Spatial Inc.
+© ERIS Information Limited Partnership
+8
+3
+64
+63
+62
+61
+60
+59
+58
+57
+56
+54
+53
+51
+49
+48
+47
+46
+45
+44
+43
+41
+39
+38
+36
+32
+31
+29
+28
+26
+25
+22
+21
+20
+18
+16
+15
+11
+10
+9 (3)
+6 (3)
+5 (3)
+2 (6)
+55 (4)
+52 (2)
+50 (2)
+40 (2)
+30 (2)
+23 (3)
+19 (3)
+17 (3)
+7
+(38)
+4
+(10)
+1
+(26)
+42 (10)
+37 (45)
+35 (14)
+34 (72)
+33 (23)
+27 (16)
+24 (21)
+14 (11)
+13 (24)
+12 (17)
+
+
+ Source: Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus
+DS, USDA, USGS, AeroGRID, IGN, and the GIS User Community
+79°15'W
+43°46'30"N
+43°46'30"N
+250
+0
+250
+125
+m
+Order No: 20170208162
+Aerial
+1:10000
+Address: 670 Progress Ave Toronto On, Toronto, ON, M1H3A4
+© ERIS Information Limited Partnership
+Source: ESRI World Imagery
+
+
+Sources: Esri, HERE, DeLorme, Intermap, increment P Corp., GEBCO,
+USGS, FAO, NPS, NRCAN, GeoBase, IGN, Kadaster NL, Ordnance Survey,
+Esri Japan, METI, Esri China (Hong Kong), swisstopo, MapmyIndia, ©
+OpenStreetMap contributors, and the GIS User Community
+79°15'W
+43°46'30"N
+43°46'30"N
+250
+0
+250
+125
+m
+Order No: 20170208162
+Topographic Map
+1:10000
+Address: 670 Progress Ave Toronto On, Toronto, ON, M1H3A4
+© ERIS Information Limited Partnership
+Source: ESRI World Topographic Map
+
+
+48
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+h-Detail Report
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-1-800880373-b 
+1 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVENUE 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-800880373-bb
+p-800880373-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+99,00,01
+SIC Code:
+9911
+SIC Description:
+IND. MACH. RENTAL
+ 
+--Details--
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+m-1-800857032-b 
+2 of 26
+-/0.0
+159.8
+ANRO ELECTRONIC IND.(LEECRAFT LTD)
+670 PROGRESS AVENUE 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-800857032-bb
+p-800857032-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0404802
+Approval Yrs::
+88
+SIC Code:
+0000
+SIC Description:
+*** NOT DEFINED ***
+ 
+m-1-808973916-b 
+3 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-808973916-bb
+p-808973916-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+2010
+SIC Code:
+417230
+SIC Description:
+Industrial Machinery Equipment and Supplies Wholesaler-Distributors
+ 
+--Details--
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+1
+1
+1
+GEN
+GEN
+GEN
+Detail Report
+
+
+49
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-1-804066190-b 
+4 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-804066190-bb
+p-804066190-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+2009
+SIC Code:
+417230
+SIC Description:
+Industrial Machinery Equipment and Supplies Wholesaler-Distributors
+ 
+--Details--
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+m-1-800880372-b 
+5 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH)LTD.        02-798
+670 PROGRESS AVENUE 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-800880372-bb
+p-800880372-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+93,94,95,96,97,98
+SIC Code:
+9911
+SIC Description:
+IND. MACH. RENTAL
+ 
+--Details--
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+m-1-809000410-b 
+6 of 26
+-/0.0
+159.8
+Oxford College of Arts, Business And 
+Technology In
+670 Progress Ave, Unit 1 
+Scarborough  ON M1H 3A4
+dd-GEN-809000410-bb
+p-809000410-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON5611354
+Approval Yrs::
+2011
+SIC Code:
+611690
+SIC Description:
+All Other Schools and Instruction
+ 
+--Details--
+Waste Code:
+312
+Waste Description:
+PATHOLOGICAL WASTES
+ 
+Waste Code:
+261
+Waste Description:
+PHARMACEUTICALS
+ 
+1
+1
+1
+GEN
+GEN
+GEN
+
+
+50
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+Waste Code:
+264
+Waste Description:
+PHOTOPROCESSING WASTES
+ 
+m-1-800880374-b 
+7 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-800880374-bb
+p-800880374-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+     02,03,04,05,06,07,08
+SIC Code:
+SIC Description:
+ 
+--Details--
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+m-1-800857033-b 
+8 of 26
+-/0.0
+159.8
+LEECRAFT INDUSTRIES LIMITED
+FORMERLY:  ANRO ELECTRIC 670 PROGRESS 
+AVE., UNIT #1
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-800857033-bb
+p-800857033-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0404802
+Approval Yrs::
+89,90
+SIC Code:
+3352
+SIC Description:
+ELECT. PARTS & COMP.
+ 
+--Details--
+Waste Code:
+145
+Waste Description:
+PAINT/PIGMENT/COATING RESIDUES
+ 
+Waste Code:
+212
+Waste Description:
+ALIPHATIC SOLVENTS
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+Waste Code:
+267
+Waste Description:
+ORGANIC ACIDS
+ 
+m-1-800857034-b 
+9 of 26
+-/0.0
+159.8
+LEECRAFT INDUSTRIES LIMITED       24-633
+FORMERLY:  ANRO ELECTRIC 670 PROGRESS 
+AVE., UNIT #1
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-800857034-bb
+p-800857034-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0404802
+Approval Yrs::
+92,93,94,95,96,97,98
+1
+1
+1
+GEN
+GEN
+GEN
+
+
+51
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+SIC Code:
+3352
+SIC Description:
+ELECT. PARTS & COMP.
+ 
+--Details--
+Waste Code:
+145
+Waste Description:
+PAINT/PIGMENT/COATING RESIDUES
+ 
+Waste Code:
+212
+Waste Description:
+ALIPHATIC SOLVENTS
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+Waste Code:
+267
+Waste Description:
+ORGANIC ACIDS
+ 
+m-1-808971594-b 
+10 of 26
+-/0.0
+159.8
+Oxford College of Arts, Business And 
+Technology In
+670 Progress Ave, Unit 1 
+Scarborough  ON M1H 3A4
+dd-GEN-808971594-bb
+p-808971594-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON5611354
+Approval Yrs::
+2010
+SIC Code:
+611690
+SIC Description:
+All Other Schools and Instruction
+ 
+--Details--
+Waste Code:
+264
+Waste Description:
+PHOTOPROCESSING WASTES
+ 
+Waste Code:
+312
+Waste Description:
+PATHOLOGICAL WASTES
+ 
+Waste Code:
+261
+Waste Description:
+PHARMACEUTICALS
+ 
+m-1-809000696-b 
+11 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-809000696-bb
+p-809000696-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+2011
+SIC Code:
+417230
+SIC Description:
+Industrial Machinery Equipment and Supplies Wholesaler-Distributors
+ 
+--Details--
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+1
+1
+GEN
+GEN
+
+
+52
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-1-814162821-b 
+12 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-814162821-bb
+p-814162821-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+2012
+SIC Code:
+417230
+SIC Description:
+Industrial Machinery Equipment and Supplies Wholesaler-Distributors
+ 
+--Details--
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+m-1-850302324-b 
+13 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-850302324-bb
+p-850302324-y 
+PO Box Num:
+Status:
+Registered
+Country:
+Canada
+Generator #:
+ON0769702
+Approval Yrs::
+As of Sep 2016
+SIC Code:
+SIC Description:
+ 
+--Details--
+Waste Code:
+252 L
+Waste Description:
+Waste crankcase oils and lubricants
+ 
+Waste Code:
+212 L
+Waste Description:
+Aliphatic solvents and residues
+ 
+Waste Code:
+213 L
+Waste Description:
+Petroleum distillates
+ 
+m-1-814145740-b 
+14 of 26
+-/0.0
+159.8
+INVAR BUILDING CORPORATION
+670 PROGRESS AVENUE UNIT 11 
+SCARBOROUGH  ON 
+dd-GEN-814145740-bb
+p-814145740-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON7074250
+Approval Yrs::
+2012
+SIC Code:
+561990
+SIC Description:
+All Other Support Services
+ 
+m-1-850301963-b 
+15 of 26
+-/0.0
+159.8
+Oxford College of Arts, Business And 
+Technology In
+670 Progress Ave, Unit 1 
+Scarborough  ON M1H3A4
+dd-GEN-850301963-bb
+p-850301963-y 
+1
+1
+1
+1
+GEN
+GEN
+GEN
+GEN
+
+
+53
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+PO Box Num:
+Status:
+Registered
+Country:
+Canada
+Generator #:
+ON5611354
+Approval Yrs::
+As of Sep 2016
+SIC Code:
+SIC Description:
+ 
+--Details--
+Waste Code:
+148 B
+Waste Description:
+Misc. wastes and inorganic chemicals
+ 
+Waste Code:
+261 A
+Waste Description:
+Pharmaceuticals
+ 
+Waste Code:
+312 P
+Waste Description:
+Pathological wastes
+ 
+Waste Code:
+264 L
+Waste Description:
+Photoprocessing wastes
+ 
+m-1-821720901-b 
+16 of 26
+-/0.0
+159.8
+Oxford College of Arts, Business And 
+Technology In
+670 Progress Ave, Unit 1 
+Scarborough  ON 
+dd-GEN-821720901-bb
+p-821720901-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON5611354
+Approval Yrs::
+2013
+SIC Code:
+611690
+SIC Description:
+ALL OTHER SCHOOLS AND INSTRUCTION
+ 
+--Details--
+Waste Code:
+261
+Waste Description:
+PHARMACEUTICALS
+ 
+Waste Code:
+312
+Waste Description:
+PATHOLOGICAL WASTES
+ 
+Waste Code:
+264
+Waste Description:
+PHOTOPROCESSING WASTES
+ 
+Waste Code:
+148
+Waste Description:
+INORGANIC LABORATORY CHEMICALS
+ 
+m-1-803698231-b 
+17 of 26
+-/0.0
+159.8
+Oxford College of Arts, Business And 
+Technology In
+670 Progress Ave, Unit 1 
+Scarborough  ON M1H 3A4
+dd-GEN-803698231-bb
+p-803698231-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON5611354
+Approval Yrs::
+As of May 2015
+SIC Code:
+SIC Description:
+1
+1
+GEN
+GEN
+
+
+54
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+ 
+--Details--
+Waste Code:
+312
+Waste Description:
+Pathological wastes
+ 
+Waste Code:
+261
+Waste Description:
+Pharmaceuticals
+ 
+Waste Code:
+264
+Waste Description:
+Photoprocessing wastes
+ 
+Waste Code:
+148
+Waste Description:
+Misc. wastes and inorganic chemicals
+ 
+m-1-821705203-b 
+18 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON 
+dd-GEN-821705203-bb
+p-821705203-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+2013
+SIC Code:
+417230
+SIC Description:
+INDUSTRIAL MACHINERY, EQUIPMENT AND SUPPLIES WHOLESALER-DISTRIBUTORS
+ 
+--Details--
+Waste Code:
+212
+Waste Description:
+ALIPHATIC SOLVENTS
+ 
+Waste Code:
+252
+Waste Description:
+WASTE OILS & LUBRICANTS
+ 
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+m-1-803021426-b 
+19 of 26
+-/0.0
+159.8
+ALL-LIFT (SCARBOROUGH) LIMITED
+670 PROGRESS AVE. UNIT 12 
+SCARBOROUGH  ON M1H 3A4
+dd-GEN-803021426-bb
+p-803021426-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0769702
+Approval Yrs::
+As of May 2015
+SIC Code:
+SIC Description:
+ 
+--Details--
+Waste Code:
+252
+Waste Description:
+Waste crankcase oils and lubricants
+ 
+Waste Code:
+213
+Waste Description:
+Petroleum distillates
+ 
+Waste Code:
+212
+Waste Description:
+Aliphatic solvents and residues
+ 
+1
+1
+GEN
+GEN
+
+
+55
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-1-814148211-b 
+20 of 26
+-/0.0
+159.8
+Oxford College of Arts, Business And 
+Technology In
+670 Progress Ave, Unit 1 
+Scarborough  ON M1H 3A4
+dd-GEN-814148211-bb
+p-814148211-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON5611354
+Approval Yrs::
+2012
+SIC Code:
+611690
+SIC Description:
+All Other Schools and Instruction
+ 
+--Details--
+Waste Code:
+312
+Waste Description:
+PATHOLOGICAL WASTES
+ 
+Waste Code:
+261
+Waste Description:
+PHARMACEUTICALS
+ 
+Waste Code:
+264
+Waste Description:
+PHOTOPROCESSING WASTES
+ 
+m-1-272316-b 
+21 of 26
+-/0.0
+159.8
+COOLTEC COOLERS CANADA
+670 PROGRESS AVE UNIT 8
+SCARBOROUGH  ON M1H 3A4
+dd-SCT-272316-bb
+p-272316-y 
+Established:
+1978
+Plant Size (ft²):
+6000
+Employment:
+8
+ 
+--Details--
+Description:
+TEXTILE BAGS
+SIC/NAICS Code:
+2393
+ 
+Description:
+PLASTICS PRODUCTS, NOT ELSEWHERE CLASSIFIED
+SIC/NAICS Code:
+3089
+ 
+m-1-300139935-b 
+22 of 26
+-/0.0
+159.8
+MICROHOUSE SYSTEMS INC.
+670 PROGRESS AVE 
+SCARBOROUGH  ON M1H 3A4
+dd-SCT-300139935-bb
+p-300139935-y 
+Established:
+1986
+Plant Size (ft²):
+2000
+Employment:
+8
+ 
+--Details--
+Description:
+COMPUTER PERIPHERAL EQUIPMENT, N.E.C.
+SIC/NAICS Code:
+3577
+ 
+Description:
+PREPACKAGED SOFTWARE
+SIC/NAICS Code:
+7372
+ 
+Description:
+COMPUTER RENTAL & LEASING
+SIC/NAICS Code:
+7377
+ 
+1
+1
+1
+GEN
+SCT
+SCT
+
+
+56
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-1-800346639-b 
+23 of 26
+-/0.0
+159.8
+Cases Unlimited Inc.
+670 Progress Ave Unit 8
+Scarborough  ON M1H 3A4
+dd-SCT-800346639-bb
+p-800346639-y 
+Established:
+1989
+Plant Size (ft²):
+Employment:
+ 15
+ 
+--Details--
+Description:
+All Other Wholesaler-Distributors
+SIC/NAICS Code:
+418990
+ 
+Description:
+Textile Bag and Canvas Mills
+SIC/NAICS Code:
+314910
+ 
+Description:
+All Other Plastic Product Manufacturing
+SIC/NAICS Code:
+326198
+ 
+Description:
+Other Metal Container Manufacturing
+SIC/NAICS Code:
+332439
+ 
+m-1-801871972-b 
+24 of 26
+-/0.0
+159.8
+Cases Unlimited Inc.
+670 Progress Ave Unit 8
+Toronto  ON M1H 3A4
+dd-SCT-801871972-bb
+p-801871972-y 
+Established:
+01-JUN-89
+Plant Size (ft²):
+6000
+Employment:
+ 
+--Details--
+Description:
+Other Metal Container Manufacturing
+SIC/NAICS Code:
+332439
+ 
+Description:
+All Other Plastic Product Manufacturing
+SIC/NAICS Code:
+326198
+ 
+Description:
+Textile Bag and Canvas Mills
+SIC/NAICS Code:
+314910
+ 
+Description:
+All Other Wholesaler-Distributors
+SIC/NAICS Code:
+418990
+ 
+m-1-272131-b 
+25 of 26
+-/0.0
+159.8
+TORONTO SEWING CENTRE
+670 PROGRESS AVE UNIT 8
+SCARBOROUGH  ON M1H 3A4
+dd-SCT-272131-bb
+p-272131-y 
+Established:
+1972
+Plant Size (ft²):
+7000
+Employment:
+16
+ 
+--Details--
+Description:
+CANVAS AND RELATED PRODUCTS
+SIC/NAICS Code:
+2394
+ 
+Description:
+FABRICATED TEXTILE PRODUCTS, NOT ELSEWHERE CLASSIFIED
+SIC/NAICS Code:
+2399
+ 
+1
+1
+1
+SCT
+SCT
+SCT
+
+
+57
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-1-803817353-b 
+26 of 26
+-/0.0
+159.8
+Nedco Ontario
+670 Progress Ave Unit 9
+Scarborough  ON M1H 3A4
+dd-SCT-803817353-bb
+p-803817353-y 
+Established:
+01-SEP-96
+Plant Size (ft²):
+4600
+Employment:
+ 
+--Details--
+Description:
+Electrical Wiring and Construction Supplies Wholesaler-Distributors
+SIC/NAICS Code:
+416110
+ 
+Description:
+Electronic Components, Navigational and Communications Equipment and Supplies Wholesaler-Distributors
+SIC/NAICS Code:
+417320
+ 
+Description:
+Metal Service Centres
+SIC/NAICS Code:
+416210
+ 
+Description:
+Electrical Wiring and Construction Supplies Wholesaler-Distributors
+SIC/NAICS Code:
+416110
+ 
+Description:
+Industrial Machinery, Equipment and Supplies Wholesaler-Distributors
+SIC/NAICS Code:
+417230
+ 
+m-2-800861176-b 
+1 of 6
+-/0.0
+157.8
+MODU-TRONICS INC (OUT OF BUSINESS)27-347
+680 PROGRESS AVE. 
+SCARBOROUGH  ON M1H 3A5
+dd-GEN-800861176-bb
+p-800861176-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0466301
+Approval Yrs::
+92,93,94,95,96,97,98
+SIC Code:
+3259
+SIC Description:
+OTHER VEHICLE ACCES.
+ 
+m-2-800861175-b 
+2 of 6
+-/0.0
+157.8
+MODU-TRONICS INC (OUT OF BUSINESS)
+680 PROGRESS AVE. 
+SCARBOROUGH  ON M1H 3A5
+dd-GEN-800861175-bb
+p-800861175-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0466301
+Approval Yrs::
+89,90
+SIC Code:
+3259
+SIC Description:
+OTHER VEHICLE ACCES.
+ 
+--Details--
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+m-2-800861174-b 
+3 of 6
+-/0.0
+157.8
+MODU-TRONICS INC.
+ 680 PROGRESS AVE.
+SCARBOROUGH  ON M1H 3A5
+dd-GEN-800861174-bb
+p-800861174-y 
+PO Box Num:
+Status:
+Country:
+1
+2
+2
+2
+SCT
+GEN
+GEN
+GEN
+
+
+58
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+Generator #:
+ON0466301
+Approval Yrs::
+86,87,88
+SIC Code:
+3259
+SIC Description:
+OTHER VEHICLE ACCES.
+ 
+--Details--
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+m-2-800856135-b 
+4 of 6
+-/0.0
+157.8
+GAYA INDUSTRIES LTD.
+ 680 PROGRESS AVENUE, UNIT 11
+SCARBOROUGH  ON M1H 3A5
+dd-GEN-800856135-bb
+p-800856135-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0389600
+Approval Yrs::
+86,87,88,89,90,92,93,94
+SIC Code:
+0000
+SIC Description:
+*** NOT DEFINED ***
+ 
+m-2-800897861-b 
+5 of 6
+-/0.0
+157.8
+EXCELL SCREEN PRINTING
+680 PROGRESS AVE. #5 
+SCARBOROUGH  ON M1H 3A5
+dd-GEN-800897861-bb
+p-800897861-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON1149100
+Approval Yrs::
+89
+SIC Code:
+2819
+SIC Description:
+OTHER COMM. PRINTING
+ 
+--Details--
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+m-2-800897862-b 
+6 of 6
+-/0.0
+157.8
+EXCELL SCREEN PRINTING            14-704
+680 PROGRESS AVE. #5 
+SCARBOROUGH  ON M1H 3A5
+dd-GEN-800897862-bb
+p-800897862-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON1149100
+Approval Yrs::
+92,93,94,95,96,97,98
+SIC Code:
+2819
+SIC Description:
+OTHER COMM. PRINTING
+ 
+--Details--
+Waste Code:
+213
+Waste Description:
+PETROLEUM DISTILLATES
+ 
+m-3-848820885-b 
+1 of 1
+-/0.0
+159.7
+ 
+  ON 
+dd-WWIS-848820885-bb
+p-848820885-y 
+2
+2
+2
+3
+GEN
+GEN
+GEN
+WWIS
+
+
+59
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+ Well ID: 
+7252859
+Lot:
+ Construction Date:: 
+Concession:
+ Primary Water Use:: 
+Concession Name:
+ Sec. Water Use:: 
+Easting NAD83::
+ Final Well Status:: 
+Northing NAD83::
+ Specific Capacity:: 
+Zone::
+ Municipality: 
+SCARBOROUGH BOROUGH
+UTM Reliability::
+ County: 
+YORK
+ 
+Bore Hole Information
+--
+--
+Bore Hole ID:
+1005813093
+DP2BR:
+Code OB:
+Code OB Description:
+Open Hole:
+Date Completed:
+05-AUG-15
+Remarks:
+Zone:
+17
+East 83:
+640856
+North 83:
+4848763
+UTMRC:
+4
+UTMRC Description:
+margin of error : 30 m - 100 m
+Location Method:
+wwr
+Org CS:
+UTM83
+Elevation:
+Elevrc:
+Elevrc Description:
+Location Source Date:
+Source Revision Comment:
+Improvement Location Source:
+Improvement Location Method:
+Supplier Comment:
+Spatial Status:
+--
+--
+--
+--
+m-4-800868753-b 
+1 of 10
+-/0.0
+157.0
+CREST CIRCUIT COMPANY LIMITED
+ 690 PROGRESS AVENUE; UNIT 10,
+SCARBOROUGH,  ON M1H 3A6
+dd-GEN-800868753-bb
+p-800868753-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0558700
+Approval Yrs::
+86,87,88,89
+SIC Code:
+3352
+SIC Description:
+ELECT. PARTS & COMP.
+ 
+--Details--
+Waste Code:
+121
+Waste Description:
+ALKALINE WASTES - HEAVY METALS
+ 
+Waste Code:
+131
+Waste Description:
+NEUTRALIZED WASTES - HEAVY METALS
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+m-4-800868755-b 
+2 of 10
+-/0.0
+157.0
+CREST (OUT OF BUS)                11-168
+690 PROGRESS AVENUE, UNIT 10 
+SCARBOROUGH  ON M1H 3A6
+dd-GEN-800868755-bb
+p-800868755-y 
+4
+4
+GEN
+GEN
+
+
+60
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0558700
+Approval Yrs::
+92,93,94,95,96,97,98
+SIC Code:
+3352
+SIC Description:
+ELECT. PARTS & COMP.
+ 
+--Details--
+Waste Code:
+112
+Waste Description:
+ACID WASTE - HEAVY METALS
+ 
+Waste Code:
+121
+Waste Description:
+ALKALINE WASTES - HEAVY METALS
+ 
+Waste Code:
+131
+Waste Description:
+NEUTRALIZED WASTES - HEAVY METALS
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+m-4-800842566-b 
+3 of 10
+-/0.0
+157.0
+MILMAC COMMUNICATIONS INC.
+690 PROGRESS AVE., SUITE 7 
+SCARBOROUGH  ON M1H 3A6
+dd-GEN-800842566-bb
+p-800842566-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0217400
+Approval Yrs::
+86,87,88,89,90,92,93,94
+SIC Code:
+0000
+SIC Description:
+*** NOT DEFINED ***
+ 
+m-4-800868754-b 
+4 of 10
+-/0.0
+157.0
+CREST CIRCUIT COMPANY LIMITED
+690 PROGRESS AVENUE, UNIT 10 
+SCARBOROUGH  ON M1H 3A6
+dd-GEN-800868754-bb
+p-800868754-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0558700
+Approval Yrs::
+90
+SIC Code:
+3352
+SIC Description:
+ELECT. PARTS & COMP.
+ 
+--Details--
+Waste Code:
+112
+Waste Description:
+ACID WASTE - HEAVY METALS
+ 
+Waste Code:
+121
+Waste Description:
+ALKALINE WASTES - HEAVY METALS
+ 
+Waste Code:
+131
+Waste Description:
+NEUTRALIZED WASTES - HEAVY METALS
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+4
+4
+GEN
+GEN
+
+
+61
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-4-800340264-b 
+5 of 10
+-/0.0
+157.0
+Hankin Atlas Ozone Systems Ltd.
+690 Progress Ave Unit 12
+Scarborough  ON M1H 3A6
+dd-SCT-800340264-bb
+p-800340264-y 
+Established:
+1988
+Plant Size (ft²):
+  9000
+Employment:
+ 17
+ 
+m-4-271820-b 
+6 of 10
+-/0.0
+157.0
+Classique Manufacturing Inc.
+690 Progress Ave Unit 4
+Scarborough  ON M1H 3A6
+dd-SCT-271820-bb
+p-271820-y 
+Established:
+9/1/1986
+Plant Size (ft²):
+3300
+Employment:
+ 
+--Details--
+Description:
+Other Women's and Girls' Cut and Sew Clothing Manufacturing
+SIC/NAICS Code:
+315239
+ 
+Description:
+Clothing and Clothing Accessories Wholesaler-Distributors
+SIC/NAICS Code:
+414110
+ 
+Description:
+Other Men's and Boys' Cut and Sew Clothing Manufacturing
+SIC/NAICS Code:
+315229
+ 
+Description:
+Other Men's and Boys' Cut and Sew Clothing Manufacturing
+SIC/NAICS Code:
+315229
+ 
+Description:
+Cut and Sew Clothing Contracting
+SIC/NAICS Code:
+315210
+ 
+m-4-801874352-b 
+7 of 10
+-/0.0
+157.0
+Top Fashion Inc.
+690 Progress Ave Unit 6
+Toronto  ON M1H 3A6
+dd-SCT-801874352-bb
+p-801874352-y 
+Established:
+01-AUG-99
+Plant Size (ft²):
+Employment:
+ 
+--Details--
+Description:
+Other Men's and Boys' Cut and Sew Clothing Manufacturing
+SIC/NAICS Code:
+315229
+ 
+Description:
+Men's and Boys' Cut and Sew Suit, Coat and Overcoat Manufacturing
+SIC/NAICS Code:
+315222
+ 
+Description:
+Women's and Girls' Cut and Sew Suit, Coat, Tailored Jacket and Skirt Manufacturing
+SIC/NAICS Code:
+315234
+ 
+Description:
+Cut and Sew Clothing Contracting
+SIC/NAICS Code:
+315210
+ 
+Description:
+Other Women's and Girls' Cut and Sew Clothing Manufacturing
+SIC/NAICS Code:
+315239
+ 
+m-4-801874861-b 
+8 of 10
+-/0.0
+157.0
+Ozocan Corporation
+dd-SCT-801874861-bb
+p-801874861-y 
+4
+4
+4
+4
+SCT
+SCT
+SCT
+SCT
+
+
+62
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+690 Progress Ave Unit 12
+Scarborough  ON M1H 3A6
+Established:
+01-AUG-04
+Plant Size (ft²):
+3000
+Employment:
+ 
+--Details--
+Description:
+Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing
+SIC/NAICS Code:
+333413
+ 
+Description:
+Measuring, Medical and Controlling Devices Manufacturing
+SIC/NAICS Code:
+334512
+ 
+Description:
+Commercial and Service Industry Machinery Manufacturing
+SIC/NAICS Code:
+333310
+ 
+Description:
+All Other Industrial Machinery Manufacturing
+SIC/NAICS Code:
+333299
+ 
+m-4-271690-b 
+9 of 10
+-/0.0
+157.0
+HANKIN ATLAS OZONE SYSTEMS LTD
+690 PROGRESS AVE UNIT 12
+SCARBOROUGH  ON M1H 3A6
+dd-SCT-271690-bb
+p-271690-y 
+Established:
+1988
+Plant Size (ft²):
+2750
+Employment:
+12
+ 
+--Details--
+Description:
+CHEMICALS AND CHEMICAL PREPARATIONS, NOT ELSEWHERE CLASSIFIED
+SIC/NAICS Code:
+2899
+ 
+Description:
+FARM MACHINERY AND EQUIPMENT
+SIC/NAICS Code:
+3523
+ 
+Description:
+SPECIAL INDUSTRY MACHINERY, NOT ELSEWHERE CLASSIFIED
+SIC/NAICS Code:
+3559
+ 
+Description:
+AIR AND GAS COMPRESSORS
+SIC/NAICS Code:
+3563
+ 
+Description:
+GENERAL INDUSTRIAL MACHINERY AND EQUIPMENT, NOT ELSEWHERE CLASSIFIED
+SIC/NAICS Code:
+3569
+ 
+Description:
+SERVICE INDUSTRY MACHINERY, NOT ELSEWHERE CLASSIFIED
+SIC/NAICS Code:
+3589
+ 
+Description:
+All Other Miscellaneous Chemical Product Manufacturing
+SIC/NAICS Code:
+325999
+ 
+Description:
+Agricultural Implement Manufacturing
+SIC/NAICS Code:
+333110
+ 
+Description:
+Commercial and Service Industry Machinery Manufacturing
+SIC/NAICS Code:
+333310
+ 
+Description:
+Pump and Compressor Manufacturing
+SIC/NAICS Code:
+333910
+ 
+Description:
+All Other General-Purpose Machinery Manufacturing
+SIC/NAICS Code:
+333990
+ 
+4
+SCT
+
+
+63
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-4-803960043-b 
+10 of 10
+-/0.0
+157.0
+Macusi Wood Products<UNOFFICIAL>
+690 Progress Avenue, Unit 14 
+Toronto  ON M1H 2X3
+dd-SPL-803960043-bb
+p-803960043-y 
+Ref No:
+5820-8P6LPW
+Contaminant Code:
+Contaminant Name:
+Contaminant Quantity:
+Incident Cause:
+Unknown
+Incident Dt:
+12/2/2011
+Incident Reason:
+Unknown - Reason not determined
+Incident Summary:
+Waste oil to grnd; unkn qty; cntnd and clng
+MOE Reported Dt:
+12/2/2011
+Environmental Impact:
+Not Anticipated
+Nature of Impact:
+Surface Water Pollution
+Receiving Medium:
+Sewage - Municipal/Private and Commercial
+SAC Action Class:
+Pollution Incident Reports (PIRs) and ¿Other¿ calls
+Sector Source Type:
+Unknown
+Receiving Environment:
+Incident Event:
+Site Municipality:
+Toronto
+ 
+m-5-802349985-b 
+1 of 3
+W/17.2
+159.8
+OXFORD PROPERTIES GROUP
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4
+dd-NPRI-802349985-bb
+p-802349985-y 
+Longitude:
+-79.2509
+NPRI #:
+0000010784
+Year:
+2005
+Latitude:
+43.7781
+ 
+--Details--
+Units:
+tonnes
+Air:
+.551
+Water:
+Substances Released:
+PM10 - Particulate Matter <= 10 Microns
+Land:
+ 
+Units:
+tonnes
+Air:
+.31
+Water:
+Substances Released:
+PM2.5 - Particulate Matter <= 2.5 Microns
+Land:
+ 
+m-5-801773491-b 
+2 of 3
+W/17.2
+159.8
+OXFORD PROPERTIES GROUP INC.
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4
+dd-NPRI-801773491-bb
+p-801773491-y 
+Longitude:
+-79.2509
+NPRI #:
+0000010784
+Year:
+2003
+Latitude:
+43.7781
+ 
+--Details--
+Units:
+tonnes
+Air:
+.535
+Water:
+Substances Released:
+PM10 - Particulate Matter <= 10 Microns
+Land:
+4
+5
+5
+SPL
+NPRI
+NPRI
+
+
+64
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+ 
+m-5-801989324-b 
+3 of 3
+W/17.2
+159.8
+OXFORD PROPERTIES GROUP
+200 CONSILIUM Place (French) 
+Toronto ON M1H3E4
+dd-NPRI-801989324-bb
+p-801989324-y 
+Longitude:
+-79.2509
+NPRI #:
+0000010784
+Year:
+2004
+Latitude:
+43.7781
+ 
+--Details--
+Units:
+tonnes
+Air:
+Water:
+Substances Released:
+Nitrogen oxides (expressed as NO2)
+Land:
+ 
+Units:
+tonnes
+Air:
+Water:
+Substances Released:
+Sulphur dioxide
+Land:
+ 
+Units:
+tonnes
+Air:
+Water:
+Substances Released:
+HFC-134a Hydrofluorocarbon
+Land:
+ 
+Units:
+tonnes
+Air:
+.556
+Water:
+Substances Released:
+PM10 - Particulate Matter <= 10 Microns
+Land:
+ 
+Units:
+tonnes
+Air:
+.315
+Water:
+Substances Released:
+PM2.5 - Particulate Matter <= 2.5 Microns
+Land:
+ 
+m-6-800826052-b 
+1 of 3
+S/25.4
+161.5
+LABELCRAFT PRODUCTS LTD.
+ 651 PROGRESS AVE., UNIT 1
+SCARBOROUGH ON M1H 2W8
+dd-GEN-800826052-bb
+p-800826052-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0111400
+Approval Yrs::
+86,87,88,89,90
+SIC Code:
+2819
+SIC Description:
+OTHER COMM. PRINTING
+ 
+--Details--
+Waste Code:
+145
+Waste Description:
+PAINT/PIGMENT/COATING RESIDUES
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+5
+6
+NPRI
+GEN
+
+
+65
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+m-6-800826054-b 
+2 of 3
+S/25.4
+161.5
+LABELCRAFT PRODUCTS LIMITED
+651 PROGRESS AVENUE UNIT 1
+SCARBOROUGH ON M1H 2W8
+dd-GEN-800826054-bb
+p-800826054-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0111400
+Approval Yrs::
+98
+SIC Code:
+2819
+SIC Description:
+OTHER COMM. PRINTING
+ 
+--Details--
+Waste Code:
+145
+Waste Description:
+PAINT/PIGMENT/COATING RESIDUES
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+m-6-800826053-b 
+3 of 3
+S/25.4
+161.5
+LABELCRAFT PRODUCTS LTD.          24-304
+ 651 PROGRESS AVE., UNIT 1
+SCARBOROUGH ON M1H 2W8
+dd-GEN-800826053-bb
+p-800826053-y 
+PO Box Num:
+Status:
+Country:
+Generator #:
+ON0111400
+Approval Yrs::
+92,93,94,95,96,97
+SIC Code:
+2819
+SIC Description:
+OTHER COMM. PRINTING
+ 
+--Details--
+Waste Code:
+145
+Waste Description:
+PAINT/PIGMENT/COATING RESIDUES
+ 
+Waste Code:
+241
+Waste Description:
+HALOGENATED SOLVENTS
+ 
+m-7-803747019-b 
+1 of 38
+ENE/30.5
+155.5
+Quick Circuits Inc. 
+700 Progress Avenue  
+Toronto  ON 
+dd-CA-803747019-bb
+p-803747019-y 
+Certificate #:
+2918-6C8PCK 
+Application Year:
+2006
+Issue Date:
+7/6/2006
+Approval Type:
+Air
+Status:
+Revoked and/or Replaced
+Application Type:
+Client Name::
+Client Address::
+Client City::
+Client Postal Code::
+Project Description::
+Contaminants::
+Emission Control::
+ 
+m-7-803759374-b 
+2 of 38
+ENE/30.5
+155.5
+Quick Circuits Inc. 
+700 Progress Ave  
+dd-CA-803759374-bb
+p-803759374-y 
+6
+6
+7
+7
+GEN
+GEN
+CA
+CA
+
+
+66
+erisinfo.com | Environmental Risk Information Services
+Order No: 20170208162
+ Map Key
+Number of 
+Records
+Direction/
+Distance (m)
+ Elevation
+ (m)
+ Site
+DB
+Toronto  ON 
+Certificate #:
+6989-844Q8Y 
+Application Year:
+2010
+Issue Date:
+6/9/2010
+Approval Type:
+Air
+Status:
+Approved
+Application Type:
+Client Name::
+Client Address::
+Client City::
+Client Postal Code::
+Project Description::
+Contaminants::
+Emission Control::
+ 
+m-7-803007052-b 
+3 of 38
+ENE/30.5
+155.5
+Quick Circuits Inc.
+700 Progress Avenue 
+Toronto ON 
+dd-EBR-803007052-bb
+p-803007052-y 
+Company Name:
+Notice Type:
+Instrument Decision
+EBR Registry No.:
+IA04E0744
+Instrument Type:
+Approval for discharge into the natural environment other than water (i.e. Air) - EPA s. 9
+Year:
+2004
+Ministry Ref. No.:
+1953-5YNRW2
+Proposal Date:
+Location:
+700 Progress Avenue Suite 13 Toronto Ontario
+Proponent Address:
+700 Progress Avenue 13 Toronto Ontario M1H 2Z7
+Notice Date:
+ 
+m-7-803573843-b 
+4 of 38
+ENE/30.5
+155.5
+Quick Circuits Inc.
+700 Progress Ave Unit 13 
+Toronto ON M1H 2Z7
+dd-EBR-803573843-bb
+p-803573843-y 
+Company Name:
+Notice Type:
+Instrument Proposal
+EBR Registry No.:
+010-9677
+Instrument Type:
+(EPA s. 9) - Approval for discharge into the natural environment other than water (i.e. Air)
+Year:
+2010
+Ministry Ref. No.:
+2763-7WVNTV
+Proposal Date:
+April 13, 2010
+Location:
+700 Progress Avenue Unit 13 Toronto M1H 2Z7
+Proponent Address:
+700 Progress avenue Unit 13 Toronto Ontario Canada M1H 2Z7
+Notice Date:
+ 
+m-7-803857837-b 
+5 of 38
+ENE/30.5
+155.5
+A+A Graphics Canada Inc
+700 Progress Avenue 
+Toronto ON 
+dd-EBR-803857837-bb
+p-803857837-y 
+Company Name:
+Notice Type:
+Instrument Proposal
+EBR Registry No.:
+011-3783
+Instrument Type:
+(EPA s. 9) - Approval for discharge into the natural environment other than water (i.e. Air)
+Year:
+2011
+Ministry Ref. No.:
+4959-8HEHEL
+Proposal Date:
+June 07, 2011
+Location:
+700 Progress Avenue Unit 3 Toronto M1H 2Z7
+Proponent Address:
+700 Progress avenue Unit 3 Toronto Ontario Canada M1H 2Z7
+Notice Date:
+7
+7
+7
+EBR
+EBR
+EBR

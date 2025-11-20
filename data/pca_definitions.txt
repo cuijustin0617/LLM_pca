@@ -1,0 +1,62 @@
+Table 2
+Potentially Contaminating Activities
+
+1. Acid and Alkali Manufacturing, Processing and Bulk Storage
+2. Adhesives and Resins Manufacturing, Processing and Bulk Storage
+3. Airstrips and Hangars Operation
+4. Antifreeze and De-icing Manufacturing and Bulk Storage
+5. Asphalt and Bitumen Manufacturing
+6. Battery Manufacturing, Recycling and Bulk Storage
+7. Boat Manufacturing
+8. Chemical Manufacturing, Processing and Bulk Storage
+9. Coal Gasification
+10. Commercial Autobody Shops
+11. Commercial Trucking and Container Terminals
+12. Concrete, Cement and Lime Manufacturing
+13. Cosmetics Manufacturing, Processing and Bulk Storage
+14. Crude Oil Refining, Processing and Bulk Storage
+15. Discharge of Brine related to oil and gas production
+16. Drum and Barrel and Tank Reconditioning and Recycling
+17. Dye Manufacturing, Processing and Bulk Storage
+18. Electricity Generation, Transformation and Power Stations
+19. Electronic and Computer Equipment Manufacturing
+20. Explosives and Ammunition Manufacturing, Production and Bulk Storage
+21. Explosives and Firing Range
+22. Fertilizer Manufacturing, Processing and Bulk Storage
+23. Fire Retardant Manufacturing, Processing and Bulk Storage
+24. Fire Training
+25. Flocculants Manufacturing, Processing and Bulk Storage
+26. Foam and Expanded Foam Manufacturing and Processing
+27. Garages and Maintenance and Repair of Railcars, Marine Vehicles and Aviation Vehicles
+28. Gasoline and Associated Products Storage in Fixed Tanks
+29. Glass Manufacturing
+30. Importation of Fill Material of Unknown Quality
+31. Ink Manufacturing, Processing and Bulk Storage
+32. Iron and Steel Manufacturing and Processing
+33. Metal Treatment, Coating, Plating and Finishing
+34. Metal Fabrication
+35. Mining, Smelting and Refining; Ore Processing; Tailings Storage
+36. Oil Production
+37. Operation of Dry Cleaning Equipment (where chemicals are used)
+38. Ordnance Use
+39. Paints Manufacturing, Processing and Bulk Storage
+40. Pesticides (including Herbicides, Fungicides and Anti-Fouling Agents) Manufacturing, Processing, Bulk Storage and Large-Scale Applications
+41. Petroleum-derived Gas Refining, Manufacturing, Processing and Bulk Storage
+42. Pharmaceutical Manufacturing and Processing
+43. Plastics (including Fibreglass) Manufacturing and Processing
+44. Port Activities, including Operation and Maintenance of Wharves and Docks
+45. Pulp, Paper and Paperboard Manufacturing and Processing
+46. Rail Yards, Tracks and Spurs
+47. Rubber Manufacturing and Processing
+48. Salt Manufacturing, Processing and Bulk Storage
+49. Salvage Yard, including automobile wrecking
+50. Soap and Detergent Manufacturing, Processing and Bulk Storage
+51. Solvent Manufacturing, Processing and Bulk Storage
+52. Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems
+53. Tannery
+54. Textile Manufacturing and Processing
+55. Transformer Manufacturing, Processing and Use
+56. Treatment of Sewage equal to or greater than 10,000 litres per day
+57. Vehicles and Associated Parts Manufacturing
+58. Waste Disposal and Waste Management, including thermal treatment, landfilling and transfer of waste, other than use of biosoils as soil conditioners
+59. Wood Treating and Preservative Facility and Bulk Storage of Treated and Preserved Wood Products
