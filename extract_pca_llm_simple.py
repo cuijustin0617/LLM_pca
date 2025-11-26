@@ -20,7 +20,7 @@ from openai import OpenAI
 import google.generativeai as genai
 
 # Import prompt templates
-from prompts import EXTRACT_PROMPT_TEMPLATE, COMPILE_PROMPT_TEMPLATE
+from src.prompts import format_extract_prompt, COMPILE_PROMPT_TEMPLATE
 
 # -----------------------
 # Helpers: logging & IO
@@ -57,17 +57,59 @@ def save_json(path: Path, obj):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
 
+def get_next_experiment_dir(base_dir: Path) -> Path:
+    """Find the next experiment number and create directory."""
+    base_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Find existing experiment directories
+    existing = [d for d in base_dir.iterdir() if d.is_dir() and d.name.startswith("exp_")]
+    
+    if not existing:
+        next_num = 1
+    else:
+        # Extract numbers from exp_XXX directories
+        nums = []
+        for d in existing:
+            match = re.match(r'exp_(\d+)', d.name)
+            if match:
+                nums.append(int(match.group(1)))
+        next_num = max(nums) + 1 if nums else 1
+    
+    exp_dir = base_dir / f"exp_{next_num:03d}"
+    exp_dir.mkdir(parents=True, exist_ok=True)
+    return exp_dir
+
+def save_experiment_metadata(exp_dir: Path, params: dict):
+    """Save experiment configuration and metadata."""
+    metadata = {
+        "experiment": exp_dir.name,
+        "timestamp": datetime.now().isoformat(),
+        "parameters": params
+    }
+    save_json(exp_dir / "experiment_config.json", metadata)
+
 # -----------------------
 # PDF → page texts
 # -----------------------
 
 def extract_page_texts(pdf_path: Path):
+    """Extract text from all pages of a PDF. Logs progress every 10 pages."""
     doc = fitz.open(pdf_path)
+    total_pages = len(doc)
+    logger = logging.getLogger("eris_pca")
+    logger.info(f"PDF has {total_pages} pages")
+    
     pages = []
-    for i in range(len(doc)):
+    for i in range(total_pages):
         page = doc.load_page(i)
         text = page.get_text("text")
         pages.append({"page_num": i+1, "text": text})
+        
+        # Log progress every 10 pages
+        if (i + 1) % 10 == 0 or (i + 1) == total_pages:
+            logger.info(f"  Processed {i + 1}/{total_pages} pages...")
+    
+    logger.info(f"Finished extracting text from all {total_pages} pages")
     return pages
 
 def page_pix_as_png_bytes(page):
@@ -137,6 +179,7 @@ def call_openai_json(prompt: str, model: str, temperature: float = 0.0):
         model=model,
         temperature=temperature,
         response_format={"type": "json_object"},
+        max_tokens=4000,  # Limit to prevent excessive output
         messages=[
             {"role": "system", "content": "You are a careful, JSON-only extraction assistant for environmental due-diligence."},
             {"role": "user", "content": prompt},
@@ -146,10 +189,11 @@ def call_openai_json(prompt: str, model: str, temperature: float = 0.0):
 
 def call_gemini_json(prompt: str, model: str, temperature: float = 0.0):
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-    # Set JSON-only return
+    # Set JSON-only return with increased output token limit
     gcfg = genai.types.GenerationConfig(
         temperature=temperature,
         response_mime_type="application/json",
+        max_output_tokens=8000,  # Increased limit to prevent truncation
     )
     mdl = genai.GenerativeModel(model_name=model, generation_config=gcfg)
     resp = mdl.generate_content(prompt)
@@ -170,6 +214,26 @@ def call_gemini_json_vision(prompt_text: str, model: str, images: list, temperat
     return resp.text
 
 def try_parse_json(text: str):
+    # Check for truncation (incomplete JSON)
+    if not text.rstrip().endswith('}'):
+        # Likely truncated - try to recover by adding closing brackets
+        bracket_depth = text.count('{') - text.count('}')
+        array_depth = text.count('[') - text.count(']')
+        
+        # Try to auto-complete the JSON
+        if bracket_depth > 0 or array_depth > 0:
+            recovered = text.rstrip()
+            # Close any open string
+            if recovered.count('"') % 2 != 0:
+                recovered += '"'
+            # Close arrays and objects
+            recovered += ']' * array_depth
+            recovered += '}' * bracket_depth
+            try:
+                return json.loads(recovered)
+            except Exception:
+                pass  # Recovery failed, continue with normal parsing
+    
     # try plain JSON
     try:
         return json.loads(text)
@@ -217,27 +281,54 @@ def run_pipeline(
     temperature: float,
     vision: bool,
     logger: logging.Logger,
+    model_name: str = None,
 ):
 
-    # Clear outputs directory for fresh run
-    if out_dir.exists():
-        logger.info(f"Clearing existing outputs directory: {out_dir}")
-        shutil.rmtree(out_dir)
+    # Create numbered experiment directory (exp_001, exp_002, etc.)
+    exp_dir = get_next_experiment_dir(out_dir)
+    logger.info(f"Created experiment directory: {exp_dir.name}")
     
-    out_chunks = out_dir / "chunks"
-    out_final = out_dir / "final"
+    # Save experiment metadata
+    save_experiment_metadata(exp_dir, {
+        "pdf": str(pdf_path),
+        "pca_list": str(pca_list_path),
+        "provider": provider,
+        "model": model_name,
+        "chunk_word_limit": chunk_word_limit,
+        "temperature": temperature,
+        "vision": vision,
+    })
+    
+    # Copy prompts.py to experiment directory for reproducibility
+    prompts_source = Path(__file__).parent / "prompts.py"
+    if prompts_source.exists():
+        shutil.copy2(prompts_source, exp_dir / "prompts.py")
+        logger.info(f"Saved prompts.py to {exp_dir.name}")
+    
+    out_chunks = exp_dir / "chunks"
+    out_final = exp_dir / "final"
     out_chunks.mkdir(parents=True, exist_ok=True)
     out_final.mkdir(parents=True, exist_ok=True)
+    
+    # Create consolidated raw LLM output log file
+    raw_llm_log = exp_dir / "raw_llm_outputs.log"
+    logger.info(f"Consolidated raw LLM outputs will be logged to: {raw_llm_log.name}")
 
     # Load PCA list
+    logger.info("Loading PCA definitions...")
     pca_def_text, num_to_name = load_pca_definitions(pca_list_path)
     logger.info(f"Loaded PCA list with {max([0]+list(num_to_name.keys())) or len(pca_def_text.splitlines())} items from {pca_list_path}.")
 
     # STEP 1: PDF → page texts
+    logger.info("Extracting raw text from PDF document...")
+    logger.info(f"Opening PDF: {pdf_path}")
+    logger.info(f"PDF file size: {pdf_path.stat().st_size / 1024 / 1024:.2f} MB")
     pages = extract_page_texts(pdf_path)
     logger.info(f"Extracted text from {len(pages)} pages.")
 
     # STEP 2: Chunk and send to LLM
+    logger.info("Segmenting document into processing chunks...")
+    logger.info(f"Target chunk size: {chunk_word_limit} words")
     chunks = chunk_pages_by_words(pages, chunk_word_limit)
     logger.info(f"Created {len(chunks)} chunks using word limit={chunk_word_limit}.")
 
@@ -249,10 +340,12 @@ def run_pipeline(
         save_text(chunk_file, chunk_text)
 
         # progress print(s)
-        logger.info(f"Processing pages {start} to {end} by LLM")
+        logger.info(f"Processing chunk {idx} of {len(chunks)}...")
+        logger.info(f"  Chunk covers pages {start} to {end}")
+        logger.info(f"  Text length: {len(chunk_text)} characters")
 
         # Build prompt
-        prompt = EXTRACT_PROMPT_TEMPLATE.format(
+        prompt = format_extract_prompt(
             pca_definitions=pca_def_text,
             start=start,
             end=end,
@@ -261,9 +354,13 @@ def run_pipeline(
 
         # Call provider(s)
         rows_for_chunk = []
+        
+        # Get current timestamp for logging (capture at chunk level to avoid closure issues)
+        from datetime import datetime as dt
 
         def do_one(provider_name):
             model = os.getenv("OPENAI_MODEL") if provider_name == "openai" else os.getenv("GEMINI_MODEL")
+            logger.info(f"  Calling {provider_name} API with model {model}...")
             if provider_name == "openai":
                 raw = call_openai_json(prompt, model, temperature)
             else:
@@ -274,13 +371,45 @@ def run_pipeline(
                     raw = call_gemini_json(prompt, model, temperature)
                 else:
                     raw = call_gemini_json(prompt, model, temperature)
+            logger.info(f"  Received response from {provider_name}, length: {len(raw)} chars")
 
+            # Save individual chunk file (for backward compatibility)
             save_text(out_chunks / f"chunk_{idx:03d}_pages_{start:03d}-{end:03d}_{provider_name}_raw.txt", raw)
+            
+            # Append to consolidated log file
+            timestamp = dt.now().strftime("%Y-%m-%d %H:%M:%S")
+            log_entry = f"""
+{'='*80}
+CHUNK {idx}/{len(chunks)} | PAGES {start}-{end} | PROVIDER: {provider_name.upper()} | MODEL: {model}
+TIMESTAMP: {timestamp} | RESPONSE LENGTH: {len(raw)} chars
+{'='*80}
+
+{raw}
+
+"""
+            with open(raw_llm_log, 'a', encoding='utf-8') as f:
+                f.write(log_entry)
 
             obj = try_parse_json(raw)
             if obj is None:
+                logger.info(f"  JSON parsing failed, requesting fix from {provider_name}...")
                 fixed = llm_fix_to_json(raw, provider_name, model, temperature)
                 save_text(out_chunks / f"chunk_{idx:03d}_{provider_name}_raw_fixed.txt", fixed)
+                
+                # Append fixed response to consolidated log
+                timestamp = dt.now().strftime("%Y-%m-%d %H:%M:%S")
+                fix_log_entry = f"""
+{'='*80}
+CHUNK {idx}/{len(chunks)} | PAGES {start}-{end} | PROVIDER: {provider_name.upper()} | MODEL: {model}
+JSON FIX ATTEMPT | TIMESTAMP: {timestamp} | RESPONSE LENGTH: {len(fixed)} chars
+{'='*80}
+
+{fixed}
+
+"""
+                with open(raw_llm_log, 'a', encoding='utf-8') as f:
+                    f.write(fix_log_entry)
+                
                 obj = try_parse_json(fixed)
 
             if obj is None or "rows" not in obj or not isinstance(obj["rows"], list):
@@ -291,6 +420,7 @@ def run_pipeline(
             for r in obj["rows"]:
                 r.setdefault("source_pages", f"{start}-{end}")
             save_json(out_chunks / f"chunk_{idx:03d}_{provider_name}_rows.json", obj["rows"])
+            logger.info(f"  Extracted {len(obj['rows'])} potential PCAs from chunk {idx}")
             return obj["rows"]
 
         if provider in ("openai", "both"):
@@ -300,6 +430,9 @@ def run_pipeline(
 
         all_rows.extend(rows_for_chunk)
         logger.info(f"Found {len(rows_for_chunk)} PCA entries.")
+        
+        # Log completion for frontend progress tracking
+        logger.info(f"Processing pages {start}-{end}: chunk {idx}/{len(chunks)} complete, found {len(rows_for_chunk)} potential PCAs")
 
     save_json(out_final / "all_rows_raw.json", all_rows)
 
@@ -314,19 +447,50 @@ def run_pipeline(
     provider_for_compile = "openai" if provider in ("openai", "both") else "gemini"
     if provider_for_compile == "openai":
         compiled_raw = call_openai_json(compile_prompt, os.getenv("OPENAI_MODEL"), temperature)
+        compile_model = os.getenv("OPENAI_MODEL")
     else:
         compiled_raw = call_gemini_json(compile_prompt, os.getenv("GEMINI_MODEL"), temperature)
+        compile_model = os.getenv("GEMINI_MODEL")
 
     save_text(out_final / "compiled_raw.txt", compiled_raw)
+    
+    # Append compile step to consolidated log file
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    compile_log_entry = f"""
+{'='*80}
+COMPILE STEP | PROVIDER: {provider_for_compile.upper()} | MODEL: {compile_model}
+TIMESTAMP: {timestamp} | RESPONSE LENGTH: {len(compiled_raw)} chars
+{'='*80}
+
+{compiled_raw}
+
+"""
+    with open(raw_llm_log, 'a', encoding='utf-8') as f:
+        f.write(compile_log_entry)
     compiled = try_parse_json(compiled_raw)
     if compiled is None:
-        # try a one-shot LLM “fix to JSON”
+        # try a one-shot LLM "fix to JSON"
         logger.info("Compiled output not valid JSON; attempting JSON repair via LLM…")
         if provider_for_compile == "openai":
             fixed = llm_fix_to_json(compiled_raw, "openai", os.getenv("OPENAI_MODEL"), temperature)
         else:
             fixed = llm_fix_to_json(compiled_raw, "gemini", os.getenv("GEMINI_MODEL"), temperature)
         save_text(out_final / "compiled_raw_fixed.txt", fixed)
+        
+        # Append compile fix to consolidated log
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        compile_fix_log_entry = f"""
+{'='*80}
+COMPILE STEP JSON FIX | PROVIDER: {provider_for_compile.upper()} | MODEL: {compile_model}
+TIMESTAMP: {timestamp} | RESPONSE LENGTH: {len(fixed)} chars
+{'='*80}
+
+{fixed}
+
+"""
+        with open(raw_llm_log, 'a', encoding='utf-8') as f:
+            f.write(compile_fix_log_entry)
+        
         compiled = try_parse_json(fixed)
 
     final_rows = compiled.get("rows", []) if isinstance(compiled, dict) else []
@@ -350,8 +514,12 @@ def run_pipeline(
             f.write(",".join(esc(r.get(c,"")) for c in cols) + "\n")
 
     logger.info(f"Done. Compiled {len(final_rows)} PCA rows.")
+    logger.info(f"Experiment: {exp_dir.name}")
     logger.info(f"- JSON: {out_final / 'final_rows_compiled.json'}")
     logger.info(f"- CSV : {csv_path}")
+    logger.info(f"- Config: {exp_dir / 'experiment_config.json'}")
+    logger.info(f"- Prompts: {exp_dir / 'prompts.py'}")
+    logger.info(f"- Raw LLM Log: {raw_llm_log}")
 
 # -----------------------
 # CLI
@@ -371,11 +539,15 @@ def main():
     logger, logfile = setup_logging(out_dir)
 
     # echo config (no secrets)
+    openai_model = os.getenv('OPENAI_MODEL', 'gpt-4o')
+    gemini_model = os.getenv('GEMINI_MODEL', 'gemini-2.5-pro')
+    model_name = openai_model if args.provider in ["openai", "both"] else gemini_model
+    
     logger.info(f"PDF: {args.pdf}")
     logger.info(f"PCA list: {args.pca_list}")
     logger.info(f"Provider: {args.provider}")
-    logger.info(f"OpenAI model: {os.getenv('OPENAI_MODEL')}")
-    logger.info(f"Gemini model: {os.getenv('GEMINI_MODEL')}")
+    logger.info(f"OpenAI model: {openai_model}")
+    logger.info(f"Gemini model: {gemini_model}")
     chunk_limit = int(os.getenv("CHUNK_WORD_LIMIT", "3500"))
     temp = float(os.getenv("TEMPERATURE", "0.0"))
     logger.info(f"Chunk word limit: {chunk_limit}")
@@ -391,7 +563,8 @@ def main():
         chunk_word_limit=chunk_limit,
         temperature=temp,
         vision=args.vision,
-        logger=logger
+        logger=logger,
+        model_name=model_name
     )
 
 if __name__ == "__main__":

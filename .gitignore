@@ -10,7 +10,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+
 lib64/
 parts/
 sdist/
@@ -42,3 +42,6 @@ Thumbs.db
 # PDFs (optional - uncomment if you want to exclude PDFs)
 # *.pdf
 
+
+# Experiment outputs
+outputs/experiments/

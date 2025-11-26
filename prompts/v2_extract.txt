@@ -1,0 +1,223 @@
+Extract SIGNIFICANT Potentially Contaminating Activities (PCAs) from the ERIS report text.
+
+CRITICAL: Create a SEPARATE ROW for EACH unique (Address + PCA) combination.
+- If an address has multiple PCAs, create multiple rows (one per PCA)
+- Include EXACT unit/suite numbers when present (e.g., "Unit 12", "Suite 504")
+- Include BOTH on-site and off-site PCAs
+- Include standard numbered PCAs (#1-59) AND non-standard "Other" category PCAs
+
+Return STRICT JSON with this schema:
+
+{
+  "rows": [
+    {
+      "address": "string",  // PRESERVE exact address including unit/suite numbers
+      "location_relation_to_site": "string",  // MUST be ONLY "On-Site" or "Off-Site" - nothing else
+      "pca_number": int | null,  // 1-59 from official list, or null for "Other"
+      "pca_name": "string",  // Full PCA name from official list
+      "description_timeline": "string",  // Business names, operations, timeline, waste types, distance info
+      "source_pages": "start-end"  // the page range provided below
+    }
+  ]
+}
+
+=== SIGNIFICANCE CRITERIA (CRITICAL - READ CAREFULLY) ===
+
+ONLY extract PCAs that meet ONE of these criteria:
+
+A. PRIMARY INDUSTRIAL OPERATION:
+   - Business ACTIVELY PERFORMS the contaminating activity on-site
+   - Examples: plating shop, metal fabrication facility, printing company, dry cleaning operation
+   - NOT just: generic "waste generator", property manager, office building, support services
+
+B. DIRECT CONTAMINATION SOURCE:
+   - Documented spills/leaks of chemicals, oils, fuels, solvents
+   - Underground/aboveground storage tanks (UST/AST) for fuels or chemicals
+   - Fill material of unknown quality (backfill from tank removal, etc.)
+   - Historical contamination events with evidence
+
+C. HIGH-RISK MANUFACTURING/PROCESSING:
+   - Chemical/solvent/paint MANUFACTURING or PROCESSING (not just storage/distribution)
+   - Metal treatment/plating/coating/finishing facilities
+   - Fuel storage for INDUSTRIAL operations (not routine vehicle maintenance)
+   - Dry cleaning OPERATIONS (includes distribution if chemical handling involved)
+   - Electronics manufacturing with chemical processes (circuit boards, etc.)
+
+EXCLUDE - DO NOT EXTRACT:
+   ✗ Generic "waste generator" listings without industrial operation
+   ✗ Property management/building maintenance generating routine waste
+   ✗ Medical/dental offices generating only pathological waste (unless large hospital)
+   ✗ Office buildings generating photoprocessing or small amounts of waste
+   ✗ Distribution/wholesale operations WITHOUT manufacturing/processing
+   ✗ Businesses where waste is incidental to non-industrial operations
+   ✗ Support services (security, cleaning, administration, consulting)
+
+DISTANCE FILTER (Off-Site):
+   - PRIORITIZE: On-Site and 0-150m off-site
+   - INCLUDE: 150-250m if HIGH-RISK operation (plating, chemical manufacturing, major spills)
+   - GENERALLY EXCLUDE: >250m unless exceptional contamination risk
+
+=== EXTRACTION RULES ===
+
+1. ADDRESS GRANULARITY:
+   - PRESERVE exact unit/suite numbers: "670 Progress Avenue Unit 8", "700 Progress Avenue Unit 7"
+   - Do NOT consolidate multiple units to building level
+   - Keep address formatting as it appears in source
+
+2. MULTIPLE PCAs AT SAME ADDRESS:
+   - Create SEPARATE rows for each PCA at an address
+   - Example: If "675 Progress Avenue" has Metal Treatment (#33) AND Vehicles Manufacturing (#57), create 2 rows
+   - If facility has plating AND machine shop → 2 rows (PCA #33 and #34)
+   - If UST removed with backfill → 2 rows (PCA #28 for tank, #30 for fill material)
+
+3. PCA TYPE CLASSIFICATION:
+   - Match activities to official PCA list (1-59) when possible
+   - Look for keywords: "plating" → #33, "waste oils" → #28, "printing" → #31, etc.
+   - For activities not in official list, use pca_number: null and describe in pca_name
+
+4. NON-STANDARD PCAs (IMPORTANT - often missed):
+   - Spills/leaks (oil, gasoline, diesel, chemicals) → ALWAYS include
+   - De-icing salts usage on parking lots
+   - Fill material importation (backfill with unknown material)
+   - Underground/aboveground storage tank (UST/AST) for fuels/chemicals
+   - PCB storage sites (drums, transformers with PCBs)
+   Include these even if not in official numbered list (set pca_number to null)
+
+5. HISTORICAL OPERATIONS:
+   - Extract historical industrial operations with dates
+   - Include City Directory listings from different years IF they show industrial activity
+   - Include operations that are "OUT OF BUSINESS" if they were industrial
+   - DO NOT extract every tenant ever listed - focus on contaminating activities
+
+6. LOCATION CLASSIFICATION (CRITICAL):
+   location_relation_to_site field MUST be EXACTLY one of these two values:
+   - "On-Site" = if PCA is at the subject property addresses (670-690 Progress Avenue)
+   - "Off-Site" = if PCA is at ANY other address (neighboring, adjacent, nearby properties)
+   
+   For distance/direction information (e.g., "30 m south", "ENE/30.5", "East Adjacent"):
+   - Put this in the description_timeline field
+   - Example: "A.G. Simpson Co, metal stamping (1947-), located 20m south of site"
+
+7. DESCRIPTION COMPLETENESS:
+   - Include business/company names performing industrial operations
+   - Include operation types and SIC codes for manufacturing/industrial
+   - Include timeline/dates (e.g., "1986-1998", "1991 to 2000")
+   - Include waste types that indicate industrial processes (solvents, heavy metals, etc.)
+   - If Off-Site, include distance/direction (e.g., "30 m south", "adjacent east")
+
+=== FEW-SHOT EXAMPLES ====== FEW-SHOT EXAMPLES ===
+
+Example 1: Multiple PCAs at same address (EXTRACT - 4 rows)
+Input: "675 Progress Avenue: A.G. Simpson Co. - metal stamping (1947-), waste generator of oils (1993), plating operations, PCB storage (1991-2000)"
+Output: 4 SEPARATE ROWS:
+  - Row 1: 675 Progress Avenue, PCA #34 (Metal Fabrication), "A.G. Simpson metal stamping 1947-"
+  - Row 2: 675 Progress Avenue, PCA #33 (Metal Treatment/Plating), "A.G. Simpson plating operations"
+  - Row 3: 675 Progress Avenue, PCA #28 (Gasoline Storage), "waste generator of oils 1993"
+  - Row 4: 675 Progress Avenue, PCA #55 (Transformer/PCB), "PCB storage 1991-2000"
+
+Example 2: Plating shop with exact location (EXTRACT)
+Input: "690 Progress Avenue Unit 11: electro plating shop observed in FIP report (1982)"
+Output: 1 ROW: "690 Progress Avenue Unit 11", PCA #33 (Metal Treatment, Coating, Plating and Finishing)
+
+Example 3: Spill/leak (EXTRACT - always include)
+Input: "690 Progress Avenue Unit 14: waste oil spill identified, Macusi Wood Products (2011)"
+Output: 1 ROW: pca_number: null, pca_name: "Spill/Leak of Gasoline and Associated Products", description "waste oil spill 2011, Macusi Wood Products"
+
+Example 4: Dry cleaning with chemical handling (EXTRACT)
+Input: "670 Progress Avenue Unit 11: GBA Refineries Ltd, dry cleaning product distribution (1991-2000), 200L AST for liquid storage"
+Output: 1 ROW: PCA #37 (Operation of Dry Cleaning Equipment)
+Reasoning: Chemical handling and storage tank indicate dry cleaning operation
+
+Example 5: UST removal with backfill (EXTRACT - 2 rows)
+Input: "Former UST at east wall removed and backfilled in 1999, unknown quality fill material used"
+Output: 2 ROWS:
+  - Row 1: PCA #28 (Gasoline Storage), "Former UST removed 1999"
+  - Row 2: PCA #30 (Fill Material), "Unknown quality backfill material 1999"
+
+Example 6: Industrial operation with waste (EXTRACT)
+Input: "Dasa Manufacturing: machine shop operations, waste generator of petroleum distillates and oils (2010-2014)"
+Output: 2 ROWS:
+  - Row 1: PCA #34 (Metal Fabrication), "Dasa Manufacturing machine shop 2010-2014"
+  - Row 2: PCA #28 (Gasoline Storage), "petroleum distillates and oils 2010-2014"
+
+Example 7: Machine shop with plating at on-site address (EXTRACT - 2 rows)
+Input: "670 Progress Unit 1-6: Manufacturing and lock assembly facility observed, FIP report indicates metal plating operations (1982)"
+Output: 2 ROWS:
+  - Row 1: address="670 Progress Avenue Unit 1-6", location_relation_to_site="On-Site", PCA #34, description="lock assembly manufacturing 1982"
+  - Row 2: address="670 Progress Avenue Unit 1-6", location_relation_to_site="On-Site", PCA #33, description="metal plating operations 1982"
+
+Example 8: Off-site with distance (EXTRACT)
+Input: "675 Progress Avenue (20 m south): A.G. Simpson Co. - plating operations (1947-2000)"
+Output: 1 ROW:
+  - address="675 Progress Avenue", location_relation_to_site="Off-Site", PCA #33, description="A.G. Simpson Co., plating operations (1947-2000), located 20 m south of site"
+  NOTE: Distance "20 m south" goes in description, NOT in location_relation_to_site field
+
+=== WHAT NOT TO EXTRACT (NO OUTPUT) ===
+
+Do NOT include in your output:
+- Property management waste (e.g., "Menkes Property Management Services Ltd: waste generator of paint residues")
+- Small medical/dental offices with only pathological waste
+- Telecom/utilities with routine maintenance waste (backup generators, routine oils)
+- Pharmaceutical/chemical distribution without manufacturing
+- Far off-site (>250m) low-risk operations
+- Generic waste generators without industrial operations
+
+Simply omit these from your JSON output - do not explain or note their exclusion.
+
+=== ENHANCED KEYWORDS FOR PCA MAPPING ===
+
+PCA #33 (Metal Treatment, Coating, Plating and Finishing) - COMMONLY MISSED:
+   Direct: "plating", "coating", "finishing", "electro plating", "electroplating"
+   Related: "metal treatment", "anodizing", "galvanizing", "chrome plating", "nickel plating"
+   Context: "plating shop", "coating of metal", "metal finishing facility"
+   Manufacturing: "switchgear", "relay manufacturing", "electrical apparatus manufacturing"
+   Waste clues: "heavy metals", "neutralized wastes", "alkaline wastes-heavy metals"
+   NOTE: If document says "plating shop" or similar, this is PCA #33
+
+PCA #37 (Dry Cleaning Equipment) - COMMONLY MISSED:
+   Direct: "dry cleaning", "dry cleaner"
+   Related: "dry cleaning distribution", "dry cleaning products", "dry cleaning chemicals"
+   NOTE: Include if chemical handling/storage involved (e.g., AST for cleaning liquids)
+
+PCA #34 (Metal Fabrication):
+   "machine shop", "metal fabrication", "metalworking", "metal stamping", "metal working"
+   "fabricated structural", "metal container manufacturing", "lock assembly"
+
+PCA #28 (Gasoline Storage):
+   "waste oils", "petroleum distillates", "UST", "AST", "fuel tank", "oil storage"
+   "underground storage tank", "aboveground storage tank", "fuel storage"
+   NOTE: Must be for industrial use, not routine vehicle maintenance only
+
+PCA #31 (Ink Manufacturing):
+   "printing", "graphics", "ink", "commercial printing", "screen printing"
+   NOTE: Actual printing operation, not just office photocopying
+
+PCA #30 (Fill Material) - COMMONLY MISSED:
+   "fill material", "backfill", "unknown quality fill", "imported fill"
+   Context: Usually with UST/AST removal, excavation, site grading
+
+PCA #19 (Electronic Equipment):
+   "electronics", "circuit board", "electrical parts", "electronic component"
+   "printed circuit", "PCB fabrication" (different from PCB chemicals)
+
+PCA #43 (Plastics Manufacturing):
+   "plastic", "polybag", "polymer", "plastics manufacturing", "plastic extrusion"
+   "fibreglass", "resin", "plastic products"
+
+PCA #54 (Textile Manufacturing):
+   "textile", "garment", "clothing", "apparel", "canvas", "fabric"
+   NOTE: Manufacturing/processing, not just retail
+
+PCA #57 (Vehicles Manufacturing):
+   "vehicles", "automotive", "auto parts", "vehicle accessories"
+   "stamping" (for auto parts), "vehicle manufacturing"
+
+PCA #55 (Transformer/PCB):
+   "PCB" (polychlorinated biphenyls), "transformer", "Askarel", "ballast"
+   "high-level PCB", "PCB storage", "PCB inventory"
+
+NON-STANDARD (pca_number: null):
+   "spill", "leak", "overflow", "discharge" → "Spill/Leak of [substance]"
+   "de-icing salt", "road salt" → "De-icing salts usage"
+   "sewage", "wastewater discharge" → "Sewage Discharge/Leak"
+

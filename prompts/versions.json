@@ -1,0 +1,18 @@
+[
+  {
+    "id": "v1",
+    "name": "Version 1 (Default)",
+    "extract_file": "v1_extract.txt",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "active": true,
+    "description": "Official extraction prompt with significance criteria, extraction rules, and examples"
+  },
+  {
+    "id": "v2",
+    "name": "Version 2",
+    "extract_file": "v2_extract.txt",
+    "createdAt": "2025-11-25T05:30:51.643694Z",
+    "active": false,
+    "description": "New version created from UI"
+  }
+]
