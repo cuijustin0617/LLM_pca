@@ -42,19 +42,33 @@ def get_active_prompt() -> str:
         raise FileNotFoundError(f"Prompt versions file not found: {versions_file}")
     
     with open(versions_file, 'r') as f:
-        versions = json.load(f)
+        data = json.load(f)
     
-    # Find the active version
-    active_version = next((v for v in versions if v.get('active', False)), None)
-    if not active_version:
-        # Default to first version if none marked active
-        active_version = versions[0] if versions else None
+    # Handle both old format (list) and new format (dict with "versions" key)
+    if isinstance(data, list):
+        versions = data
+        active_id = next((v.get('id') for v in versions if v.get('active', False)), None)
+    else:
+        versions = data.get('versions', [])
+        active_id = data.get('active_version')
+    
+    # Find the active version entry
+    active_version = None
+    if active_id:
+        active_version = next((v for v in versions if v.get('id') == active_id), None)
+    
+    if not active_version and versions:
+        # Default to first version if none found
+        active_version = versions[0]
     
     if not active_version:
         raise ValueError("No active prompt version found")
     
-    # Load the prompt content
-    extract_file = PROMPTS_DIR / active_version['extract_file']
+    # Load the prompt content - support both old format (extract_file) and new format (id_extract.txt)
+    version_id = active_version.get('id', 'v1')
+    extract_file_name = active_version.get('extract_file', f"{version_id}_extract.txt")
+    extract_file = PROMPTS_DIR / extract_file_name
+    
     if not extract_file.exists():
         raise FileNotFoundError(f"Prompt file not found: {extract_file}")
     
@@ -89,111 +103,54 @@ def get_extract_prompt_template() -> str:
 
 # Compile prompt (same for all versions for now)
 COMPILE_PROMPT_TEMPLATE = """\
-You are compiling and refining PCA rows extracted from multiple document chunks.
+You are deduplicating and compiling PCA rows extracted from multiple document chunks.
 
-=== YOUR TASKS ===
+=== MAIN TASK: DEDUPLICATE ===
 
-1. DEDUPLICATE carefully:
-   - Merge rows that refer to the EXACT SAME (Address + PCA Number) combination
-   - When merging, combine descriptions and source_pages
-   - Do NOT merge different PCAs at the same address - keep them as separate rows
-   - Example: "670 Progress Unit 8" with PCA #33 and "670 Progress Unit 8" with PCA #43 are DIFFERENT rows
+AGGRESSIVELY merge duplicate rows. Two rows are duplicates if they have:
+- Same or very similar address (ignore minor variations like "Ave" vs "Avenue", unit formatting)
+- Same PCA number
 
-2. PRESERVE GRANULARITY:
-   - Keep unit/suite numbers distinct: "Unit 8" ≠ "Unit 11" ≠ no unit specified
-   - "670 Progress Avenue Unit 8" ≠ "670 Progress Avenue" (treat as separate addresses)
-   - Each unique (Address + PCA) pair = one row
+When merging duplicates:
+- Keep the most complete address
+- Combine all descriptions and business names
+- Merge source_pages (e.g., "p-48; p-52; p-67")
 
-3. NORMALIZE PCA CLASSIFICATION:
-   - Map pca_name to official list (1-59) when possible
-   - Fill in pca_number if missing but PCA type is recognizable
-   - For non-standard PCAs (spills, de-icing, etc.), keep pca_number: null
-   - Use consistent naming from official list
+EXAMPLES OF DUPLICATES TO MERGE:
+- "670 Progress Avenue" + "670 Progress Ave" with same PCA → MERGE
+- "670 Progress Ave Unit 12" + "670 Progress Avenue, Unit 12" with same PCA → MERGE  
+- Same address appearing 5 times with PCA #58 → MERGE into 1 row
 
-3.5. NORMALIZE LOCATION FIELD:
-   - Ensure location_relation_to_site is ONLY "On-Site" or "Off-Site"
-   - Subject property (670-690 Progress Avenue) → "On-Site"
-   - All other addresses → "Off-Site"
-   - Move any distance/direction info to description_timeline field
+KEEP SEPARATE (not duplicates):
+- Same address with DIFFERENT PCA numbers (e.g., PCA #33 vs PCA #58)
+- Different addresses (e.g., "670 Progress" vs "675 Progress")
 
-4. ENRICH DESCRIPTIONS:
-   - Combine information from multiple chunks
-   - Include all business names, dates, waste types
-   - Preserve timeline information (e.g., "1986-1998")
+=== SECONDARY TASKS ===
 
-5. VERIFY COMPLETENESS:
-   - Check for common patterns that indicate multiple PCAs:
-     * Same address mentioned multiple times with different activities
-     * Multiple waste types suggesting multiple operations
-     * Multiple business names at same address over time
-   - Ensure each distinct PCA gets its own row
+1. Normalize location_relation_to_site to ONLY "On-Site" or "Off-Site"
+2. Fill in pca_number if recognizable from pca_name (use PCA reference below)
+3. **REMOVE rows without a valid pca_number (1-59)** - if you can't determine the PCA number, delete the row entirely
+4. Remove non-industrial entries (office waste, building maintenance, etc.)
 
-6. FILTER OUT NON-SIGNIFICANT ENTRIES:
-   - Remove entries that are just "waste generator" without industrial operation
-   - Remove property management/building maintenance routine waste
-   - Remove small office/medical waste unless clearly industrial
-   - Keep industrial manufacturing, processing, and contamination sources
-
-=== CRITICAL: DO NOT OVER-CONSOLIDATE ===
-If you see:
-- "670 Progress Avenue" with plating AND electronics → Keep as 2 rows (PCA #33 and #19)
-- "675 Progress Avenue" with vehicles, metal treatment, PCB, fuel storage → Keep as 4 rows
-- Same address in multiple years with different tenants → Keep separate if different PCAs
-
-Only merge if BOTH address AND PCA number are identical (e.g., duplicate mentions of same operation).
-
-=== WHAT TO REMOVE DURING COMPILATION ===
-Remove rows that are:
-- Generic waste generators without industrial activity
-- Property management/building maintenance
-- Small medical/dental offices (pathological waste only)
-- Office photoprocessing waste
-- Distribution/wholesale without manufacturing
-- Support services (security, cleaning, admin)
-
-=== OUTPUT SCHEMA ===
-STRICT JSON ONLY:
+=== OUTPUT FORMAT ===
+Return ONLY valid JSON:
 {{
   "rows": [
     {{
-      "address": "string",  // Keep exact unit/suite numbers
-      "location_relation_to_site": "string",  // MUST be ONLY "On-Site" or "Off-Site"
-      "pca_number": int | null,  // 1-59 or null
-      "pca_name": "string",  // From official list or descriptive for "Other"
-      "description_timeline": "string",  // Combined, enriched description with distance if off-site
-      "source_pages": "start-end[;start2-end2]"  // Semicolon-separated ranges
+      "address": "string",
+      "location_relation_to_site": "On-Site" or "Off-Site",
+      "pca_number": int or null,
+      "pca_name": "string",
+      "description_timeline": "string",
+      "source_pages": "string"
     }}
   ]
 }}
 
-LOCATION FIELD NORMALIZATION:
-- Ensure location_relation_to_site is ONLY "On-Site" or "Off-Site"
-- If you see distance/direction info (e.g., "ENE/30.5", "20 m south"), map to "Off-Site"
-- Move distance/direction information into the description_timeline field
-- Subject property is 670-690 Progress Avenue → "On-Site"
-- All other addresses → "Off-Site"
-
-Official PCA list:
+=== PCA REFERENCE ===
 {pca_definitions}
 
-=== KEYWORD REMINDERS FOR PCA MAPPING ===
-- Plating/coating/finishing/electroplating/heavy metals → #33 (Metal Treatment) [OFTEN MISSED]
-- Machine shop/metal fabrication/stamping → #34 (Metal Fabrication)  
-- Waste oils/petroleum distillates/UST/AST/fuel tanks → #28 (Gasoline Storage)
-- Printing/ink/graphics/commercial printing → #31 (Ink Manufacturing)
-- Dry cleaning operations/distribution with chemicals → #37 (Dry Cleaning Equipment) [OFTEN MISSED]
-- Electronics/circuits/electrical parts manufacturing → #19 (Electronic Equipment)
-- Plastics/polybag/polymer/extrusion → #43 (Plastics Manufacturing)
-- Automotive/vehicles/auto parts → #57 (Vehicles Manufacturing)
-- PCB/transformers/Askarel/ballasts → #55 (Transformer Manufacturing)
-- Textile/garment/clothing/canvas → #54 (Textile Manufacturing)
-- Fill material/backfill/unknown quality fill → #30 (Fill Material) [OFTEN MISSED]
-- Spills/leaks/discharge → null (Other: Spill/Leak of [substance])
-- De-icing salts → null (Other: De-icing salts usage)
-
-REMEMBER: Focus on industrial operations performing the activity, not just generic waste generators.
-
-Here are the raw rows to compile (JSON):
+=== RAW ROWS TO DEDUPLICATE ===
 {raw_rows_json}
 """
 

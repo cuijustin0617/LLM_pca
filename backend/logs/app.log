@@ -1,0 +1,1988 @@
+2025-11-26 14:41:57 | INFO     | root                 | ============================================================
+2025-11-26 14:41:57 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:41:57 | INFO     | root                 | ============================================================
+2025-11-26 14:42:04 | INFO     | root                 | ============================================================
+2025-11-26 14:42:04 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:42:04 | INFO     | root                 | ============================================================
+2025-11-26 14:42:21 | INFO     | root                 | ============================================================
+2025-11-26 14:42:21 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:42:21 | INFO     | root                 | ============================================================
+2025-11-26 14:42:28 | INFO     | root                 | ============================================================
+2025-11-26 14:42:28 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:42:28 | INFO     | root                 | ============================================================
+2025-11-26 14:42:39 | INFO     | root                 | ============================================================
+2025-11-26 14:42:39 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:42:39 | INFO     | root                 | ============================================================
+2025-11-26 14:43:23 | INFO     | root                 | ============================================================
+2025-11-26 14:43:23 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:43:23 | INFO     | root                 | ============================================================
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:255437]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:238730]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[238774:238793]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[238795:238820]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[238824:238863]
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 14:43:41 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 14:43:41 | INFO     | extraction_service   | ============================================================
+2025-11-26 14:43:41 | INFO     | extraction_service   | EXTRACTION STARTED: Job eb298a7c
+2025-11-26 14:43:41 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/eb298a7c_ERIS-670-progress-avenue.pdf
+2025-11-26 14:43:41 | INFO     | extraction_service   | ============================================================
+2025-11-26 14:43:42 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 14:43:42 | INFO     | extraction_service   | [Chunk 1/4] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:43:42 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 154827 chars
+2025-11-26 14:44:06 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 24237 chars
+2025-11-26 14:44:06 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 58,
+      "pca_name": "Waste Disposal and Waste Management",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED, Generator #ON0769702, Waste Code 213 (PETROLEUM DISTILLATES), 252 (WASTE OILS & LUBRICANTS)",
+      "source_pages": "GEN, p-48"
+    },
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 19,...
+2025-11-26 14:44:06 | WARNING  | extraction_service   | [Chunk 1] JSON parse failed, attempting to fix...
+2025-11-26 14:44:32 | INFO     | root                 | ============================================================
+2025-11-26 14:44:32 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:44:32 | INFO     | root                 | ============================================================
+2025-11-26 14:44:35 | INFO     | root                 | ============================================================
+2025-11-26 14:44:35 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:44:35 | INFO     | root                 | ============================================================
+2025-11-26 14:44:45 | INFO     | root                 | ============================================================
+2025-11-26 14:44:45 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:44:45 | INFO     | root                 | ============================================================
+2025-11-26 14:44:50 | INFO     | root                 | ============================================================
+2025-11-26 14:44:50 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:44:50 | INFO     | root                 | ============================================================
+2025-11-26 14:45:02 | INFO     | root                 | ============================================================
+2025-11-26 14:45:02 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:45:02 | INFO     | root                 | ============================================================
+2025-11-26 14:45:31 | INFO     | root                 | ============================================================
+2025-11-26 14:45:31 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:45:31 | INFO     | root                 | ============================================================
+2025-11-26 14:45:47 | INFO     | root                 | ============================================================
+2025-11-26 14:45:47 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:45:47 | INFO     | root                 | ============================================================
+2025-11-26 14:47:07 | INFO     | root                 | ============================================================
+2025-11-26 14:47:07 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:47:07 | INFO     | root                 | ============================================================
+2025-11-26 14:47:09 | INFO     | root                 | ============================================================
+2025-11-26 14:47:09 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:47:09 | INFO     | root                 | ============================================================
+2025-11-26 14:47:19 | INFO     | root                 | ============================================================
+2025-11-26 14:47:19 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:47:19 | INFO     | root                 | ============================================================
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:256000]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:238167]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[238211:238230]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[238232:238257]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[238261:238300]
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 14:47:46 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 14:47:46 | INFO     | extraction_service   | ============================================================
+2025-11-26 14:47:46 | INFO     | extraction_service   | EXTRACTION STARTED: Job 9b7684fd
+2025-11-26 14:47:46 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/9b7684fd_ERIS-670-progress-avenue.pdf
+2025-11-26 14:47:46 | INFO     | extraction_service   | ============================================================
+2025-11-26 14:47:47 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 14:47:47 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 14:47:47 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 14:47:47 | INFO     | extraction_service   | Extracting text from PDF: 9b7684fd_ERIS-670-progress-avenue.pdf
+2025-11-26 14:47:47 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 14:47:47 | INFO     | extraction_service   | Chunking with word limit: 10000
+2025-11-26 14:47:47 | INFO     | extraction_service   | Created 7 chunks
+2025-11-26 14:47:47 | INFO     | extraction_service   | [Chunk 1/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:47:47 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 83672 chars
+2025-11-26 14:47:59 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 13367 chars
+2025-11-26 14:47:59 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Ave",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 58,
+      "pca_name": "Waste Disposal and Waste Management",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED",
+      "source_pages": "GEN p-48"
+    },
+    {
+      "address": "670 Progress Ave",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_timeline": ...
+2025-11-26 14:47:59 | INFO     | extraction_service   | [Chunk 1] Extracted 47 PCA rows
+2025-11-26 14:47:59 | INFO     | extraction_service   | [Chunk 2/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:47:59 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 83166 chars
+2025-11-26 14:48:16 | INFO     | extraction_service   | [Chunk 2] Gemini response received: 17652 chars
+2025-11-26 14:48:16 | DEBUG    | extraction_service   | [Chunk 2] Response preview: {
+  "rows": [
+    {
+      "address": "670 PROGRESS AVE UNIT 8",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 43,
+      "pca_name": "Plastics (including Fibreglass) Manufacturing and Processing",
+      "description_timeline": "Cooltec Coolers Canada (1978).",
+      "source_pages": "SCT"
+    },
+    {
+      "address": "670 PROGRESS AVE UNIT 8",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 54,
+      "pca_name": "Textile Manufacturing and Processing",
+     ...
+2025-11-26 14:48:16 | INFO     | extraction_service   | [Chunk 2] Extracted 60 PCA rows
+2025-11-26 14:48:16 | INFO     | extraction_service   | [Chunk 3/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:48:16 | DEBUG    | extraction_service   | [Chunk 3] Prompt length: 84130 chars
+2025-11-26 14:48:29 | INFO     | extraction_service   | [Chunk 3] Gemini response received: 14473 chars
+2025-11-26 14:48:29 | DEBUG    | extraction_service   | [Chunk 3] Response preview: {
+  "rows": [
+    {
+      "address": "700 Progress Ave",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 33,
+      "pca_name": "Metal Treatment, Coating, Plating and Finishing",
+      "description_timeline": "Located 30.5 m ENE. Brite Plating Ltd (1992-1998). Coating of metal products.",
+      "source_pages": "GEN"
+    },
+    {
+      "address": "700 Progress Ave",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufactu...
+2025-11-26 14:48:29 | INFO     | extraction_service   | [Chunk 3] Extracted 38 PCA rows
+2025-11-26 14:48:29 | INFO     | extraction_service   | [Chunk 4/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:48:29 | DEBUG    | extraction_service   | [Chunk 4] Prompt length: 85197 chars
+2025-11-26 14:48:52 | INFO     | extraction_service   | [Chunk 4] Gemini response received: 9930 chars
+2025-11-26 14:48:52 | DEBUG    | extraction_service   | [Chunk 4] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 8,
+      "pca_name": "Chemical Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "A.G.Simpson Co. Limited. Substances released: Sulphuric acid, Hydrochloric acid, Phosphoric acid, Zinc (and its compounds), Nickel (and its compounds), Toluene, Xylene (mixed isomers), Chromium (and its compounds), Lead (and its compounds), Manganese (and its compou...
+2025-11-26 14:48:52 | INFO     | extraction_service   | [Chunk 4] Extracted 25 PCA rows
+2025-11-26 14:48:52 | INFO     | extraction_service   | [Chunk 5/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:48:52 | DEBUG    | extraction_service   | [Chunk 5] Prompt length: 83847 chars
+2025-11-26 14:49:24 | INFO     | extraction_service   | [Chunk 5] Gemini response received: 23930 chars
+2025-11-26 14:49:24 | DEBUG    | extraction_service   | [Chunk 5] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 52,
+      "pca_name": "Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems",
+      "description_timeline": "AGS Automotive, 20 L oil to grd, cleaning (4/24/2015)",
+      "source_pages": "ERIS, 162"
+    },
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "p...
+2025-11-26 14:49:24 | WARNING  | extraction_service   | [Chunk 5] JSON parse failed, attempting to fix...
+2025-11-26 14:50:09 | INFO     | extraction_service   | [Chunk 5] JSON fix response: 23782 chars
+2025-11-26 14:50:09 | INFO     | extraction_service   | [Chunk 5] JSON fixed successfully
+2025-11-26 14:50:09 | INFO     | extraction_service   | [Chunk 5] Extracted 77 PCA rows
+2025-11-26 14:50:09 | INFO     | extraction_service   | [Chunk 6/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:50:09 | DEBUG    | extraction_service   | [Chunk 6] Prompt length: 80590 chars
+2025-11-26 14:50:48 | INFO     | extraction_service   | [Chunk 6] Gemini response received: 25657 chars
+2025-11-26 14:50:48 | DEBUG    | extraction_service   | [Chunk 6] Response preview: {
+  "rows": [
+    {
+      "address": "FUTURE CORPORATE DR.",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 56,
+      "pca_name": "Treatment of Sewage equal to or greater than 10,000 litres per day",
+      "description_timeline": "CITY. Municipal sewage approval (1985).",
+      "source_pages": "CA"
+    },
+    {
+      "address": "FUTURE CORPORATE DR.",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": null,
+      "pca_name": "Municipal Water Usage",
+      "des...
+2025-11-26 14:50:48 | WARNING  | extraction_service   | [Chunk 6] JSON parse failed, attempting to fix...
+2025-11-26 14:51:38 | INFO     | extraction_service   | [Chunk 6] JSON fix response: 25657 chars
+2025-11-26 14:51:38 | ERROR    | extraction_service   | [Chunk 6] JSON fix failed - no valid JSON
+2025-11-26 14:51:38 | WARNING  | extraction_service   | [Chunk 6] No valid rows extracted from response
+2025-11-26 14:51:38 | INFO     | extraction_service   | [Chunk 7/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:51:38 | DEBUG    | extraction_service   | [Chunk 7] Prompt length: 53337 chars
+2025-11-26 14:51:43 | INFO     | extraction_service   | [Chunk 7] Gemini response received: 2593 chars
+2025-11-26 14:51:43 | DEBUG    | extraction_service   | [Chunk 7] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": null,
+      "pca_name": "Manufacturing",
+      "description_timeline": "Lee Craft Industries Ltd (1980, 1985/86).",
+      "source_pages": "CD"
+    },
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": null,
+      "pca_name": "Printing",
+      "description_timeline": "Aetna Canada Printing Dept (1985/86).",
+     ...
+2025-11-26 14:51:43 | INFO     | extraction_service   | [Chunk 7] Extracted 10 PCA rows
+2025-11-26 14:51:43 | INFO     | extraction_service   | [Compile] Starting deduplication of 257 raw rows
+2025-11-26 14:51:43 | ERROR    | extraction_service   | ============================================================
+2025-11-26 14:51:43 | ERROR    | extraction_service   | EXTRACTION FAILED: Job 9b7684fd
+2025-11-26 14:51:43 | ERROR    | extraction_service   | Error: 'pca_definitions'
+Traceback (most recent call last):
+  File "/Users/justincui/Documents/school/429/LLM_pca/backend/services/extraction_service.py", line 283, in _run_extraction_sync
+    compile_prompt = COMPILE_PROMPT_TEMPLATE.format(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'pca_definitions'
+2025-11-26 14:51:43 | ERROR    | extraction_service   | ============================================================
+2025-11-26 14:53:37 | INFO     | root                 | ============================================================
+2025-11-26 14:53:37 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:53:37 | INFO     | root                 | ============================================================
+2025-11-26 14:53:50 | INFO     | root                 | ============================================================
+2025-11-26 14:53:50 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:53:50 | INFO     | root                 | ============================================================
+2025-11-26 14:54:03 | INFO     | root                 | ============================================================
+2025-11-26 14:54:03 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:54:03 | INFO     | root                 | ============================================================
+2025-11-26 14:54:11 | INFO     | root                 | ============================================================
+2025-11-26 14:54:11 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:54:11 | INFO     | root                 | ============================================================
+2025-11-26 14:54:15 | INFO     | root                 | ============================================================
+2025-11-26 14:54:15 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:54:15 | INFO     | root                 | ============================================================
+2025-11-26 14:54:17 | INFO     | root                 | ============================================================
+2025-11-26 14:54:17 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 14:54:17 | INFO     | root                 | ============================================================
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:256000]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:149504]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:88663]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[88707:88726]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[88728:88753]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[88757:88796]
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 14:54:36 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 14:54:36 | INFO     | extraction_service   | ============================================================
+2025-11-26 14:54:36 | INFO     | extraction_service   | EXTRACTION STARTED: Job a376377f
+2025-11-26 14:54:36 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/a376377f_ERIS-670-progress-avenue.pdf
+2025-11-26 14:54:36 | INFO     | extraction_service   | ============================================================
+2025-11-26 14:54:37 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 14:54:37 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 14:54:37 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 14:54:37 | INFO     | extraction_service   | Extracting text from PDF: a376377f_ERIS-670-progress-avenue.pdf
+2025-11-26 14:54:37 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 14:54:37 | INFO     | extraction_service   | Chunking with word limit: 10000
+2025-11-26 14:54:37 | INFO     | extraction_service   | Created 7 chunks
+2025-11-26 14:54:37 | INFO     | extraction_service   | [Chunk 1/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:54:37 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 83672 chars
+2025-11-26 14:54:54 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 13001 chars
+2025-11-26 14:54:54 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Ave",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 58,
+      "pca_name": "Waste Disposal and Waste Management",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED",
+      "source_pages": "GEN p-48"
+    },
+    {
+      "address": "670 Progress Ave",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_timeline": ...
+2025-11-26 14:54:54 | INFO     | extraction_service   | [Chunk 1] Extracted 46 PCA rows
+2025-11-26 14:54:54 | INFO     | extraction_service   | [Chunk 2/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:54:54 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 83166 chars
+2025-11-26 14:55:12 | INFO     | extraction_service   | [Chunk 2] Gemini response received: 20591 chars
+2025-11-26 14:55:12 | DEBUG    | extraction_service   | [Chunk 2] Response preview: {
+  "rows": [
+    {
+      "address": "670 PROGRESS AVE UNIT 8",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 43,
+      "pca_name": "Plastics (including Fibreglass) Manufacturing and Processing",
+      "description_timeline": "Cooltec Coolers Canada (1978).",
+      "source_pages": "SCT"
+    },
+    {
+      "address": "670 PROGRESS AVE UNIT 8",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 54,
+      "pca_name": "Textile Manufacturing and Processing",
+     ...
+2025-11-26 14:55:12 | INFO     | extraction_service   | [Chunk 2] Extracted 73 PCA rows
+2025-11-26 14:55:12 | INFO     | extraction_service   | [Chunk 3/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:55:12 | DEBUG    | extraction_service   | [Chunk 3] Prompt length: 84130 chars
+2025-11-26 14:55:27 | INFO     | extraction_service   | [Chunk 3] Gemini response received: 12838 chars
+2025-11-26 14:55:27 | DEBUG    | extraction_service   | [Chunk 3] Response preview: {
+  "rows": [
+    {
+      "address": "700 Progress Ave",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 33,
+      "pca_name": "Metal Treatment, Coating, Plating and Finishing",
+      "description_timeline": "Located 30.5 m ENE. Brite Plating Ltd (1992-1998). Coating of metal products.",
+      "source_pages": "GEN"
+    },
+    {
+      "address": "700 Progress Ave",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufactu...
+2025-11-26 14:55:27 | INFO     | extraction_service   | [Chunk 3] Extracted 34 PCA rows
+2025-11-26 14:55:27 | INFO     | extraction_service   | [Chunk 4/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:55:27 | DEBUG    | extraction_service   | [Chunk 4] Prompt length: 85197 chars
+2025-11-26 14:55:50 | INFO     | extraction_service   | [Chunk 4] Gemini response received: 22335 chars
+2025-11-26 14:55:50 | DEBUG    | extraction_service   | [Chunk 4] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 8,
+      "pca_name": "Chemical Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "A.G.Simpson Co. Limited. Substances Released: Sulphuric acid, Hydrochloric acid, Phosphoric acid, Zinc (and its compounds), Nickel (and its compounds), Toluene, Xylene (mixed isomers), Chromium (and its compounds), Lead (and its compounds), Manganese (and its compou...
+2025-11-26 14:55:50 | INFO     | extraction_service   | [Chunk 4] Extracted 48 PCA rows
+2025-11-26 14:55:50 | INFO     | extraction_service   | [Chunk 5/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:55:50 | DEBUG    | extraction_service   | [Chunk 5] Prompt length: 83847 chars
+2025-11-26 14:56:17 | INFO     | extraction_service   | [Chunk 5] Gemini response received: 23806 chars
+2025-11-26 14:56:17 | DEBUG    | extraction_service   | [Chunk 5] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 52,
+      "pca_name": "Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems",
+      "description_timeline": "AGS Automotive, 20 L oil to grd, cleaning (4/24/2015)",
+      "source_pages": "ERIS, 162"
+    },
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "p...
+2025-11-26 14:56:17 | WARNING  | extraction_service   | [Chunk 5] JSON parse failed, attempting to fix...
+2025-11-26 14:57:04 | INFO     | extraction_service   | [Chunk 5] JSON fix response: 23652 chars
+2025-11-26 14:57:04 | INFO     | extraction_service   | [Chunk 5] JSON fixed successfully
+2025-11-26 14:57:04 | INFO     | extraction_service   | [Chunk 5] Extracted 77 PCA rows
+2025-11-26 14:57:04 | INFO     | extraction_service   | [Chunk 6/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:57:04 | DEBUG    | extraction_service   | [Chunk 6] Prompt length: 80590 chars
+2025-11-26 14:57:42 | INFO     | extraction_service   | [Chunk 6] Gemini response received: 24938 chars
+2025-11-26 14:57:42 | DEBUG    | extraction_service   | [Chunk 6] Response preview: {
+  "rows": [
+    {
+      "address": "FUTURE CORPORATE DR.",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 56,
+      "pca_name": "Treatment of Sewage equal to or greater than 10,000 litres per day",
+      "description_timeline": "CITY. Municipal sewage. Approved 1985.",
+      "source_pages": "CA"
+    },
+    {
+      "address": "FUTURE CORPORATE DR.",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 56,
+      "pca_name": "Treatment of Sewage equal to or great...
+2025-11-26 14:57:42 | WARNING  | extraction_service   | [Chunk 6] JSON parse failed, attempting to fix...
+2025-11-26 14:58:20 | INFO     | extraction_service   | [Chunk 6] JSON fix response: 24938 chars
+2025-11-26 14:58:20 | ERROR    | extraction_service   | [Chunk 6] JSON fix failed - no valid JSON
+2025-11-26 14:58:20 | WARNING  | extraction_service   | [Chunk 6] No valid rows extracted from response
+2025-11-26 14:58:20 | INFO     | extraction_service   | [Chunk 7/7] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 14:58:20 | DEBUG    | extraction_service   | [Chunk 7] Prompt length: 53337 chars
+2025-11-26 14:58:26 | INFO     | extraction_service   | [Chunk 7] Gemini response received: 2847 chars
+2025-11-26 14:58:26 | DEBUG    | extraction_service   | [Chunk 7] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": null,
+      "pca_name": "Manufacturing",
+      "description_timeline": "Lee Craft Industries Ltd (1980, 1985/86).",
+      "source_pages": "CD"
+    },
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": null,
+      "pca_name": "Printing",
+      "description_timeline": "Aetna Canada Printing Dept (1985/86).",
+     ...
+2025-11-26 14:58:26 | INFO     | extraction_service   | [Chunk 7] Extracted 11 PCA rows
+2025-11-26 14:58:26 | INFO     | extraction_service   | [Compile] Starting deduplication of 289 raw rows
+2025-11-26 14:58:26 | INFO     | extraction_service   | [Compile] Calling Gemini for deduplication...
+2025-11-26 14:58:55 | INFO     | extraction_service   | [Compile] Received response: 25013 chars
+2025-11-26 14:59:30 | INFO     | extraction_service   | ============================================================
+2025-11-26 14:59:30 | INFO     | extraction_service   | EXTRACTION COMPLETED: Job a376377f
+2025-11-26 14:59:30 | INFO     | extraction_service   | Total PCAs extracted: 289
+2025-11-26 14:59:30 | INFO     | extraction_service   | Output dir: /Users/justincui/Documents/school/429/LLM_pca/outputs/experiments/exp_038
+2025-11-26 14:59:30 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:03:09 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:03:09 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_15-raglan_20251126_150309
+2025-11-26 15:03:09 | INFO     | benchmark_service    | Project: 15-raglan, Prompt: v1
+2025-11-26 15:03:09 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:03:10 | INFO     | numexpr.utils        | Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-26 15:03:10 | INFO     | numexpr.utils        | NumExpr defaulting to 8 threads.
+2025-11-26 15:03:23 | INFO     | root                 | ============================================================
+2025-11-26 15:03:23 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:03:23 | INFO     | root                 | ============================================================
+2025-11-26 15:03:38 | INFO     | root                 | ============================================================
+2025-11-26 15:03:38 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:03:38 | INFO     | root                 | ============================================================
+2025-11-26 15:05:40 | INFO     | root                 | ============================================================
+2025-11-26 15:05:40 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:05:40 | INFO     | root                 | ============================================================
+2025-11-26 15:07:00 | INFO     | root                 | ============================================================
+2025-11-26 15:07:00 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:07:00 | INFO     | root                 | ============================================================
+2025-11-26 15:07:08 | INFO     | root                 | ============================================================
+2025-11-26 15:07:08 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:07:08 | INFO     | root                 | ============================================================
+2025-11-26 15:07:24 | INFO     | root                 | ============================================================
+2025-11-26 15:07:24 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:07:24 | INFO     | root                 | ============================================================
+2025-11-26 15:07:31 | INFO     | root                 | ============================================================
+2025-11-26 15:07:31 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:07:31 | INFO     | root                 | ============================================================
+2025-11-26 15:07:37 | INFO     | root                 | ============================================================
+2025-11-26 15:07:37 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:07:37 | INFO     | root                 | ============================================================
+2025-11-26 15:07:50 | INFO     | root                 | ============================================================
+2025-11-26 15:07:50 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:07:50 | INFO     | root                 | ============================================================
+2025-11-26 15:08:07 | INFO     | root                 | ============================================================
+2025-11-26 15:08:07 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:08:07 | INFO     | root                 | ============================================================
+2025-11-26 15:08:12 | INFO     | root                 | ============================================================
+2025-11-26 15:08:12 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:08:12 | INFO     | root                 | ============================================================
+2025-11-26 15:08:36 | INFO     | root                 | ============================================================
+2025-11-26 15:08:36 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:08:36 | INFO     | root                 | ============================================================
+2025-11-26 15:08:48 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:08:48 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_1050-sheppard-west_20251126_150848
+2025-11-26 15:08:48 | INFO     | benchmark_service    | Project: 1050-sheppard-west, Prompt: v1
+2025-11-26 15:08:48 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:08:49 | INFO     | numexpr.utils        | Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-26 15:08:49 | INFO     | numexpr.utils        | NumExpr defaulting to 8 threads.
+2025-11-26 15:09:56 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:09:56 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_670-progress-avenue_20251126_150956
+2025-11-26 15:09:56 | INFO     | benchmark_service    | Project: 670-progress-avenue, Prompt: v1
+2025-11-26 15:09:56 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:131072]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:143360]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:114324]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:147820]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131071]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:1]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:82519]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[82563:82582]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[82584:82609]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[82613:82652]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[82696:82715]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[82717:82745]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[82749:82754]
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:10:13 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 15:10:13 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:10:13 | INFO     | extraction_service   | EXTRACTION STARTED: Job 3a6f7361
+2025-11-26 15:10:13 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/3a6f7361_ERIS-670-progress-avenue.pdf
+2025-11-26 15:10:13 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:10:13 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 15:10:13 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 15:10:13 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 15:10:13 | INFO     | extraction_service   | Extracting text from PDF: 3a6f7361_ERIS-670-progress-avenue.pdf
+2025-11-26 15:10:13 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 15:10:13 | INFO     | extraction_service   | Chunking with word limit: 20000
+2025-11-26 15:10:13 | INFO     | extraction_service   | Created 4 chunks
+2025-11-26 15:10:13 | INFO     | extraction_service   | [Chunk 1/4] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:10:13 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 154827 chars
+2025-11-26 15:10:43 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 23683 chars
+2025-11-26 15:10:43 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 58,
+      "pca_name": "Waste Disposal and Waste Management",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED, Generator #ON0769702, Waste Code 213 (PETROLEUM DISTILLATES), 252 (WASTE OILS & LUBRICANTS)",
+      "source_pages": "GEN, p-48"
+    },
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 19,...
+2025-11-26 15:10:43 | WARNING  | extraction_service   | [Chunk 1] JSON parse failed, attempting to fix...
+2025-11-26 15:11:21 | INFO     | extraction_service   | [Chunk 1] JSON fix response: 23683 chars
+2025-11-26 15:11:21 | ERROR    | extraction_service   | [Chunk 1] JSON fix failed - no valid JSON
+2025-11-26 15:11:21 | WARNING  | extraction_service   | [Chunk 1] No valid rows extracted from response
+2025-11-26 15:11:21 | INFO     | extraction_service   | [Chunk 2/4] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:11:21 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 157314 chars
+2025-11-26 15:11:46 | INFO     | extraction_service   | [Chunk 2] Gemini response received: 25400 chars
+2025-11-26 15:11:46 | DEBUG    | extraction_service   | [Chunk 2] Response preview: {
+  "rows": [
+    {
+      "address": "700 Progress Ave ",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "A+A Graphics Canada Inc (2012).",
+      "source_pages": "ERIS, 68"
+    },
+    {
+      "address": "700 PROGRESS AVENUE ",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufacturing, Processing and Bulk ...
+2025-11-26 15:11:46 | WARNING  | extraction_service   | [Chunk 2] JSON parse failed, attempting to fix...
+2025-11-26 15:12:17 | INFO     | root                 | ============================================================
+2025-11-26 15:12:17 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:17 | INFO     | root                 | ============================================================
+2025-11-26 15:12:17 | INFO     | root                 | ============================================================
+2025-11-26 15:12:17 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:17 | INFO     | root                 | ============================================================
+2025-11-26 15:12:19 | INFO     | root                 | ============================================================
+2025-11-26 15:12:19 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:19 | INFO     | root                 | ============================================================
+2025-11-26 15:12:19 | INFO     | root                 | ============================================================
+2025-11-26 15:12:19 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:19 | INFO     | root                 | ============================================================
+2025-11-26 15:12:25 | INFO     | root                 | ============================================================
+2025-11-26 15:12:25 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:25 | INFO     | root                 | ============================================================
+2025-11-26 15:12:27 | INFO     | root                 | ============================================================
+2025-11-26 15:12:27 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:27 | INFO     | root                 | ============================================================
+2025-11-26 15:12:29 | INFO     | root                 | ============================================================
+2025-11-26 15:12:29 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:29 | INFO     | root                 | ============================================================
+2025-11-26 15:12:30 | INFO     | root                 | ============================================================
+2025-11-26 15:12:30 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:30 | INFO     | root                 | ============================================================
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:131072]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:6144]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:130656]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:82935]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[82979:82998]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[83000:83025]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[83029:83068]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[83112:83131]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[83133:83161]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[83165:83169]
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:12:33 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 15:12:33 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:12:33 | INFO     | extraction_service   | EXTRACTION STARTED: Job 6b55f27d
+2025-11-26 15:12:33 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/6b55f27d_ERIS-670-progress-avenue.pdf
+2025-11-26 15:12:33 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:12:34 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 15:12:34 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 15:12:34 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 15:12:34 | INFO     | extraction_service   | Extracting text from PDF: 6b55f27d_ERIS-670-progress-avenue.pdf
+2025-11-26 15:12:34 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 15:12:34 | INFO     | extraction_service   | Chunking with word limit: 5000
+2025-11-26 15:12:34 | INFO     | extraction_service   | Created 14 chunks
+2025-11-26 15:12:34 | INFO     | extraction_service   | [Chunk 1/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:12:34 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 45581 chars
+2025-11-26 15:12:43 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:12:43 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 5457 chars
+2025-11-26 15:12:43 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 58,
+      "pca_name": "Waste Disposal and Waste Management",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED",
+      "source_pages": "GEN, p-48"
+    },
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_time...
+2025-11-26 15:12:43 | INFO     | extraction_service   | [Chunk 1] Extracted 19 PCA rows
+2025-11-26 15:12:43 | INFO     | extraction_service   | [Chunk 2/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:12:43 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 47972 chars
+2025-11-26 15:12:56 | INFO     | root                 | ============================================================
+2025-11-26 15:12:56 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:12:56 | INFO     | root                 | ============================================================
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:131072]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:107095]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[107139:107158]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[107160:107185]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[107189:107228]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[107272:107291]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[107293:107321]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[107325:107329]
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 15:13:07 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 15:13:07 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:13:07 | INFO     | extraction_service   | EXTRACTION STARTED: Job f3f9ae6c
+2025-11-26 15:13:07 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/f3f9ae6c_ERIS-670-progress-avenue.pdf
+2025-11-26 15:13:07 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:13:08 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 15:13:08 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 15:13:08 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 15:13:08 | INFO     | extraction_service   | Extracting text from PDF: f3f9ae6c_ERIS-670-progress-avenue.pdf
+2025-11-26 15:13:08 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 15:13:08 | INFO     | extraction_service   | Chunking with word limit: 5000
+2025-11-26 15:13:08 | INFO     | extraction_service   | Created 14 chunks
+2025-11-26 15:13:08 | INFO     | extraction_service   | [Chunk 1/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:13:08 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 45581 chars
+2025-11-26 15:13:25 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:13:25 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 10516 chars
+2025-11-26 15:13:25 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 58,
+      "pca_name": "Waste Disposal and Waste Management",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED",
+      "source_pages": "GEN, p-48"
+    },
+    {
+      "address": "670 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_time...
+2025-11-26 15:13:25 | INFO     | extraction_service   | [Chunk 1] Extracted 37 PCA rows
+2025-11-26 15:13:25 | INFO     | extraction_service   | [Chunk 2/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:13:25 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 47972 chars
+2025-11-26 15:13:34 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:13:34 | INFO     | extraction_service   | [Chunk 2] Gemini response received: 4632 chars
+2025-11-26 15:13:34 | DEBUG    | extraction_service   | [Chunk 2] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 34,
+      "pca_name": "Metal Fabrication",
+      "description_timeline": "Located 146.7 m SSE. A.G.Simpson Co. Limited, A.G. SIMPSON AUTOMOTIVE INC., A.G.SIMPSON AUTOMOTIVE. Numerous NPRI listings.",
+      "source_pages": "ERIS, pages 14-18"
+    },
+    {
+      "address": "705 Progress Ave",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": null,
+      "p...
+2025-11-26 15:13:34 | INFO     | extraction_service   | [Chunk 2] Extracted 14 PCA rows
+2025-11-26 15:13:34 | INFO     | extraction_service   | [Chunk 3/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:13:34 | DEBUG    | extraction_service   | [Chunk 3] Prompt length: 46146 chars
+2025-11-26 15:13:49 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:13:49 | INFO     | extraction_service   | [Chunk 3] Gemini response received: 9499 chars
+2025-11-26 15:13:49 | DEBUG    | extraction_service   | [Chunk 3] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 34,
+      "pca_name": "Metal Fabrication",
+      "description_timeline": "Located 157.2 m away. A.G. Simpson Automotive Inc. and A.G. Simpson Co. Ltd. (various years).",
+      "source_pages": "ERIS"
+    },
+    {
+      "address": "700 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 33,
+      "pca_name": "Metal Treatment, Coating, Plati...
+2025-11-26 15:13:49 | INFO     | extraction_service   | [Chunk 3] Extracted 32 PCA rows
+2025-11-26 15:13:49 | INFO     | extraction_service   | [Chunk 4/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:13:49 | DEBUG    | extraction_service   | [Chunk 4] Prompt length: 47600 chars
+2025-11-26 15:14:19 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:14:19 | INFO     | extraction_service   | [Chunk 4] Gemini response received: 20505 chars
+2025-11-26 15:14:19 | DEBUG    | extraction_service   | [Chunk 4] Response preview: {
+  "rows": [
+    {
+      "address": "111 Grangeway Ave Suite 504",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": null,
+      "pca_name": "Manufacturing",
+      "description_timeline": "Located 65.8 m away. Hoffman Enclosures Inc.",
+      "source_pages": "ERIS"
+    },
+    {
+      "address": "200 CONSILIUM PL SUITE 700",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 42,
+      "pca_name": "Pharmaceutical Manufacturing and Processing",
+      "description_ti...
+2025-11-26 15:14:19 | INFO     | extraction_service   | [Chunk 4] Extracted 61 PCA rows
+2025-11-26 15:14:19 | INFO     | extraction_service   | [Chunk 5/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:14:19 | DEBUG    | extraction_service   | [Chunk 5] Prompt length: 47720 chars
+2025-11-26 15:14:45 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:14:45 | INFO     | extraction_service   | [Chunk 5] Gemini response received: 15665 chars
+2025-11-26 15:14:45 | DEBUG    | extraction_service   | [Chunk 5] Response preview: {
+  "rows": [
+    {
+      "address": "651 Progress Avenue Unit 1",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 39,
+      "pca_name": "Paints Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Located 25.4 m south. Labelcraft Products Limited. Waste generator of paint/pigment/coating residues (1998).",
+      "source_pages": "GEN"
+    },
+    {
+      "address": "651 Progress Avenue Unit 1",
+      "location_relation_to_site": "Off-Site",
+      "pca_num...
+2025-11-26 15:14:45 | INFO     | extraction_service   | [Chunk 5] Extracted 41 PCA rows
+2025-11-26 15:14:45 | INFO     | extraction_service   | [Chunk 6/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:14:45 | DEBUG    | extraction_service   | [Chunk 6] Prompt length: 47377 chars
+2025-11-26 15:15:01 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:15:01 | INFO     | extraction_service   | [Chunk 6] Gemini response received: 9438 chars
+2025-11-26 15:15:01 | DEBUG    | extraction_service   | [Chunk 6] Response preview: {
+  "rows": [
+    {
+      "address": "200 Consilium Place Suite #104",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": null,
+      "pca_name": "Medical Clinic",
+      "description_timeline": "Athlete's Care. Waste generator (2012, As of Sep 2016): Pathological wastes. Located 70.1 m WSW.",
+      "source_pages": "GEN"
+    },
+    {
+      "address": "200 CONSILIUM PLACE, SUITE 104",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 58,
+      "pca_name": "Waste Di...
+2025-11-26 15:15:01 | INFO     | extraction_service   | [Chunk 6] Extracted 26 PCA rows
+2025-11-26 15:15:01 | INFO     | extraction_service   | [Chunk 7/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:15:01 | DEBUG    | extraction_service   | [Chunk 7] Prompt length: 47179 chars
+2025-11-26 15:15:24 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:15:24 | INFO     | extraction_service   | [Chunk 7] Gemini response received: 9264 chars
+2025-11-26 15:15:24 | DEBUG    | extraction_service   | [Chunk 7] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 34,
+      "pca_name": "Metal Fabrication",
+      "description_timeline": "Located 146.7 m SSE. A.G.Simpson Co. Limited (1998), A.G. SIMPSON AUTOMOTIVE INC. (2012), A.G. SIMPSON AUTOMOTIVE INC. (2003), A.G.Simpson Co. Limited (2001), A.G.SIMPSON AUTOMOTIVE (2006), A.G.SIMPSON AUTOMOTIVE (2005), A.G. SIMPSON CO. LTD., SCARBOROUGH FAC. (1998), A.G. Simpson Automotive Inc. (...
+2025-11-26 15:15:24 | INFO     | extraction_service   | [Chunk 7] Extracted 21 PCA rows
+2025-11-26 15:15:24 | INFO     | extraction_service   | [Chunk 8/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:15:24 | DEBUG    | extraction_service   | [Chunk 8] Prompt length: 47764 chars
+2025-11-26 15:15:29 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:15:29 | INFO     | extraction_service   | [Chunk 8] Gemini response received: 2362 chars
+2025-11-26 15:15:29 | DEBUG    | extraction_service   | [Chunk 8] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue",
+      "location_relation_to_site": "SE/157.2",
+      "pca_number": 57,
+      "pca_name": "Vehicles and Associated Parts Manufacturing",
+      "description_timeline": "A.G. Simpson Co. Ltd., Scarborough Fac. manufacturer of parts for the automotive industry. Metal stamping, part washing, welding, and painting. Various air emissions approvals 1998-2013.",
+      "source_pages": "ERIS 137-144"
+    },
+    {
+      "address": "675 Progress Ave...
+2025-11-26 15:15:29 | INFO     | extraction_service   | [Chunk 8] Extracted 6 PCA rows
+2025-11-26 15:15:29 | INFO     | extraction_service   | [Chunk 9/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:15:29 | DEBUG    | extraction_service   | [Chunk 9] Prompt length: 48303 chars
+2025-11-26 15:15:54 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:15:54 | INFO     | extraction_service   | [Chunk 9] Gemini response received: 15452 chars
+2025-11-26 15:15:54 | DEBUG    | extraction_service   | [Chunk 9] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Ave.",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 55,
+      "pca_name": "Transformer Manufacturing, Processing and Use",
+      "description_timeline": "Located 157.2 m southeast. A. G. SIMPSON LTD. Storage of askarel (1995, 2000), ballasts with high level PCBs (1998-1999).",
+      "source_pages": "ERIS 158-159"
+    },
+    {
+      "address": "675 Progress Ave.",
+      "location_relation_to_site": "Off-Site",
+      "pca_num...
+2025-11-26 15:15:54 | INFO     | extraction_service   | [Chunk 9] Extracted 40 PCA rows
+2025-11-26 15:15:54 | INFO     | extraction_service   | [Chunk 10/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:15:54 | DEBUG    | extraction_service   | [Chunk 10] Prompt length: 47230 chars
+2025-11-26 15:16:08 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:16:08 | INFO     | extraction_service   | [Chunk 10] Gemini response received: 9062 chars
+2025-11-26 15:16:08 | DEBUG    | extraction_service   | [Chunk 10] Response preview: {
+  "rows": [
+    {
+      "address": "705 Progress Ave Unit 2",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 52,
+      "pca_name": "Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems",
+      "description_timeline": "Lawries Bindery Equipment Ltd. (1986). Support Activities for Printing.",
+      "source_pages": "SCT"
+    },
+    {
+      "address": "705 Progress Ave Unit 28",
+      "location_relation_to_site":...
+2025-11-26 15:16:08 | INFO     | extraction_service   | [Chunk 10] Extracted 26 PCA rows
+2025-11-26 15:16:08 | INFO     | extraction_service   | [Chunk 11/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:16:08 | DEBUG    | extraction_service   | [Chunk 11] Prompt length: 46258 chars
+2025-11-26 15:16:13 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:16:13 | INFO     | extraction_service   | [Chunk 11] Gemini response received: 2519 chars
+2025-11-26 15:16:13 | DEBUG    | extraction_service   | [Chunk 11] Response preview: {
+  "rows": [
+    {
+      "address": "727 PROGRESS AVE",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 39,
+      "pca_name": "Paints Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Located 278.4 m ENE. THOMAS PRINTING (1985-). Waste Code: 145 PAINT/PIGMENT/COATING RESIDUES",
+      "source_pages": "ERIS"
+    },
+    {
+      "address": "727 Progress Ave Unit A",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 43,
+      "pca_name": ...
+2025-11-26 15:16:13 | INFO     | extraction_service   | [Chunk 11] Extracted 7 PCA rows
+2025-11-26 15:16:13 | INFO     | extraction_service   | [Chunk 12/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:16:13 | DEBUG    | extraction_service   | [Chunk 12] Prompt length: 48395 chars
+2025-11-26 15:16:51 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:16:51 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:16:51 | INFO     | extraction_service   | [Chunk 12] Gemini response received: 24543 chars
+2025-11-26 15:16:51 | DEBUG    | extraction_service   | [Chunk 12] Response preview: {
+  "rows": [
+    {
+      "address": "Progress Avenue   Toronto ON M1K 4C2",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 39,
+      "pca_name": "Paints Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "City of Toronto Municipal Licensing and Standards. Waste Code: 145 PAINT/PIGMENT/COATING RESIDUES. As of May 2015",
+      "source_pages": "GEN 225"
+    },
+    {
+      "address": "Progress Avenue   Toronto ON M1K 4C2",
+      "location_relation_to_site"...
+2025-11-26 15:16:51 | WARNING  | extraction_service   | [Chunk 12] JSON parse failed, attempting to fix...
+2025-11-26 15:17:29 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:17:29 | INFO     | extraction_service   | [Chunk 12] JSON fix response: 24471 chars
+2025-11-26 15:17:29 | INFO     | extraction_service   | [Chunk 12] JSON fixed successfully
+2025-11-26 15:17:29 | INFO     | extraction_service   | [Chunk 12] Extracted 61 PCA rows
+2025-11-26 15:17:29 | INFO     | extraction_service   | [Chunk 13/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:17:29 | DEBUG    | extraction_service   | [Chunk 13] Prompt length: 44203 chars
+2025-11-26 15:17:30 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:17:30 | INFO     | extraction_service   | [Chunk 13] Gemini response received: 16 chars
+2025-11-26 15:17:30 | DEBUG    | extraction_service   | [Chunk 13] Response preview: {
+  "rows": []
+}...
+2025-11-26 15:17:30 | INFO     | extraction_service   | [Chunk 13] Extracted 0 PCA rows
+2025-11-26 15:17:30 | INFO     | extraction_service   | [Chunk 14/14] Calling Gemini API (model=gemini-2.0-flash, temp=0.1)
+2025-11-26 15:17:30 | DEBUG    | extraction_service   | [Chunk 14] Prompt length: 26296 chars
+2025-11-26 15:17:33 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:17:33 | INFO     | extraction_service   | [Chunk 14] Gemini response received: 1862 chars
+2025-11-26 15:17:33 | DEBUG    | extraction_service   | [Chunk 14] Response preview: {
+  "rows": [
+    {
+      "address": "670, 680, 690 Progress Avenue",
+      "location_relation_to_site": "On-Site",
+      "pca_number": null,
+      "pca_name": "Manufacturing",
+      "description_timeline": "670 Progress: All Lift Ltd, Art Garden Teak Furniture, Cases Unlimited, Childerhose & Miklas Corporation, Devry Institute of Technology, GBA Refineries Ltd, Harbour Point Office Furniture Inc, Marna Construction, Nedco, RC Champ Inc, Tropicana Community Services (2000). All Lift Ltd, BDH Com...
+2025-11-26 15:17:33 | INFO     | extraction_service   | [Chunk 14] Extracted 1 PCA rows
+2025-11-26 15:17:33 | INFO     | extraction_service   | [Compile] Starting deduplication of 373 raw rows
+2025-11-26 15:17:33 | INFO     | extraction_service   | [Compile] Calling Gemini for deduplication...
+2025-11-26 15:18:01 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:18:01 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:18:01 | INFO     | extraction_service   | [Compile] Received response: 26123 chars
+2025-11-26 15:18:40 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:18:40 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:18:40 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:18:40 | INFO     | extraction_service   | EXTRACTION COMPLETED: Job f3f9ae6c
+2025-11-26 15:18:40 | INFO     | extraction_service   | Total PCAs extracted: 373
+2025-11-26 15:18:40 | INFO     | extraction_service   | Output dir: /Users/justincui/Documents/school/429/LLM_pca/outputs/experiments/exp_044
+2025-11-26 15:18:40 | INFO     | extraction_service   | ============================================================
+2025-11-26 15:20:01 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:20:01 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_670-progress-avenue_20251126_152001
+2025-11-26 15:20:01 | INFO     | benchmark_service    | Project: 670-progress-avenue, Prompt: v1
+2025-11-26 15:20:01 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:20:01 | INFO     | numexpr.utils        | Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-26 15:20:01 | INFO     | numexpr.utils        | NumExpr defaulting to 8 threads.
+2025-11-26 15:20:12 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:20:52 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:20:52 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:21:30 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:21:30 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:21:57 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:22:34 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:22:56 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:23:21 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:23:32 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:23:36 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:24:01 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:24:14 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:24:50 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:25:27 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:25:27 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:26:25 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:26:25 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:26:25 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:26:31 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:26:57 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:26:57 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:27:39 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:27:39 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:32:54 | INFO     | root                 | ============================================================
+2025-11-26 15:32:54 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:32:54 | INFO     | root                 | ============================================================
+2025-11-26 15:33:10 | INFO     | root                 | ============================================================
+2025-11-26 15:33:10 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:33:10 | INFO     | root                 | ============================================================
+2025-11-26 15:33:39 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:33:39 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_670-progress-avenue_20251126_153339
+2025-11-26 15:33:39 | INFO     | benchmark_service    | Project: 670-progress-avenue, Prompt: v1
+2025-11-26 15:33:39 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:33:40 | INFO     | numexpr.utils        | Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-26 15:33:40 | INFO     | numexpr.utils        | NumExpr defaulting to 8 threads.
+2025-11-26 15:33:58 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:34:06 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:34:35 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:35:14 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:35:14 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:36:02 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:36:31 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:36:57 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:37:16 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:37:21 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:37:42 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:37:52 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:38:05 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:38:43 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:38:43 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:39:21 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:39:21 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:39:22 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:39:25 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:39:53 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:39:53 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:40:36 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:40:36 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:40:36 | INFO     | benchmark_service    | [Filter] Removed 114 rows without valid PCA number (kept 280)
+2025-11-26 15:43:07 | INFO     | root                 | ============================================================
+2025-11-26 15:43:07 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:43:07 | INFO     | root                 | ============================================================
+2025-11-26 15:43:21 | INFO     | root                 | ============================================================
+2025-11-26 15:43:21 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:43:21 | INFO     | root                 | ============================================================
+2025-11-26 15:43:33 | INFO     | root                 | ============================================================
+2025-11-26 15:43:33 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:43:33 | INFO     | root                 | ============================================================
+2025-11-26 15:43:39 | INFO     | root                 | ============================================================
+2025-11-26 15:43:39 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:43:39 | INFO     | root                 | ============================================================
+2025-11-26 15:43:50 | INFO     | root                 | ============================================================
+2025-11-26 15:43:50 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:43:50 | INFO     | root                 | ============================================================
+2025-11-26 15:44:00 | INFO     | root                 | ============================================================
+2025-11-26 15:44:00 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:44:00 | INFO     | root                 | ============================================================
+2025-11-26 15:44:16 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:44:16 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_670-progress-avenue_20251126_154416
+2025-11-26 15:44:16 | INFO     | benchmark_service    | Project: 670-progress-avenue, Prompt: v1
+2025-11-26 15:44:16 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:44:17 | INFO     | benchmark_service    | Ground truth: 23 ERIS rows (out of 40 total)
+2025-11-26 15:44:32 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:45:14 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:45:14 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:45:53 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:46:06 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:46:39 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:46:56 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:47:00 | INFO     | root                 | ============================================================
+2025-11-26 15:47:00 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:47:00 | INFO     | root                 | ============================================================
+2025-11-26 15:47:39 | INFO     | root                 | ============================================================
+2025-11-26 15:47:39 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:47:39 | INFO     | root                 | ============================================================
+2025-11-26 15:48:20 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:48:20 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_670-progress-avenue_20251126_154820
+2025-11-26 15:48:20 | INFO     | benchmark_service    | Project: 670-progress-avenue, Prompt: v1
+2025-11-26 15:48:20 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:48:20 | INFO     | benchmark_service    | Ground truth: 23 ERIS rows (out of 40 total)
+2025-11-26 15:48:47 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:48:47 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:49:23 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:49:23 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:49:46 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:49:46 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:50:24 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:50:24 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:50:41 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:50:54 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:51:32 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 15:51:32 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 15:52:11 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 15:52:44 | INFO     | root                 | ============================================================
+2025-11-26 15:52:44 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:52:44 | INFO     | root                 | ============================================================
+2025-11-26 15:52:46 | INFO     | root                 | ============================================================
+2025-11-26 15:52:46 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:52:46 | INFO     | root                 | ============================================================
+2025-11-26 15:53:25 | INFO     | root                 | ============================================================
+2025-11-26 15:53:25 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 15:53:25 | INFO     | root                 | ============================================================
+2025-11-26 15:55:01 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:55:01 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_670-progress-avenue_20251126_155501
+2025-11-26 15:55:01 | INFO     | benchmark_service    | Project: 670-progress-avenue, Prompt: v1
+2025-11-26 15:55:01 | INFO     | benchmark_service    | ============================================================
+2025-11-26 15:55:01 | INFO     | benchmark_service    | Ground truth: 23 ERIS rows (out of 40 total)
+2025-11-26 15:58:17 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:01:48 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:03:29 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:05:48 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:09:43 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:09:50 | INFO     | root                 | ============================================================
+2025-11-26 16:09:50 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:09:50 | INFO     | root                 | ============================================================
+2025-11-26 16:10:01 | INFO     | root                 | ============================================================
+2025-11-26 16:10:01 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:10:01 | INFO     | root                 | ============================================================
+2025-11-26 16:10:16 | INFO     | root                 | ============================================================
+2025-11-26 16:10:16 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:10:16 | INFO     | root                 | ============================================================
+2025-11-26 16:10:29 | INFO     | root                 | ============================================================
+2025-11-26 16:10:29 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:10:29 | INFO     | root                 | ============================================================
+2025-11-26 16:12:19 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:12:19 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_1285-queen-street-east_20251126_161219
+2025-11-26 16:12:19 | INFO     | benchmark_service    | Project: 1285-queen-street-east, Prompt: v1
+2025-11-26 16:12:19 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:12:20 | INFO     | benchmark_service    | Ground truth: 21 ERIS rows (out of 69 total)
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:256000]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:214832]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:23335]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[23379:23398]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[23400:23425]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[23429:23468]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[23512:23531]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[23533:23561]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[23565:23570]
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:13:28 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 16:13:28 | INFO     | extraction_service   | ============================================================
+2025-11-26 16:13:28 | INFO     | extraction_service   | EXTRACTION STARTED: Job 0b3fe626
+2025-11-26 16:13:28 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/0b3fe626_ERIS-670-progress-avenue.pdf
+2025-11-26 16:13:28 | INFO     | extraction_service   | ============================================================
+2025-11-26 16:13:28 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 16:13:28 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 16:13:28 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 16:13:28 | INFO     | extraction_service   | Extracting text from PDF: 0b3fe626_ERIS-670-progress-avenue.pdf
+2025-11-26 16:13:28 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 16:13:28 | INFO     | extraction_service   | Chunking with word limit: 15000
+2025-11-26 16:13:28 | INFO     | extraction_service   | Created 5 chunks
+2025-11-26 16:13:28 | INFO     | extraction_service   | [Chunk 1/5] Calling Gemini API (model=gemini-2.5-flash, temp=0.1)
+2025-11-26 16:13:28 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 118009 chars
+2025-11-26 16:14:43 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:14:43 | INFO     | benchmark_service    | [Chunk 1/6] Extracted 100 rows (total so far: 100)
+2025-11-26 16:15:29 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:15:29 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 26559 chars
+2025-11-26 16:15:29 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 PROGRESS AVENUE SCARBOROUGH ON M1H 3A4",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 52,
+      "pca_name": "Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED. Waste generator for material handling/lifting equipment.",
+      "source_pages": "GEN"
+    },
+    {
+      "address": "670 PROGRESS AVENUE SCARBO...
+2025-11-26 16:15:29 | INFO     | extraction_service   | [Chunk 1] Extracted 71 PCA rows
+2025-11-26 16:15:29 | INFO     | extraction_service   | [Chunk 2/5] Calling Gemini API (model=gemini-2.5-flash, temp=0.1)
+2025-11-26 16:15:29 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 119693 chars
+2025-11-26 16:16:44 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:16:44 | INFO     | benchmark_service    | [Chunk 2/6] Extracted 67 rows (total so far: 167)
+2025-11-26 16:17:54 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:17:54 | INFO     | benchmark_service    | [Chunk 3/6] Extracted 29 rows (total so far: 196)
+2025-11-26 16:18:21 | INFO     | root                 | ============================================================
+2025-11-26 16:18:21 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:18:21 | INFO     | root                 | ============================================================
+2025-11-26 16:20:05 | INFO     | root                 | ============================================================
+2025-11-26 16:20:05 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:20:05 | INFO     | root                 | ============================================================
+2025-11-26 16:20:26 | INFO     | root                 | ============================================================
+2025-11-26 16:20:26 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:20:26 | INFO     | root                 | ============================================================
+2025-11-26 16:20:36 | INFO     | root                 | ============================================================
+2025-11-26 16:20:36 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:20:36 | INFO     | root                 | ============================================================
+2025-11-26 16:20:53 | INFO     | root                 | ============================================================
+2025-11-26 16:20:53 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:20:53 | INFO     | root                 | ============================================================
+2025-11-26 16:20:58 | INFO     | root                 | ============================================================
+2025-11-26 16:20:58 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:20:58 | INFO     | root                 | ============================================================
+2025-11-26 16:23:26 | INFO     | root                 | ============================================================
+2025-11-26 16:23:26 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:23:26 | INFO     | root                 | ============================================================
+2025-11-26 16:23:26 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:23:26 | INFO     | httpx                | HTTP Request: GET http://testserver/prompts/versions "HTTP/1.1 200 OK"
+2025-11-26 16:23:36 | INFO     | root                 | ============================================================
+2025-11-26 16:23:36 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:23:36 | INFO     | root                 | ============================================================
+2025-11-26 16:23:36 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:23:36 | INFO     | httpx                | HTTP Request: POST http://testserver/prompts/versions/v3/activate "HTTP/1.1 200 OK"
+2025-11-26 16:23:36 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:23:36 | INFO     | httpx                | HTTP Request: GET http://testserver/prompts/versions "HTTP/1.1 200 OK"
+2025-11-26 16:23:36 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:23:36 | INFO     | httpx                | HTTP Request: POST http://testserver/prompts/versions/v1/activate "HTTP/1.1 200 OK"
+2025-11-26 16:23:51 | INFO     | root                 | ============================================================
+2025-11-26 16:23:51 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:23:51 | INFO     | root                 | ============================================================
+2025-11-26 16:23:51 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:23:51 | INFO     | httpx                | HTTP Request: GET http://testserver/extract/status "HTTP/1.1 200 OK"
+2025-11-26 16:23:51 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[36:55]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[57:82]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[86:94]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[132:151]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[153:181]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[185:190]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[228:247]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[249:281]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[285:287]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[325:344]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[346:389]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[391:403]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[405:420]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[424:449]
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:23:51 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 16:23:51 | INFO     | httpx                | HTTP Request: POST http://testserver/extract/upload "HTTP/1.1 200 OK"
+2025-11-26 16:24:05 | INFO     | root                 | ============================================================
+2025-11-26 16:24:05 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:24:05 | INFO     | root                 | ============================================================
+2025-11-26 16:24:05 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:24:05 | INFO     | httpx                | HTTP Request: POST http://testserver/prompts/versions/v3/activate "HTTP/1.1 200 OK"
+2025-11-26 16:24:05 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[36:55]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[57:82]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[86:94]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[132:151]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[153:181]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[185:190]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[228:247]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[249:292]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[294:306]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[308:323]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[327:352]
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:24:05 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 16:24:05 | INFO     | httpx                | HTTP Request: POST http://testserver/extract/upload "HTTP/1.1 200 OK"
+2025-11-26 16:24:05 | DEBUG    | asyncio              | Using selector: KqueueSelector
+2025-11-26 16:24:05 | INFO     | httpx                | HTTP Request: POST http://testserver/prompts/versions/v1/activate "HTTP/1.1 200 OK"
+2025-11-26 16:27:00 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:27:00 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_1285-queen-street-east_20251126_162700
+2025-11-26 16:27:00 | INFO     | benchmark_service    | Project: 1285-queen-street-east, Prompt: v1
+2025-11-26 16:27:00 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:27:00 | INFO     | benchmark_service    | Ground truth: 21 ERIS rows (out of 69 total)
+2025-11-26 16:28:49 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:28:49 | INFO     | benchmark_service    | [Chunk 1/6] Extracted 55 rows (total so far: 55)
+2025-11-26 16:31:15 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:31:15 | INFO     | benchmark_service    | [Chunk 2/6] Extracted 51 rows (total so far: 106)
+2025-11-26 16:31:56 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:31:56 | INFO     | benchmark_service    | [Chunk 3/6] Extracted 18 rows (total so far: 124)
+2025-11-26 16:33:21 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:33:21 | INFO     | benchmark_service    | [Chunk 4/6] Extracted 28 rows (total so far: 152)
+2025-11-26 16:34:06 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:34:06 | INFO     | benchmark_service    | [Chunk 5/6] Extracted 11 rows (total so far: 163)
+2025-11-26 16:34:55 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:34:55 | INFO     | benchmark_service    | [Chunk 6/6] Extracted 19 rows (total so far: 182)
+2025-11-26 16:34:55 | INFO     | benchmark_service    | [Compile] Saved 182 raw rows, starting compilation...
+2025-11-26 16:34:55 | INFO     | benchmark_service    | [Compile] Prompt length: 74935 chars, calling Gemini...
+2025-11-26 16:38:21 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:38:21 | INFO     | benchmark_service    | [Compile] Received response: 57523 chars
+2025-11-26 16:38:21 | INFO     | benchmark_service    | [Filter] Removed 0 rows without valid PCA number (kept 118)
+2025-11-26 16:38:21 | INFO     | benchmark_service    | [Eval] Starting evaluation against ground truth...
+2025-11-26 16:38:21 | INFO     | benchmark_service    | [Eval] Results: TP=18, FP=100, FN=3
+2025-11-26 16:38:21 | INFO     | benchmark_service    | [Eval] Recall: 85.7%
+2025-11-26 16:38:21 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:38:21 | INFO     | benchmark_service    | BENCHMARK COMPLETED: Recall 85.7%
+2025-11-26 16:38:21 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:131072]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:107095]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[107139:107158]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[107160:107185]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[107189:107228]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[107272:107291]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[107293:107321]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[107325:107330]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[107374:107393]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[107395:107427]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[107431:107433]
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 16:39:57 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 16:39:57 | INFO     | extraction_service   | ============================================================
+2025-11-26 16:39:57 | INFO     | extraction_service   | EXTRACTION STARTED: Job c152af1d
+2025-11-26 16:39:57 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/c152af1d_ERIS-670-progress-avenue.pdf
+2025-11-26 16:39:57 | INFO     | extraction_service   | Prompt Version: v3
+2025-11-26 16:39:57 | INFO     | extraction_service   | ============================================================
+2025-11-26 16:39:57 | INFO     | extraction_service   | Loaded prompt template: v3_extract.txt (6947 chars)
+2025-11-26 16:39:57 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 16:39:57 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 16:39:57 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 16:39:57 | INFO     | extraction_service   | Extracting text from PDF: c152af1d_ERIS-670-progress-avenue.pdf
+2025-11-26 16:39:57 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 16:39:57 | INFO     | extraction_service   | Chunking with word limit: 15000
+2025-11-26 16:39:57 | INFO     | extraction_service   | Created 5 chunks
+2025-11-26 16:39:57 | INFO     | extraction_service   | [Chunk 1/5] Calling Gemini API (model=gemini-2.5-flash, temp=0.1)
+2025-11-26 16:39:57 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 112977 chars
+2025-11-26 16:40:52 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:40:52 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 8547 chars
+2025-11-26 16:40:52 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Ave, Unit 1, Scarborough ON M1H 3A4",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_timeline": "ANRO Electronic Ind. (Leecraft Ltd) / Leecraft Industries Limited, formerly Anro Electric.",
+      "source_pages": "GEN p-48, p-50"
+    },
+    {
+      "address": "680 Progress Ave, Scarborough ON M1H 3A5",
+      "location_relation_to_site": ...
+2025-11-26 16:40:52 | INFO     | extraction_service   | [Chunk 1] Extracted 24 PCA rows
+2025-11-26 16:40:52 | INFO     | extraction_service   | [Chunk 2/5] Calling Gemini API (model=gemini-2.5-flash, temp=0.1)
+2025-11-26 16:40:52 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 114661 chars
+2025-11-26 16:42:39 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:42:39 | INFO     | extraction_service   | [Chunk 2] Gemini response received: 16558 chars
+2025-11-26 16:42:39 | DEBUG    | extraction_service   | [Chunk 2] Response preview: {
+  "rows": [
+    {
+      "address": "670 PROGRESS AVENUE SCARBOROUGH ON M1H 3A4",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 52,
+      "pca_name": "Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED: Industrial machinery rental, generating petroleum distillates and waste oils/lubricants. Active 1999-2001, 2002-2008, 2009, 2010, 2011, 2012, as...
+2025-11-26 16:42:39 | INFO     | extraction_service   | [Chunk 2] Extracted 30 PCA rows
+2025-11-26 16:42:39 | INFO     | extraction_service   | [Chunk 3/5] Calling Gemini API (model=gemini-2.5-flash, temp=0.1)
+2025-11-26 16:42:39 | DEBUG    | extraction_service   | [Chunk 3] Prompt length: 118084 chars
+2025-11-26 16:44:18 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:44:18 | INFO     | extraction_service   | [Chunk 3] Gemini response received: 23043 chars
+2025-11-26 16:44:18 | DEBUG    | extraction_service   | [Chunk 3] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue, Scarborough ON M1H 2W9",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "A.G.Simpson Co. Limited / A.G.SIMPSON AUTOMOTIVE (1994-2010) released Sulphuric acid, Hydrochloric acid, Phosphoric acid. A.G. Simpson Co. Ltd. / A.G. Simpson Automotive Inc. (1992-present) generated various acid and alkaline wastes. 2...
+2025-11-26 16:44:18 | INFO     | extraction_service   | [Chunk 3] Extracted 52 PCA rows
+2025-11-26 16:44:18 | INFO     | extraction_service   | [Chunk 4/5] Calling Gemini API (model=gemini-2.5-flash, temp=0.1)
+2025-11-26 16:44:18 | DEBUG    | extraction_service   | [Chunk 4] Prompt length: 110728 chars
+2025-11-26 16:46:23 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:46:23 | INFO     | extraction_service   | [Chunk 4] Gemini response received: 31443 chars
+2025-11-26 16:46:23 | DEBUG    | extraction_service   | [Chunk 4] Response preview: {
+  "rows": [
+    {
+      "address": "721 Progress Ave",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 1,
+      "pca_name": "Acid and Alkali Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "Brafasco, waste generator of acid waste (2006-2016). ENE/194.9m.",
+      "source_pages": "GEN (p-803299530-y, p-808956015-y, p-803239982-bb, p-808978223-y, p-850287558-y, p-814155730-y, p-821709862-y, p-804080264-y)"
+    },
+    {
+      "address": "721 Progress A...
+2025-11-26 16:46:23 | INFO     | extraction_service   | [Chunk 4] Extracted 71 PCA rows
+2025-11-26 16:46:23 | INFO     | extraction_service   | [Chunk 5/5] Calling Gemini API (model=gemini-2.5-flash, temp=0.1)
+2025-11-26 16:46:23 | DEBUG    | extraction_service   | [Chunk 5] Prompt length: 48305 chars
+2025-11-26 16:50:23 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:50:23 | INFO     | extraction_service   | [Chunk 5] Gemini response received: 7392 chars
+2025-11-26 16:50:23 | DEBUG    | extraction_service   | [Chunk 5] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue, Toronto, ON",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 41,
+      "pca_name": "Petroleum-derived Gas Refining, Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "GBA Refineries Ltd (1991-2000).",
+      "source_pages": "City Directory"
+    },
+    {
+      "address": "680 Progress Avenue, Toronto, ON",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 54,
+      "pca_name": "Te...
+2025-11-26 16:50:23 | INFO     | extraction_service   | [Chunk 5] Extracted 23 PCA rows
+2025-11-26 16:50:23 | INFO     | extraction_service   | [Compile] Starting deduplication of 200 raw rows
+2025-11-26 16:50:23 | INFO     | extraction_service   | [Compile] Calling Gemini for deduplication...
+2025-11-26 16:54:38 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 16:54:38 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 16:54:38 | INFO     | extraction_service   | [Compile] Received response: 46891 chars
+2025-11-26 16:55:42 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 16:55:42 | INFO     | extraction_service   | [Filter] Removed 0 rows without valid PCA number (kept 96)
+2025-11-26 16:55:42 | INFO     | extraction_service   | ============================================================
+2025-11-26 16:55:42 | INFO     | extraction_service   | EXTRACTION COMPLETED: Job c152af1d
+2025-11-26 16:55:42 | INFO     | extraction_service   | Total PCAs extracted: 96
+2025-11-26 16:55:42 | INFO     | extraction_service   | Output dir: /Users/justincui/Documents/school/429/LLM_pca/outputs/experiments/exp_053
+2025-11-26 16:55:42 | INFO     | extraction_service   | ============================================================
+2025-11-26 16:58:33 | INFO     | root                 | ============================================================
+2025-11-26 16:58:33 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:58:33 | INFO     | root                 | ============================================================
+2025-11-26 16:58:41 | INFO     | root                 | ============================================================
+2025-11-26 16:58:41 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 16:58:41 | INFO     | root                 | ============================================================
+2025-11-26 16:59:07 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:59:07 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_670-progress-avenue_20251126_165907
+2025-11-26 16:59:07 | INFO     | benchmark_service    | Project: 670-progress-avenue, Prompt: v1
+2025-11-26 16:59:07 | INFO     | benchmark_service    | ============================================================
+2025-11-26 16:59:08 | INFO     | benchmark_service    | Ground truth: 23 ERIS rows (out of 40 total)
+2025-11-26 17:00:19 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:00:19 | INFO     | benchmark_service    | [Chunk 1/5] Extracted 36 rows (total so far: 36)
+2025-11-26 17:01:47 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:01:47 | INFO     | benchmark_service    | [Chunk 2/5] Extracted 58 rows (total so far: 94)
+2025-11-26 17:01:55 | INFO     | root                 | ============================================================
+2025-11-26 17:01:55 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:01:55 | INFO     | root                 | ============================================================
+2025-11-26 17:02:32 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:02:32 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_1285-queen-street-east_20251126_170232
+2025-11-26 17:02:32 | INFO     | benchmark_service    | Project: 1285-queen-street-east, Prompt: v1
+2025-11-26 17:02:32 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:02:33 | INFO     | benchmark_service    | Ground truth: 21 ERIS rows (out of 69 total)
+2025-11-26 17:04:45 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:04:45 | INFO     | benchmark_service    | [Chunk 1/5] Extracted 50 rows (total so far: 50)
+2025-11-26 17:05:51 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:05:51 | INFO     | benchmark_service    | [Chunk 2/5] Extracted 31 rows (total so far: 81)
+2025-11-26 17:06:48 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:06:48 | INFO     | benchmark_service    | [Chunk 3/5] Extracted 18 rows (total so far: 99)
+2025-11-26 17:07:37 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:07:37 | INFO     | benchmark_service    | [Chunk 4/5] Extracted 15 rows (total so far: 114)
+2025-11-26 17:07:44 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:07:44 | INFO     | benchmark_service    | [Chunk 5/5] Extracted 0 rows (total so far: 114)
+2025-11-26 17:07:44 | INFO     | benchmark_service    | [Compile] Saved 114 raw rows, starting compilation...
+2025-11-26 17:07:44 | INFO     | benchmark_service    | [Compile] Prompt length: 50833 chars, calling Gemini...
+2025-11-26 17:08:06 | INFO     | root                 | ============================================================
+2025-11-26 17:08:06 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:08:06 | INFO     | root                 | ============================================================
+2025-11-26 17:08:11 | INFO     | root                 | ============================================================
+2025-11-26 17:08:11 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:08:11 | INFO     | root                 | ============================================================
+2025-11-26 17:08:30 | INFO     | root                 | ============================================================
+2025-11-26 17:08:30 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:08:30 | INFO     | root                 | ============================================================
+2025-11-26 17:08:36 | INFO     | root                 | ============================================================
+2025-11-26 17:08:36 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:08:36 | INFO     | root                 | ============================================================
+2025-11-26 17:08:42 | INFO     | root                 | ============================================================
+2025-11-26 17:08:42 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:08:42 | INFO     | root                 | ============================================================
+2025-11-26 17:08:47 | INFO     | root                 | ============================================================
+2025-11-26 17:08:47 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:08:47 | INFO     | root                 | ============================================================
+2025-11-26 17:08:59 | INFO     | root                 | ============================================================
+2025-11-26 17:08:59 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:08:59 | INFO     | root                 | ============================================================
+2025-11-26 17:09:08 | INFO     | root                 | ============================================================
+2025-11-26 17:09:08 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:09:08 | INFO     | root                 | ============================================================
+2025-11-26 17:09:13 | INFO     | root                 | ============================================================
+2025-11-26 17:09:13 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:09:13 | INFO     | root                 | ============================================================
+2025-11-26 17:09:20 | INFO     | root                 | ============================================================
+2025-11-26 17:09:20 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:09:20 | INFO     | root                 | ============================================================
+2025-11-26 17:11:23 | INFO     | root                 | ============================================================
+2025-11-26 17:11:23 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:11:23 | INFO     | root                 | ============================================================
+2025-11-26 17:16:05 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:16:05 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_15-raglan_20251126_171605
+2025-11-26 17:16:05 | INFO     | benchmark_service    | Project: 15-raglan, Prompt: v1
+2025-11-26 17:16:05 | INFO     | benchmark_service    | Model: gemini-2.5-flash-lite, Temperature: 0.0
+2025-11-26 17:16:05 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:16:06 | INFO     | benchmark_service    | Ground truth: 17 ERIS rows (out of 56 total)
+2025-11-26 17:16:09 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:16:09 | INFO     | benchmark_service    | [Chunk 1/8] Extracted 9 rows (total so far: 9)
+2025-11-26 17:16:11 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:16:11 | INFO     | benchmark_service    | [Chunk 2/8] Extracted 1 rows (total so far: 10)
+2025-11-26 17:16:12 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:16:12 | INFO     | benchmark_service    | [Chunk 3/8] Extracted 0 rows (total so far: 10)
+2025-11-26 17:16:24 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:16:24 | INFO     | benchmark_service    | [Chunk 4/8] Extracted 33 rows (total so far: 43)
+2025-11-26 17:16:26 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:16:26 | INFO     | benchmark_service    | [Chunk 5/8] Extracted 4 rows (total so far: 47)
+2025-11-26 17:16:30 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:16:30 | INFO     | benchmark_service    | [Chunk 6/8] Extracted 7 rows (total so far: 54)
+2025-11-26 17:18:41 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 17:18:41 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:256000]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:137216]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:131072]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:65328]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:65744]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:89436]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:124155]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[124199:124218]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[124220:124245]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[124249:124288]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[124332:124351]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[124353:124381]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[124385:124390]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[124434:124453]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[124455:124487]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[124491:124493]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[124537:124556]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[124558:124581]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[124585:124606]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[124650:124669]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[124671:124700]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[124704:124705]
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 17:20:02 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 17:20:02 | INFO     | extraction_service   | ============================================================
+2025-11-26 17:20:02 | INFO     | extraction_service   | EXTRACTION STARTED: Job 1a04c669
+2025-11-26 17:20:02 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/1a04c669_ERIS-670-progress-avenue.pdf
+2025-11-26 17:20:02 | INFO     | extraction_service   | Prompt Version: v3
+2025-11-26 17:20:02 | INFO     | extraction_service   | Model: gemini-2.5-flash-lite, Temperature: 0.0
+2025-11-26 17:20:02 | INFO     | extraction_service   | ============================================================
+2025-11-26 17:20:02 | INFO     | extraction_service   | Loaded prompt template: v3_extract.txt (7187 chars)
+2025-11-26 17:20:02 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 17:20:02 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 17:20:02 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 17:20:02 | INFO     | extraction_service   | Extracting text from PDF: 1a04c669_ERIS-670-progress-avenue.pdf
+2025-11-26 17:20:02 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 17:20:02 | INFO     | extraction_service   | Chunking with word limit: 20000
+2025-11-26 17:20:02 | INFO     | extraction_service   | Created 4 chunks
+2025-11-26 17:20:02 | INFO     | extraction_service   | [Chunk 1/4] Calling Gemini API (model=gemini-2.5-flash-lite, temp=0.0)
+2025-11-26 17:20:02 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 150035 chars
+2025-11-26 17:20:19 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 17:20:19 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 17:20:19 | INFO     | benchmark_service    | [Chunk 7/8] Extracted 0 rows (total so far: 54)
+2025-11-26 17:20:20 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:20:20 | INFO     | benchmark_service    | [Chunk 8/8] Extracted 0 rows (total so far: 54)
+2025-11-26 17:20:20 | INFO     | benchmark_service    | [Compile] Saved 54 raw rows, starting compilation...
+2025-11-26 17:20:20 | INFO     | benchmark_service    | [Compile] Prompt length: 24688 chars, calling Gemini...
+2025-11-26 17:20:23 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:20:23 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 34918 chars
+2025-11-26 17:20:23 | DEBUG    | extraction_service   | [Chunk 1] Response preview: [
+  {
+    "address": "670 PROGRESS AVENUE SCARBOROUGH ON M1H 3A4",
+    "location_relation_to_site": "On-Site",
+    "pca_number": null,
+    "pca_name": "Waste Generator",
+    "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED generated waste oils & lubricants and petroleum distillates.",
+    "source_pages": "p-48-800880373-x, p-48-800857032-x, p-49-808973916-x, p-49-804066190-x, p-49-800880372-x, p-50-800880374-x, p-52-821705203-x, p-54-803021426-x"
+  },
+  {
+    "address": "670 PROGRESS AVE....
+2025-11-26 17:20:23 | WARNING  | extraction_service   | [Chunk 1] No valid rows extracted from response
+2025-11-26 17:20:23 | INFO     | extraction_service   | [Chunk 2/4] Calling Gemini API (model=gemini-2.5-flash-lite, temp=0.0)
+2025-11-26 17:20:23 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 152522 chars
+2025-11-26 17:20:30 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:20:30 | INFO     | benchmark_service    | [Compile] Received response: 14504 chars
+2025-11-26 17:20:30 | INFO     | benchmark_service    | [Filter] Removed 7 rows without valid PCA number (kept 20)
+2025-11-26 17:20:30 | INFO     | benchmark_service    | [Eval] Starting evaluation against ground truth...
+2025-11-26 17:20:30 | INFO     | benchmark_service    | [Eval] Results: TP=4, FP=16, FN=13
+2025-11-26 17:20:30 | INFO     | benchmark_service    | [Eval] Recall: 23.5%
+2025-11-26 17:20:30 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:20:30 | INFO     | benchmark_service    | BENCHMARK COMPLETED: Recall 23.5%
+2025-11-26 17:20:30 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:22:04 | INFO     | gemini               | Gemini finish_reason: 2
+2025-11-26 17:22:04 | WARNING  | gemini               | Response may be truncated! finish_reason=2
+2025-11-26 17:22:04 | INFO     | extraction_service   | [Chunk 2] Gemini response received: 227004 chars
+2025-11-26 17:22:04 | DEBUG    | extraction_service   | [Chunk 2] Response preview: {
+  "rows": [
+    {
+      "address": "700 Progress Ave",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 8,
+      "pca_name": "Chemical Manufacturing, Processing and Bulk Storage",
+      "description_timeline": "ENE/30.5m. QUICK CIRCUITS INC. Waste generator of Acid solutions - containing heavy metals, Alkaline slutions - containing heavy metals, Other specified inorganic sludges, slurries or solids.",
+      "source_pages": "ERIS (Page 68)"
+    },
+    {
+      "address": "700 P...
+2025-11-26 17:22:04 | WARNING  | extraction_service   | [Chunk 2] JSON parse failed, attempting to fix...
+2025-11-26 17:23:01 | INFO     | root                 | ============================================================
+2025-11-26 17:23:01 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:23:01 | INFO     | root                 | ============================================================
+2025-11-26 17:23:15 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:23:15 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_15-raglan_20251126_172315
+2025-11-26 17:23:15 | INFO     | benchmark_service    | Project: 15-raglan, Prompt: v1
+2025-11-26 17:23:15 | INFO     | benchmark_service    | Model: gemini-2.5-flash-lite, Temperature: 0.0
+2025-11-26 17:23:15 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:23:15 | INFO     | benchmark_service    | Ground truth: 17 ERIS rows (out of 56 total)
+2025-11-26 17:23:19 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:23:19 | INFO     | benchmark_service    | [Chunk 1/8] Extracted 9 rows (total so far: 9)
+2025-11-26 17:23:20 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:23:20 | INFO     | benchmark_service    | [Chunk 2/8] Extracted 1 rows (total so far: 10)
+2025-11-26 17:23:21 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:23:21 | INFO     | benchmark_service    | [Chunk 3/8] Extracted 0 rows (total so far: 10)
+2025-11-26 17:23:35 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:23:35 | INFO     | benchmark_service    | [Chunk 4/8] Extracted 33 rows (total so far: 43)
+2025-11-26 17:23:38 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:23:38 | INFO     | benchmark_service    | [Chunk 5/8] Extracted 4 rows (total so far: 47)
+2025-11-26 17:23:41 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:23:41 | INFO     | benchmark_service    | [Chunk 6/8] Extracted 7 rows (total so far: 54)
+2025-11-26 17:24:47 | INFO     | root                 | ============================================================
+2025-11-26 17:24:47 | INFO     | root                 | Logging initialized - Log file: /Users/justincui/Documents/school/429/LLM_pca/backend/logs/app.log
+2025-11-26 17:24:47 | INFO     | root                 | ============================================================
+2025-11-26 17:24:57 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:24:57 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_15-raglan_20251126_172457
+2025-11-26 17:24:57 | INFO     | benchmark_service    | Project: 15-raglan, Prompt: v1
+2025-11-26 17:24:57 | INFO     | benchmark_service    | Model: gemini-2.5-pro, Temperature: 0.0
+2025-11-26 17:24:57 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:24:58 | INFO     | benchmark_service    | Ground truth: 17 ERIS rows (out of 56 total)
+2025-11-26 17:25:47 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:25:47 | INFO     | benchmark_service    | [Chunk 1/8] Extracted 20 rows (total so far: 20)
+2025-11-26 17:26:04 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:26:04 | INFO     | benchmark_service    | [Chunk 2/8] Extracted 1 rows (total so far: 21)
+2025-11-26 17:26:28 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:26:28 | INFO     | benchmark_service    | [Chunk 3/8] Extracted 1 rows (total so far: 22)
+2025-11-26 17:27:07 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:27:07 | INFO     | benchmark_service    | [Chunk 4/8] Extracted 7 rows (total so far: 29)
+2025-11-26 17:27:53 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:27:53 | INFO     | benchmark_service    | [Chunk 5/8] Extracted 7 rows (total so far: 36)
+2025-11-26 17:28:52 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:28:52 | INFO     | benchmark_service    | [Chunk 6/8] Extracted 14 rows (total so far: 50)
+2025-11-26 17:29:25 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:29:25 | INFO     | benchmark_service    | [Chunk 7/8] Extracted 5 rows (total so far: 55)
+2025-11-26 17:29:31 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:29:31 | INFO     | benchmark_service    | [Chunk 8/8] Extracted 0 rows (total so far: 55)
+2025-11-26 17:29:31 | INFO     | benchmark_service    | [Compile] Saved 55 raw rows, starting compilation...
+2025-11-26 17:29:31 | INFO     | benchmark_service    | [Compile] Prompt length: 26627 chars, calling Gemini...
+2025-11-26 17:31:07 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:31:07 | INFO     | benchmark_service    | [Compile] Received response: 18171 chars
+2025-11-26 17:31:07 | INFO     | benchmark_service    | [Filter] Removed 0 rows without valid PCA number (kept 38)
+2025-11-26 17:31:07 | INFO     | benchmark_service    | [Eval] Starting evaluation against ground truth...
+2025-11-26 17:31:07 | INFO     | benchmark_service    | [Eval] Results: TP=9, FP=29, FN=8
+2025-11-26 17:31:07 | INFO     | benchmark_service    | [Eval] Recall: 52.9%
+2025-11-26 17:31:07 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:31:07 | INFO     | benchmark_service    | BENCHMARK COMPLETED: Recall 52.9%
+2025-11-26 17:31:07 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:49:03 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:49:03 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_1285-queen-street-east_20251126_174903
+2025-11-26 17:49:03 | INFO     | benchmark_service    | Project: 1285-queen-street-east, Prompt: v1
+2025-11-26 17:49:03 | INFO     | benchmark_service    | Model: gemini-2.5-pro, Temperature: 0.0
+2025-11-26 17:49:03 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:49:03 | INFO     | benchmark_service    | Ground truth: 21 ERIS rows (out of 69 total)
+2025-11-26 17:50:11 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:50:11 | INFO     | benchmark_service    | [Chunk 1/5] Extracted 33 rows (total so far: 33)
+2025-11-26 17:51:20 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:51:20 | INFO     | benchmark_service    | [Chunk 2/5] Extracted 20 rows (total so far: 53)
+2025-11-26 17:52:14 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:52:14 | INFO     | benchmark_service    | [Chunk 3/5] Extracted 18 rows (total so far: 71)
+2025-11-26 17:53:02 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:53:02 | INFO     | benchmark_service    | [Chunk 4/5] Extracted 15 rows (total so far: 86)
+2025-11-26 17:53:17 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:53:17 | INFO     | benchmark_service    | [Chunk 5/5] Extracted 0 rows (total so far: 86)
+2025-11-26 17:53:17 | INFO     | benchmark_service    | [Compile] Saved 86 raw rows, starting compilation...
+2025-11-26 17:53:17 | INFO     | benchmark_service    | [Compile] Prompt length: 39323 chars, calling Gemini...
+2025-11-26 17:55:23 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:55:23 | INFO     | benchmark_service    | [Compile] Received response: 26427 chars
+2025-11-26 17:55:23 | INFO     | benchmark_service    | [Filter] Removed 0 rows without valid PCA number (kept 57)
+2025-11-26 17:55:23 | INFO     | benchmark_service    | [Eval] Starting evaluation against ground truth...
+2025-11-26 17:55:23 | INFO     | benchmark_service    | [Eval] Results: TP=16, FP=41, FN=5
+2025-11-26 17:55:23 | INFO     | benchmark_service    | [Eval] Recall: 76.2%
+2025-11-26 17:55:23 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:55:23 | INFO     | benchmark_service    | BENCHMARK COMPLETED: Recall 76.2%
+2025-11-26 17:55:23 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:56:31 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:56:31 | INFO     | benchmark_service    | BENCHMARK STARTED: Job bench_27-grosvenor_20251126_175631
+2025-11-26 17:56:31 | INFO     | benchmark_service    | Project: 27-grosvenor, Prompt: v1
+2025-11-26 17:56:31 | INFO     | benchmark_service    | Model: gemini-2.5-pro, Temperature: 0.0
+2025-11-26 17:56:31 | INFO     | benchmark_service    | ============================================================
+2025-11-26 17:56:31 | INFO     | benchmark_service    | Ground truth: 67 ERIS rows (out of 130 total)
+2025-11-26 17:57:56 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:57:56 | INFO     | benchmark_service    | [Chunk 1/11] Extracted 27 rows (total so far: 27)
+2025-11-26 17:59:01 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 17:59:01 | INFO     | benchmark_service    | [Chunk 2/11] Extracted 28 rows (total so far: 55)
+2025-11-26 18:00:02 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:00:02 | INFO     | benchmark_service    | [Chunk 3/11] Extracted 15 rows (total so far: 70)
+2025-11-26 18:00:51 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:00:51 | INFO     | benchmark_service    | [Chunk 4/11] Extracted 18 rows (total so far: 88)
+2025-11-26 18:01:54 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:01:54 | INFO     | benchmark_service    | [Chunk 5/11] Extracted 18 rows (total so far: 106)
+2025-11-26 18:02:45 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:02:45 | INFO     | benchmark_service    | [Chunk 6/11] Extracted 12 rows (total so far: 118)
+2025-11-26 18:03:29 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:03:29 | INFO     | benchmark_service    | [Chunk 7/11] Extracted 9 rows (total so far: 127)
+2025-11-26 18:04:10 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:04:10 | INFO     | benchmark_service    | [Chunk 8/11] Extracted 15 rows (total so far: 142)
+2025-11-26 18:04:52 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:04:52 | INFO     | benchmark_service    | [Chunk 9/11] Extracted 15 rows (total so far: 157)
+2025-11-26 18:05:37 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:05:37 | INFO     | benchmark_service    | [Chunk 10/11] Extracted 2 rows (total so far: 159)
+2025-11-26 18:06:09 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:06:09 | INFO     | benchmark_service    | [Chunk 11/11] Extracted 8 rows (total so far: 167)
+2025-11-26 18:06:09 | INFO     | benchmark_service    | [Compile] Saved 167 raw rows, starting compilation...
+2025-11-26 18:06:09 | INFO     | benchmark_service    | [Compile] Prompt length: 67723 chars, calling Gemini...
+2025-11-26 18:08:36 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:08:36 | INFO     | benchmark_service    | [Compile] Received response: 52413 chars
+2025-11-26 18:08:36 | INFO     | benchmark_service    | [Filter] Removed 0 rows without valid PCA number (kept 117)
+2025-11-26 18:08:36 | INFO     | benchmark_service    | [Eval] Starting evaluation against ground truth...
+2025-11-26 18:08:36 | INFO     | benchmark_service    | [Eval] Results: TP=48, FP=69, FN=19
+2025-11-26 18:08:36 | INFO     | benchmark_service    | [Eval] Recall: 71.6%
+2025-11-26 18:08:36 | INFO     | benchmark_service    | ============================================================
+2025-11-26 18:08:36 | INFO     | benchmark_service    | BENCHMARK COMPLETED: Recall 71.6%
+2025-11-26 18:08:36 | INFO     | benchmark_service    | ============================================================
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[42:61]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[63:126]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[128:140]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[142:157]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[161:256000]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:256000]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[0:238167]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[238211:238230]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[238232:238257]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[238261:238300]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[238344:238363]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[238365:238393]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[238397:238402]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[238446:238465]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[238467:238499]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[238503:238505]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[238549:238568]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[238570:238593]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[238597:238611]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_begin with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_field with data[238655:238674]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_value with data[238676:238705]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_header_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_headers_finished with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_data with data[238709:238710]
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_part_end with no data
+2025-11-26 18:20:25 | DEBUG    | python_multipart.multipart | Calling on_end with no data
+2025-11-26 18:20:25 | INFO     | extraction_service   | ============================================================
+2025-11-26 18:20:25 | INFO     | extraction_service   | EXTRACTION STARTED: Job 12777403
+2025-11-26 18:20:25 | INFO     | extraction_service   | PDF: /Users/justincui/Documents/school/429/LLM_pca/data/uploads/12777403_ERIS-670-progress-avenue.pdf
+2025-11-26 18:20:25 | INFO     | extraction_service   | Prompt Version: v3
+2025-11-26 18:20:25 | INFO     | extraction_service   | Model: gemini-2.5-pro, Temperature: 0.0
+2025-11-26 18:20:25 | INFO     | extraction_service   | ============================================================
+2025-11-26 18:20:25 | INFO     | extraction_service   | Loaded prompt template: v3_extract.txt (7187 chars)
+2025-11-26 18:20:25 | INFO     | extraction_service   | Setting up extraction...
+2025-11-26 18:20:25 | INFO     | extraction_service   | Loading PCA definitions...
+2025-11-26 18:20:25 | INFO     | extraction_service   | Loaded 59 PCA types
+2025-11-26 18:20:25 | INFO     | extraction_service   | Extracting text from PDF: 12777403_ERIS-670-progress-avenue.pdf
+2025-11-26 18:20:25 | INFO     | extraction_service   | Extracted 256 pages from PDF
+2025-11-26 18:20:25 | INFO     | extraction_service   | Chunking with word limit: 20000
+2025-11-26 18:20:25 | INFO     | extraction_service   | Created 4 chunks
+2025-11-26 18:20:25 | INFO     | extraction_service   | [Chunk 1/4] Calling Gemini API (model=gemini-2.5-pro, temp=0.0)
+2025-11-26 18:20:25 | DEBUG    | extraction_service   | [Chunk 1] Prompt length: 150035 chars
+2025-11-26 18:21:16 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:21:16 | INFO     | extraction_service   | [Chunk 1] Gemini response received: 8684 chars
+2025-11-26 18:21:16 | DEBUG    | extraction_service   | [Chunk 1] Response preview: {
+  "rows": [
+    {
+      "address": "670 PROGRESS AVE. UNIT 12, SCARBOROUGH ON M1H 3A4",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 52,
+      "pca_name": "Storage, maintenance, fuelling and repair of equipment, vehicles, and material used to maintain transportation systems",
+      "description_timeline": "ALL-LIFT (SCARBOROUGH) LIMITED, an industrial machinery rental company. Registered waste generator of petroleum distillates, waste oils & lubricants, and aliphatic solve...
+2025-11-26 18:21:16 | INFO     | extraction_service   | [Chunk 1] Extracted 20 PCA rows
+2025-11-26 18:21:16 | INFO     | extraction_service   | [Chunk 2/4] Calling Gemini API (model=gemini-2.5-pro, temp=0.0)
+2025-11-26 18:21:16 | DEBUG    | extraction_service   | [Chunk 2] Prompt length: 152522 chars
+2025-11-26 18:22:12 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:22:12 | INFO     | extraction_service   | [Chunk 2] Gemini response received: 8767 chars
+2025-11-26 18:22:12 | DEBUG    | extraction_service   | [Chunk 2] Response preview: {
+  "rows": [
+    {
+      "address": "700 PROGRESS AVENUE, UNIT 13, SCARBOROUGH ON M1H 2Z7",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 19,
+      "pca_name": "Electronic and Computer Equipment Manufacturing",
+      "description_timeline": "30.5 m ENE. QUICK CIRCUITS INC. and EXPERT CIRCUITS INC., electrical parts and components manufacturing. Waste generator of acid/alkaline heavy metal wastes and halogenated solvents (1986-2016).",
+      "source_pages": "ERIS"
+    },
+   ...
+2025-11-26 18:22:12 | INFO     | extraction_service   | [Chunk 2] Extracted 22 PCA rows
+2025-11-26 18:22:12 | INFO     | extraction_service   | [Chunk 3/4] Calling Gemini API (model=gemini-2.5-pro, temp=0.0)
+2025-11-26 18:22:12 | DEBUG    | extraction_service   | [Chunk 3] Prompt length: 147632 chars
+2025-11-26 18:23:05 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:23:05 | INFO     | extraction_service   | [Chunk 3] Gemini response received: 3473 chars
+2025-11-26 18:23:05 | DEBUG    | extraction_service   | [Chunk 3] Response preview: {
+  "rows": [
+    {
+      "address": "675 Progress Avenue, Toronto ON M1H 2W9",
+      "location_relation_to_site": "Off-Site",
+      "pca_number": 57,
+      "pca_name": "Vehicles and Associated Parts Manufacturing",
+      "description_timeline": "157 m SE. A.G. Simpson Automotive Inc. / A.G. Simpson Co. Ltd. Documented spills include 20L oil (2015), 200L hydrochloric acid from an above-ground tank (1992), 23L gear oil (2000), and 2,250L of paint (1991).",
+      "source_pages": "ERIS"
+    },
+    ...
+2025-11-26 18:23:05 | INFO     | extraction_service   | [Chunk 3] Extracted 8 PCA rows
+2025-11-26 18:23:05 | INFO     | extraction_service   | [Chunk 4/4] Calling Gemini API (model=gemini-2.5-pro, temp=0.0)
+2025-11-26 18:23:05 | DEBUG    | extraction_service   | [Chunk 4] Prompt length: 48545 chars
+2025-11-26 18:23:33 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:23:33 | INFO     | extraction_service   | [Chunk 4] Gemini response received: 1715 chars
+2025-11-26 18:23:33 | DEBUG    | extraction_service   | [Chunk 4] Response preview: {
+  "rows": [
+    {
+      "address": "670 Progress Avenue, Toronto, ON",
+      "location_relation_to_site": "On-Site",
+      "pca_number": 35,
+      "pca_name": "Mining, Smelting and Refining; Ore Processing; Tailings Storage",
+      "description_timeline": "GBA Refineries Ltd was listed at this address in city directories for 1991, 1995, and 2000.",
+      "source_pages": "City Directory Summary"
+    },
+    {
+      "address": "670 Progress Avenue, Toronto, ON",
+      "location_relation_to_site":...
+2025-11-26 18:23:33 | INFO     | extraction_service   | [Chunk 4] Extracted 4 PCA rows
+2025-11-26 18:23:33 | INFO     | extraction_service   | [Compile] Starting deduplication of 54 raw rows
+2025-11-26 18:23:33 | INFO     | extraction_service   | [Compile] Calling Gemini for deduplication...
+2025-11-26 18:25:14 | INFO     | gemini               | Gemini finish_reason: 1
+2025-11-26 18:25:14 | INFO     | extraction_service   | [Compile] Received response: 19595 chars
+2025-11-26 18:25:14 | INFO     | extraction_service   | [Filter] Removed 0 rows without valid PCA number (kept 43)
+2025-11-26 18:25:14 | INFO     | extraction_service   | ============================================================
+2025-11-26 18:25:14 | INFO     | extraction_service   | EXTRACTION COMPLETED: Job 12777403
+2025-11-26 18:25:14 | INFO     | extraction_service   | Total PCAs extracted: 43
+2025-11-26 18:25:14 | INFO     | extraction_service   | Output dir: /Users/justincui/Documents/school/429/LLM_pca/outputs/experiments/exp_062
+2025-11-26 18:25:14 | INFO     | extraction_service   | ============================================================

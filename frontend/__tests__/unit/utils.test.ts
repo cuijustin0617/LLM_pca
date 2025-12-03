@@ -84,7 +84,7 @@ describe('Utils', () => {
   })
 
   describe('debounce', () => {
-    it('should debounce function calls', (done) => {
+    it('should debounce function calls', async () => {
       let count = 0
       const debouncedFn = debounce(() => count++, 100)
       
@@ -92,10 +92,8 @@ describe('Utils', () => {
       debouncedFn()
       debouncedFn()
       
-      setTimeout(() => {
-        expect(count).toBe(1)
-        done()
-      }, 150)
+      await new Promise(resolve => setTimeout(resolve, 150))
+      expect(count).toBe(1)
     })
   })
 

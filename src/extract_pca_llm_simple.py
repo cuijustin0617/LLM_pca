@@ -178,29 +178,57 @@ def call_openai_json(prompt: str, model: str, temperature: float = 0.0):
     )
     return resp.choices[0].message.content
 
-def call_gemini_json(prompt: str, model: str, temperature: float = 0.0):
-    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-    # Set JSON-only return
+def call_gemini_json(prompt: str, model: str, temperature: float = 0.0, api_key: str = None):
+    logger = logging.getLogger("gemini")
+    # Use provided api_key or fall back to env var
+    key = api_key or os.getenv("GOOGLE_API_KEY")
+    if not key:
+        raise ValueError("No Gemini API key provided. Set GOOGLE_API_KEY env var or pass api_key parameter.")
+    genai.configure(api_key=key)
+    # Set JSON-only return with high max output tokens to avoid truncation
     gcfg = genai.types.GenerationConfig(
         temperature=temperature,
         response_mime_type="application/json",
+        max_output_tokens=65536,  # Max for gemini-2.5 models
     )
     mdl = genai.GenerativeModel(model_name=model, generation_config=gcfg)
     resp = mdl.generate_content(prompt)
+    
+    # Log finish reason to debug truncation
+    if resp.candidates:
+        finish_reason = resp.candidates[0].finish_reason
+        logger.info(f"Gemini finish_reason: {finish_reason}")
+        if finish_reason != 1:  # 1 = STOP (normal completion)
+            logger.warning(f"Response may be truncated! finish_reason={finish_reason}")
+    
     return resp.text
 
-def call_gemini_json_vision(prompt_text: str, model: str, images: list, temperature: float = 0.0):
+def call_gemini_json_vision(prompt_text: str, model: str, images: list, temperature: float = 0.0, api_key: str = None):
+    logger = logging.getLogger("gemini")
     # images: list of {"mime_type": "image/png", "data": b"..."}
-    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+    # Use provided api_key or fall back to env var
+    key = api_key or os.getenv("GOOGLE_API_KEY")
+    if not key:
+        raise ValueError("No Gemini API key provided. Set GOOGLE_API_KEY env var or pass api_key parameter.")
+    genai.configure(api_key=key)
     gcfg = genai.types.GenerationConfig(
         temperature=temperature,
         response_mime_type="application/json",
+        max_output_tokens=65536,  # Max for gemini-2.5 models
     )
     mdl = genai.GenerativeModel(model_name=model, generation_config=gcfg)
     parts = [prompt_text]
     for im in images:
         parts.append({"mime_type": im["mime_type"], "data": im["data"]})
     resp = mdl.generate_content(parts)
+    
+    # Log finish reason to debug truncation
+    if resp.candidates:
+        finish_reason = resp.candidates[0].finish_reason
+        logger.info(f"Gemini vision finish_reason: {finish_reason}")
+        if finish_reason != 1:  # 1 = STOP (normal completion)
+            logger.warning(f"Vision response may be truncated! finish_reason={finish_reason}")
+    
     return resp.text
 
 def try_parse_json(text: str):
@@ -225,7 +253,7 @@ def try_parse_json(text: str):
             pass
     return None
 
-def llm_fix_to_json(raw_text: str, provider: str, model: str, temperature: float):
+def llm_fix_to_json(raw_text: str, provider: str, model: str, temperature: float, api_key: str = None):
     prompt = f"""The following text was meant to be strict JSON but is not valid.
 Return a valid JSON object ONLY. Do not add commentary.
 
@@ -235,7 +263,7 @@ Text:
     if provider == "openai":
         fixed = call_openai_json(prompt, model, temperature)
     else:
-        fixed = call_gemini_json(prompt, model, temperature)
+        fixed = call_gemini_json(prompt, model, temperature, api_key=api_key)
     return fixed
 
 # -----------------------
@@ -434,7 +462,7 @@ def main():
     logger.info(f"Provider: {args.provider}")
     logger.info(f"OpenAI model: {openai_model}")
     logger.info(f"Gemini model: {gemini_model}")
-    chunk_limit = int(os.getenv("CHUNK_WORD_LIMIT", "3500"))
+    chunk_limit = int(os.getenv("CHUNK_WORD_LIMIT", "10000"))
     temp = float(os.getenv("TEMPERATURE", "0.0"))
     logger.info(f"Chunk word limit: {chunk_limit}")
     logger.info(f"Temperature: {temp}")

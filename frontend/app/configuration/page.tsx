@@ -10,7 +10,7 @@ import { Settings, Save, CheckCircle } from 'lucide-react'
 import { useStore } from '@/store'
 import { storage } from '@/lib/storage'
 
-const MODELS = {
+const MODELS: Record<'openai' | 'gemini', string[]> = {
   openai: ['gpt-4o', 'gpt-4o-mini', 'gpt-4-turbo'],
   gemini: ['gemini-2.5-pro', 'gemini-2.5-flash', 'gemini-2.5-flash-lite'],
 }
@@ -129,7 +129,7 @@ export default function ConfigurationPage() {
                 onChange={(e) => setConfig({ ...config, model: e.target.value })}
                 className="w-full p-2 border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700"
               >
-                {MODELS[config.provider].map((model) => (
+                {MODELS[config.provider as 'openai' | 'gemini'].map((model) => (
                   <option key={model} value={model}>
                     {model}
                   </option>
@@ -159,14 +159,14 @@ export default function ConfigurationPage() {
             <Input
               id="chunk-size"
               type="number"
-              min={1000}
-              max={10000}
-              step={500}
+              min={5000}
+              max={50000}
+              step={1000}
               value={config.chunk_size}
               onChange={(e) => setConfig({ ...config, chunk_size: parseInt(e.target.value) })}
             />
             <p className="text-xs text-gray-500 mt-1">
-              PDF will be split into chunks of this size. Recommended: 3500
+              PDF will be split into chunks of this size. Default: 10000 (lower = more reliable)
             </p>
           </div>
         </CardContent>

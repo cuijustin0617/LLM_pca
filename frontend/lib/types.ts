@@ -28,6 +28,13 @@ export interface ExperimentConfig {
   temperature: number
 }
 
+export interface ExtractionConfig {
+  provider: 'openai' | 'gemini'
+  model: string
+  chunk_size: number
+  temperature: number
+}
+
 export interface Experiment {
   id: string
   project_id: string

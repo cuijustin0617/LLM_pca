@@ -1,245 +1,212 @@
 """
-API endpoints for prompt version management.
+Simple prompts router - CRUD for prompt versions.
 """
 
+import json
+from pathlib import Path
+from datetime import datetime
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from typing import List, Dict, Any
-from pathlib import Path
-import json
-from datetime import datetime, timezone
+from typing import Optional
 
 router = APIRouter(prefix="/prompts", tags=["prompts"])
 
-PROMPTS_DIR = Path(__file__).parent.parent.parent / "prompts"
+PROMPTS_DIR = Path(__file__).resolve().parent.parent.parent / "prompts"
+VERSIONS_FILE = PROMPTS_DIR / "versions.json"
 
 
-class PromptVersionCreate(BaseModel):
+class PromptCreate(BaseModel):
     name: str
     content: str
-    description: str = ""
 
 
-class PromptVersionUpdate(BaseModel):
+class PromptUpdate(BaseModel):
     content: str
+    name: Optional[str] = None
+
+
+def _load_versions() -> dict:
+    """Load versions metadata."""
+    if not VERSIONS_FILE.exists():
+        return {"versions": [], "active_version": None}
+    with open(VERSIONS_FILE, 'r') as f:
+        return json.load(f)
+
+
+def _save_versions(data: dict):
+    """Save versions metadata."""
+    PROMPTS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(VERSIONS_FILE, 'w') as f:
+        json.dump(data, f, indent=2)
 
 
 @router.get("/versions")
-async def get_prompt_versions() -> List[Dict[str, Any]]:
-    """Get all available prompt versions."""
-    versions_file = PROMPTS_DIR / "versions.json"
+async def list_versions():
+    """List all prompt versions."""
+    data = _load_versions()
+    versions = []
     
-    if not versions_file.exists():
-        raise HTTPException(status_code=404, detail="Prompt versions not found")
+    for v in data.get("versions", []):
+        version_id = v["id"]
+        file_path = PROMPTS_DIR / f"{version_id}_extract.txt"
+        
+        content = ""
+        if file_path.exists():
+            with open(file_path, 'r') as f:
+                content = f.read()
+        
+        versions.append({
+            "id": version_id,
+            "name": v.get("name", version_id),
+            "created_at": v.get("created_at"),
+            "is_active": version_id == data.get("active_version"),
+            "content": content
+        })
     
-    with open(versions_file, 'r') as f:
-        versions = json.load(f)
-    
-    return versions
+    return {"versions": versions, "active_version": data.get("active_version")}
 
 
 @router.get("/versions/{version_id}")
-async def get_prompt_version(version_id: str) -> Dict[str, Any]:
-    """Get a specific prompt version with its content."""
-    versions_file = PROMPTS_DIR / "versions.json"
+async def get_version(version_id: str):
+    """Get a specific prompt version."""
+    data = _load_versions()
     
-    if not versions_file.exists():
-        raise HTTPException(status_code=404, detail="Prompt versions not found")
+    version = None
+    for v in data.get("versions", []):
+        if v["id"] == version_id:
+            version = v
+            break
     
-    with open(versions_file, 'r') as f:
-        versions = json.load(f)
-    
-    # Find the version
-    version = next((v for v in versions if v['id'] == version_id), None)
     if not version:
-        raise HTTPException(status_code=404, detail=f"Version {version_id} not found")
+        raise HTTPException(status_code=404, detail="Version not found")
     
-    # Load the prompt content
-    extract_file = PROMPTS_DIR / version['extract_file']
-    if not extract_file.exists():
-        raise HTTPException(status_code=404, detail=f"Prompt file {version['extract_file']} not found")
-    
-    with open(extract_file, 'r') as f:
-        content = f.read()
+    file_path = PROMPTS_DIR / f"{version_id}_extract.txt"
+    content = ""
+    if file_path.exists():
+        with open(file_path, 'r') as f:
+            content = f.read()
     
     return {
-        **version,
-        "content": content
-    }
-
-
-@router.get("/active")
-async def get_active_prompt() -> Dict[str, Any]:
-    """Get the currently active prompt version."""
-    versions_file = PROMPTS_DIR / "versions.json"
-    
-    if not versions_file.exists():
-        raise HTTPException(status_code=404, detail="Prompt versions not found")
-    
-    with open(versions_file, 'r') as f:
-        versions = json.load(f)
-    
-    # Find the active version
-    active_version = next((v for v in versions if v.get('active', False)), None)
-    if not active_version:
-        # Default to first version if none marked active
-        active_version = versions[0] if versions else None
-    
-    if not active_version:
-        raise HTTPException(status_code=404, detail="No active prompt version found")
-    
-    # Load the prompt content
-    extract_file = PROMPTS_DIR / active_version['extract_file']
-    if not extract_file.exists():
-        raise HTTPException(status_code=404, detail=f"Prompt file {active_version['extract_file']} not found")
-    
-    with open(extract_file, 'r') as f:
-        content = f.read()
-    
-    return {
-        **active_version,
+        "id": version_id,
+        "name": version.get("name", version_id),
+        "created_at": version.get("created_at"),
+        "is_active": version_id == data.get("active_version"),
         "content": content
     }
 
 
 @router.post("/versions")
-async def create_prompt_version(prompt: PromptVersionCreate) -> Dict[str, Any]:
-    """Create a new prompt version and save to file."""
-    versions_file = PROMPTS_DIR / "versions.json"
+async def create_version(prompt: PromptCreate):
+    """Create a new prompt version."""
+    data = _load_versions()
     
-    if not versions_file.exists():
-        raise HTTPException(status_code=404, detail="Prompt versions not found")
-    
-    # Load existing versions
-    with open(versions_file, 'r') as f:
-        versions = json.load(f)
-    
-    # Generate new version ID
-    existing_ids = [v['id'] for v in versions]
+    # Generate version ID
+    existing_ids = [v["id"] for v in data.get("versions", [])]
     version_num = 1
     while f"v{version_num}" in existing_ids:
         version_num += 1
-    new_id = f"v{version_num}"
+    version_id = f"v{version_num}"
     
-    # Create new version metadata
-    new_version = {
-        "id": new_id,
-        "name": prompt.name,
-        "extract_file": f"{new_id}_extract.txt",
-        "createdAt": datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
-        "active": False,
-        "description": prompt.description
-    }
-    
-    # Save prompt content to file
-    prompt_file = PROMPTS_DIR / new_version["extract_file"]
-    with open(prompt_file, 'w') as f:
+    # Save content
+    PROMPTS_DIR.mkdir(parents=True, exist_ok=True)
+    file_path = PROMPTS_DIR / f"{version_id}_extract.txt"
+    with open(file_path, 'w') as f:
         f.write(prompt.content)
     
-    # Add to versions.json
-    versions.append(new_version)
-    with open(versions_file, 'w') as f:
-        json.dump(versions, f, indent=2)
+    # Update metadata
+    if "versions" not in data:
+        data["versions"] = []
+    
+    data["versions"].append({
+        "id": version_id,
+        "name": prompt.name,
+        "created_at": datetime.now().isoformat()
+    })
+    
+    # Set as active if first version
+    if data.get("active_version") is None:
+        data["active_version"] = version_id
+    
+    _save_versions(data)
     
     return {
-        **new_version,
-        "content": prompt.content
+        "id": version_id,
+        "name": prompt.name,
+        "message": "Version created"
     }
 
 
 @router.put("/versions/{version_id}")
-async def update_prompt_version(version_id: str, prompt: PromptVersionUpdate) -> Dict[str, Any]:
-    """Update an existing prompt version's content."""
-    versions_file = PROMPTS_DIR / "versions.json"
+async def update_version(version_id: str, prompt: PromptUpdate):
+    """Update a prompt version."""
+    data = _load_versions()
     
-    if not versions_file.exists():
-        raise HTTPException(status_code=404, detail="Prompt versions not found")
+    version = None
+    for v in data.get("versions", []):
+        if v["id"] == version_id:
+            version = v
+            break
     
-    with open(versions_file, 'r') as f:
-        versions = json.load(f)
-    
-    # Find the version
-    version = next((v for v in versions if v['id'] == version_id), None)
     if not version:
-        raise HTTPException(status_code=404, detail=f"Version {version_id} not found")
+        raise HTTPException(status_code=404, detail="Version not found")
     
-    # Update the prompt file
-    prompt_file = PROMPTS_DIR / version['extract_file']
-    with open(prompt_file, 'w') as f:
+    # Save content
+    file_path = PROMPTS_DIR / f"{version_id}_extract.txt"
+    with open(file_path, 'w') as f:
         f.write(prompt.content)
     
-    return {
-        **version,
-        "content": prompt.content
-    }
+    # Update name if provided
+    if prompt.name:
+        version["name"] = prompt.name
+        _save_versions(data)
+    
+    return {"id": version_id, "message": "Version updated"}
 
 
-@router.put("/versions/{version_id}/activate")
-async def activate_prompt_version(version_id: str) -> Dict[str, Any]:
-    """Set a prompt version as active."""
-    versions_file = PROMPTS_DIR / "versions.json"
+@router.post("/versions/{version_id}/activate")
+async def activate_version(version_id: str):
+    """Set a version as active."""
+    data = _load_versions()
     
-    if not versions_file.exists():
-        raise HTTPException(status_code=404, detail="Prompt versions not found")
+    # Verify version exists
+    found = False
+    for v in data.get("versions", []):
+        if v["id"] == version_id:
+            found = True
+            break
     
-    with open(versions_file, 'r') as f:
-        versions = json.load(f)
+    if not found:
+        raise HTTPException(status_code=404, detail="Version not found")
     
-    # Find the version
-    version = next((v for v in versions if v['id'] == version_id), None)
-    if not version:
-        raise HTTPException(status_code=404, detail=f"Version {version_id} not found")
+    data["active_version"] = version_id
+    _save_versions(data)
     
-    # Deactivate all versions
-    for v in versions:
-        v['active'] = False
-    
-    # Activate the target version
-    version['active'] = True
-    
-    # Save
-    with open(versions_file, 'w') as f:
-        json.dump(versions, f, indent=2)
-    
-    return version
+    return {"message": f"Version {version_id} is now active"}
 
 
 @router.delete("/versions/{version_id}")
-async def delete_prompt_version(version_id: str) -> Dict[str, str]:
+async def delete_version(version_id: str):
     """Delete a prompt version."""
-    versions_file = PROMPTS_DIR / "versions.json"
+    data = _load_versions()
     
-    if not versions_file.exists():
-        raise HTTPException(status_code=404, detail="Prompt versions not found")
+    # Find and remove version
+    versions = data.get("versions", [])
+    new_versions = [v for v in versions if v["id"] != version_id]
     
-    with open(versions_file, 'r') as f:
-        versions = json.load(f)
+    if len(new_versions) == len(versions):
+        raise HTTPException(status_code=404, detail="Version not found")
     
-    # Check if it's the last version
-    if len(versions) <= 1:
-        raise HTTPException(status_code=400, detail="Cannot delete the last prompt version")
+    # Delete file
+    file_path = PROMPTS_DIR / f"{version_id}_extract.txt"
+    if file_path.exists():
+        file_path.unlink()
     
-    # Find and remove the version
-    version = next((v for v in versions if v['id'] == version_id), None)
-    if not version:
-        raise HTTPException(status_code=404, detail=f"Version {version_id} not found")
+    data["versions"] = new_versions
     
-    # Don't allow deleting active version without setting another active
-    if version.get('active', False):
-        raise HTTPException(
-            status_code=400, 
-            detail="Cannot delete active version. Set another version as active first."
-        )
+    # Update active version if needed
+    if data.get("active_version") == version_id:
+        data["active_version"] = new_versions[0]["id"] if new_versions else None
     
-    # Remove from versions.json
-    versions = [v for v in versions if v['id'] != version_id]
-    with open(versions_file, 'w') as f:
-        json.dump(versions, f, indent=2)
+    _save_versions(data)
     
-    # Delete the prompt file
-    prompt_file = PROMPTS_DIR / version['extract_file']
-    if prompt_file.exists():
-        prompt_file.unlink()
-    
-    return {"message": f"Version {version_id} deleted successfully"}
-
+    return {"message": "Version deleted"}

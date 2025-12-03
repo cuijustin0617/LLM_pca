@@ -69,7 +69,7 @@ const defaultExtractionState: ExtractionState = {
   config: {
     provider: (storage.getProvider() as 'openai' | 'gemini') || 'gemini',
     model: storage.getModel() || 'gemini-2.5-flash',
-    chunk_size: storage.getChunkSize() || 3500,
+    chunk_size: storage.getChunkSize() || 10000,
     temperature: storage.getTemperature() || 0.0,
   },
   jobId: null,

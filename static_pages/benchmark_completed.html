@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompts & Benchmark - Completed</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --burgundy-dark: #5D1A1A;
+      --burgundy-light: #C84B4B;
+      --cream: #E8DCC4;
+      --navy-dark: #1E3A52;
+      --navy-light: #7FA5C0;
+    }
+    body { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <!-- Sidebar -->
+  <div class="fixed left-0 top-0 h-full w-64 bg-white border-r border-gray-200 p-4">
+    <div class="mb-8">
+      <h1 class="text-xl font-bold" style="color: var(--navy-dark)">PCA Extractor</h1>
+      <p class="text-sm text-gray-500">ERIS Report Analysis</p>
+    </div>
+    <nav class="space-y-2">
+      <a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/></svg>
+        Extract
+      </a>
+      <a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-white" style="background-color: var(--navy-dark)">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        Prompts
+      </a>
+      <a href="#" class="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        Configuration
+      </a>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <div class="ml-64 p-8">
+    <div class="max-w-6xl space-y-6">
+      <div>
+        <h1 class="text-2xl font-bold" style="color: var(--navy-dark)">Prompts & Benchmark</h1>
+        <p class="text-gray-600 mt-1">Manage extraction prompts and benchmark against ground truth data</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Prompts Section (Left Column) -->
+        <div class="bg-white rounded-lg border shadow-sm">
+          <div class="p-6 border-b">
+            <div class="flex items-center justify-between">
+              <h2 class="text-lg font-semibold flex items-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                Prompt Versions
+              </h2>
+              <button class="py-1.5 px-3 rounded-lg border text-sm font-medium flex items-center gap-1 hover:bg-gray-50">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+                New
+              </button>
+            </div>
+          </div>
+          <div class="p-6 space-y-4">
+            <!-- Version List -->
+            <div class="space-y-2">
+              <!-- v1 - Active & Selected -->
+              <div class="border rounded-lg overflow-hidden border-amber-400 ring-1 ring-amber-200">
+                <div class="p-3 cursor-pointer flex items-center justify-between bg-amber-50">
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-amber-500 fill-amber-500" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <div>
+                      <div class="font-medium flex items-center gap-2">
+                        Version 1 (Default)
+                        <span class="text-xs bg-amber-200 text-amber-800 px-2 py-0.5 rounded-full">Active</span>
+                      </div>
+                      <div class="text-xs text-gray-500">v1</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1">
+                    <button class="p-1.5 hover:bg-amber-100 rounded"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+                    <button class="p-1.5 hover:bg-red-50 rounded"><svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- v2 -->
+              <div class="border rounded-lg overflow-hidden">
+                <div class="p-3 cursor-pointer flex items-center justify-between bg-white hover:bg-gray-50">
+                  <div class="flex items-center gap-2">
+                    <div>
+                      <div class="font-medium">Version 2</div>
+                      <div class="text-xs text-gray-500">v2</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1">
+                    <button class="py-1 px-2 rounded border text-xs font-medium flex items-center gap-1 hover:bg-gray-50">
+                      <svg class="w-3 h-3" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                      Set Active
+                    </button>
+                    <button class="p-1.5 hover:bg-gray-100 rounded"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+                    <button class="p-1.5 hover:bg-red-50 rounded"><svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- v3 -->
+              <div class="border rounded-lg overflow-hidden border-blue-500">
+                <div class="p-3 cursor-pointer flex items-center justify-between bg-blue-50">
+                  <div class="flex items-center gap-2">
+                    <div>
+                      <div class="font-medium">Version 3 (Selective)</div>
+                      <div class="text-xs text-gray-500">v3</div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-1">
+                    <button class="py-1 px-2 rounded border text-xs font-medium flex items-center gap-1 hover:bg-gray-50">
+                      <svg class="w-3 h-3" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                      Set Active
+                    </button>
+                    <button class="p-1.5 hover:bg-gray-100 rounded"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+                    <button class="p-1.5 hover:bg-red-50 rounded"><svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Edit Selected Version -->
+            <div class="space-y-3 pt-4 border-t">
+              <h4 class="font-medium">Edit: Version 3 (Selective)</h4>
+              <textarea class="w-full h-72 p-3 border rounded-lg font-mono text-sm resize-none focus:outline-none focus:ring-2 focus:ring-blue-500" spellcheck="false">Extract Potentially Contaminating Activities (PCAs) from the ERIS environmental report text.
+
+CRITICAL: Quality over Quantity - Only extract PCAs you are highly confident about.
+
+## Task
+Identify and extract ONLY clearly documented potentially contaminating activities. Focus on HIGH CONFIDENCE entries with specific evidence.
+
+## Output Format
+Return a JSON object with this EXACT structure:
+
+{
+  "rows": [
+    {
+      "address": "<full address including unit/suite if present>",
+      "location_relation_to_site": "On-Site" or "Off-Site",
+      "pca_number": <integer 1-59 or null>,
+      "pca_name": "<PCA name from list>",
+      "description_timeline": "<company, operations, timeline>",
+      "source_pages": "<source type and page reference>"
+    }
+  ]
+}
+
+## EXTRACT (High Confidence):
+- Gas stations with documented USTs
+- Industrial facilities with waste generator records
+- Dry cleaners with solvent usage
+- Auto body shops with paint/solvent records
+
+## DO NOT EXTRACT (Low Confidence):
+- Generic commercial buildings
+- Residential properties without evidence
+- Vague historical references
+
+## PCA Definitions (1-59)
+1. Acid and Alkali Manufacturing...
+...</textarea>
+              <button class="py-2 px-4 rounded-lg text-white font-medium flex items-center gap-2" style="background-color: var(--navy-dark)">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"/></svg>
+                Save Changes
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benchmark Section (Right Column) -->
+        <div class="space-y-4">
+          <!-- Run Benchmark Card -->
+          <div class="bg-white rounded-lg border shadow-sm">
+            <div class="p-6 border-b">
+              <h2 class="text-lg font-semibold flex items-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                Run Benchmark
+              </h2>
+              <p class="text-sm text-gray-500">Test extraction against ground truth data</p>
+            </div>
+            <div class="p-6 space-y-4">
+              <!-- Project Selection -->
+              <div class="space-y-2">
+                <label class="text-sm font-medium">Select Project:</label>
+                <div class="grid grid-cols-1 gap-2">
+                  <div class="p-3 border rounded-lg cursor-pointer transition-colors hover:bg-gray-50">
+                    <div class="font-medium">15-raglan</div>
+                    <div class="text-xs text-gray-500">14 PCAs in ground truth</div>
+                  </div>
+                  <div class="p-3 border rounded-lg cursor-pointer transition-colors border-blue-500 bg-blue-50">
+                    <div class="font-medium">1285-queen-street-east</div>
+                    <div class="text-xs text-gray-500">21 PCAs in ground truth</div>
+                  </div>
+                  <div class="p-3 border rounded-lg cursor-pointer transition-colors hover:bg-gray-50">
+                    <div class="font-medium">27-grosvenor</div>
+                    <div class="text-xs text-gray-500">18 PCAs in ground truth</div>
+                  </div>
+                  <div class="p-3 border rounded-lg cursor-pointer transition-colors hover:bg-gray-50">
+                    <div class="font-medium">670-progress-avenue</div>
+                    <div class="text-xs text-gray-500">22 PCAs in ground truth</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Selected Prompt -->
+              <div class="p-3 bg-gray-50 rounded-lg text-sm">
+                <strong>Using prompt:</strong> Version 3 (Selective)
+              </div>
+
+              <!-- Run Button -->
+              <button class="w-full py-2 px-4 rounded-lg text-white font-medium flex items-center justify-center gap-2" style="background-color: var(--burgundy-light)">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                Run Benchmark
+              </button>
+            </div>
+          </div>
+
+          <!-- Benchmark Results Card - Completed -->
+          <div class="bg-white rounded-lg border border-green-200 shadow-sm" style="background-color: rgba(34, 197, 94, 0.05)">
+            <div class="p-6 border-b border-green-200">
+              <h2 class="text-lg font-semibold flex items-center gap-2">
+                <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                Benchmark Complete
+              </h2>
+              <p class="text-sm text-gray-500">1285-queen-street-east • v3</p>
+            </div>
+            <div class="p-6 space-y-4">
+              <!-- Current Step -->
+              <div class="text-sm">Complete! Recall: 85.7% (18 extracted / 21 ground truth)</div>
+
+              <!-- Progress Bar -->
+              <div class="space-y-1">
+                <div class="flex justify-between text-xs">
+                  <span>Progress</span>
+                  <span>100%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-green-500 h-2 rounded-full" style="width: 100%"></div>
+                </div>
+              </div>
+
+              <!-- Chunk Results -->
+              <div class="space-y-2">
+                <h4 class="text-sm font-medium">Chunks:</h4>
+                <div class="grid grid-cols-2 gap-1 text-xs">
+                  <div class="p-2 bg-white border rounded">Chunk 1: 8 PCAs</div>
+                  <div class="p-2 bg-white border rounded">Chunk 2: 5 PCAs</div>
+                  <div class="p-2 bg-white border rounded">Chunk 3: 3 PCAs</div>
+                  <div class="p-2 bg-white border rounded">Chunk 4: 2 PCAs</div>
+                </div>
+              </div>
+
+              <!-- Results -->
+              <div class="p-4 bg-white border rounded-lg">
+                <h4 class="font-semibold mb-3">Results</h4>
+                <div class="grid grid-cols-2 gap-4 text-center">
+                  <div>
+                    <div class="text-2xl font-bold text-green-600">85.7%</div>
+                    <div class="text-xs text-gray-500">Recall</div>
+                  </div>
+                  <div>
+                    <div class="text-2xl font-bold" style="color: var(--navy-dark)">18</div>
+                    <div class="text-xs text-gray-500">PCAs Extracted</div>
+                  </div>
+                </div>
+                <div class="mt-3 text-sm text-gray-500 text-center">
+                  Ground truth: 21 PCAs
+                </div>
+              </div>
+
+              <!-- Refresh -->
+              <button class="py-1.5 px-3 rounded-lg border text-sm font-medium flex items-center gap-2 hover:bg-gray-50">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                Refresh
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

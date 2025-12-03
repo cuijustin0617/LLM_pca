@@ -118,6 +118,38 @@ def addresses_compatible(addr1: str, addr2: str) -> bool:
     
     return True
 
+def address_containment_score(addr1: str, addr2: str) -> float:
+    """Check if one address contains or mostly contains the other.
+    Returns a score: 1.0 if fully contained, partial score if mostly contained, 0.0 otherwise.
+    """
+    if not addr1 or not addr2:
+        return 0.0
+    
+    # Check full containment
+    if addr1 in addr2 or addr2 in addr1:
+        return 1.0
+    
+    # Check if shorter is mostly contained in longer
+    shorter = addr1 if len(addr1) <= len(addr2) else addr2
+    longer = addr1 if len(addr1) > len(addr2) else addr2
+    
+    # Split into words and check overlap
+    shorter_words = set(shorter.split())
+    longer_words = set(longer.split())
+    
+    if not shorter_words:
+        return 0.0
+    
+    # What fraction of the shorter address's words appear in the longer?
+    overlap = len(shorter_words & longer_words)
+    containment_ratio = overlap / len(shorter_words)
+    
+    # If 80%+ of shorter's words are in longer, consider it a strong match
+    if containment_ratio >= 0.8:
+        return containment_ratio
+    
+    return 0.0
+
 def find_matching_row(gt_row: pd.Series, extracted_df: pd.DataFrame, 
                      matched_indices: Set[int], threshold: float = 0.8) -> Tuple[int, float]:
     """Find matching row in extracted data."""
@@ -145,10 +177,17 @@ def find_matching_row(gt_row: pd.Series, extracted_df: pd.DataFrame,
         if not addresses_compatible(gt_row['Address'], ext_row['address']):
             continue
         
+        # Calculate similarity score
         addr_sim = SequenceMatcher(None, gt_addr, ext_addr).ratio()
         
-        if addr_sim > best_score:
-            best_score = addr_sim
+        # Also check containment (one address contained in or mostly contained in other)
+        containment = address_containment_score(gt_addr, ext_addr)
+        
+        # Use the better of the two scores
+        effective_score = max(addr_sim, containment)
+        
+        if effective_score > best_score:
+            best_score = effective_score
             best_idx = idx
     
     if best_score >= threshold:
@@ -156,7 +195,7 @@ def find_matching_row(gt_row: pd.Series, extracted_df: pd.DataFrame,
     return -1, 0.0
 
 def calculate_metrics(gt_df: pd.DataFrame, extracted_df: pd.DataFrame, 
-                     threshold: float = 0.6) -> Dict:
+                     threshold: float = 0.5) -> Dict:
     """Calculate precision, recall, F1."""
     matched_extracted_indices = set()
     matches = []

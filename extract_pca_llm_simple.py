@@ -8,6 +8,7 @@ import base64
 import argparse
 import logging
 import shutil
+import time
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
@@ -21,6 +22,25 @@ import google.generativeai as genai
 
 # Import prompt templates
 from src.prompts import format_extract_prompt, COMPILE_PROMPT_TEMPLATE
+
+# Global Gemini queue for rate limiting (set by backend, None for CLI use)
+_gemini_queue = None
+_current_job_id = None
+
+def set_gemini_queue(queue, job_id: str = None):
+    """Set the global Gemini queue (called by backend service)."""
+    global _gemini_queue, _current_job_id
+    _gemini_queue = queue
+    _current_job_id = job_id
+
+def get_queue_status_message() -> str:
+    """Get a status message about queue position."""
+    if _gemini_queue is None:
+        return ""
+    status = _gemini_queue.get_queue_status()
+    if status["queue_size"] > 0:
+        return f" (waiting: {status['queue_size']} in queue)"
+    return ""
 
 # -----------------------
 # Helpers: logging & IO
@@ -187,31 +207,188 @@ def call_openai_json(prompt: str, model: str, temperature: float = 0.0):
     )
     return resp.choices[0].message.content
 
-def call_gemini_json(prompt: str, model: str, temperature: float = 0.0):
+def _call_gemini_direct(prompt: str, model: str, temperature: float = 0.0, max_retries: int = 3):
+    """Direct Gemini API call with retry logic. Used internally."""
+    logger = logging.getLogger("eris_pca")
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+    
     # Set JSON-only return with increased output token limit
     gcfg = genai.types.GenerationConfig(
         temperature=temperature,
         response_mime_type="application/json",
         max_output_tokens=8000,  # Increased limit to prevent truncation
     )
-    mdl = genai.GenerativeModel(model_name=model, generation_config=gcfg)
-    resp = mdl.generate_content(prompt)
-    return resp.text
+    
+    # Disable safety filters for environmental data extraction
+    # ERIS documents contain contamination info that can trigger false positives
+    safety_settings = [
+        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+    ]
+    
+    mdl = genai.GenerativeModel(
+        model_name=model, 
+        generation_config=gcfg,
+        safety_settings=safety_settings
+    )
+    
+    for attempt in range(max_retries):
+        try:
+            resp = mdl.generate_content(prompt)
+            
+            # Check if response has valid content
+            if resp.candidates and len(resp.candidates) > 0:
+                candidate = resp.candidates[0]
+                
+                # Check finish reason
+                # 1=STOP (normal), 2=MAX_TOKENS, 3=SAFETY, 4=RECITATION, 5=OTHER
+                if hasattr(candidate, 'finish_reason'):
+                    finish_reason = candidate.finish_reason
+                    # finish_reason is an enum, compare by value
+                    if finish_reason.value == 3:  # SAFETY
+                        logger.warning(f"Gemini blocked content due to safety filters (attempt {attempt+1})")
+                        if attempt < max_retries - 1:
+                            time.sleep(2)
+                            continue
+                        return '{"rows": []}'  # Return empty on final attempt
+                
+                # Try to get text
+                if hasattr(candidate, 'content') and candidate.content.parts:
+                    return candidate.content.parts[0].text
+            
+            # Fallback to resp.text (may raise ValueError)
+            return resp.text
+            
+        except Exception as e:
+            error_str = str(e)
+            
+            # Handle rate limiting
+            if "429" in error_str or "ResourceExhausted" in error_str:
+                wait_time = (attempt + 1) * 30  # 30s, 60s, 90s
+                logger.warning(f"Rate limited, waiting {wait_time}s before retry (attempt {attempt+1})")
+                time.sleep(wait_time)
+                continue
+            
+            # Handle safety block errors
+            if "finish_reason" in error_str and "2" in error_str:
+                logger.warning(f"Safety filter triggered (attempt {attempt+1})")
+                if attempt < max_retries - 1:
+                    time.sleep(2)
+                    continue
+                return '{"rows": []}'  # Return empty on final attempt
+            
+            # Re-raise other errors
+            raise
+    
+    # If all retries failed
+    logger.error("All retries exhausted")
+    return '{"rows": []}'
 
-def call_gemini_json_vision(prompt_text: str, model: str, images: list, temperature: float = 0.0):
+
+def call_gemini_json(prompt: str, model: str, temperature: float = 0.0, max_retries: int = 3):
+    """
+    Call Gemini API for JSON response.
+    If a global queue is set (backend mode), routes through queue to prevent rate limiting.
+    """
+    logger = logging.getLogger("eris_pca")
+    global _gemini_queue, _current_job_id
+    
+    if _gemini_queue is not None:
+        # Use queue for rate limiting (backend mode)
+        queue_status = _gemini_queue.get_queue_status()
+        if queue_status["queue_size"] > 0 or queue_status["current_request"]:
+            logger.info(f"Waiting in Gemini queue (position ~{queue_status['queue_size'] + 1})...")
+        
+        return _gemini_queue.submit(
+            _current_job_id or "unknown",
+            _call_gemini_direct,
+            prompt, model, temperature, max_retries
+        )
+    else:
+        # Direct call (CLI mode)
+        return _call_gemini_direct(prompt, model, temperature, max_retries)
+
+def _call_gemini_vision_direct(prompt_text: str, model: str, images: list, temperature: float = 0.0, max_retries: int = 3):
+    """Direct Gemini Vision API call. Used internally."""
+    logger = logging.getLogger("eris_pca")
     # images: list of {"mime_type": "image/png", "data": b"..."}
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
     gcfg = genai.types.GenerationConfig(
         temperature=temperature,
         response_mime_type="application/json",
+        max_output_tokens=8000,
     )
-    mdl = genai.GenerativeModel(model_name=model, generation_config=gcfg)
+    
+    # Disable safety filters
+    safety_settings = [
+        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+    ]
+    
+    mdl = genai.GenerativeModel(
+        model_name=model, 
+        generation_config=gcfg,
+        safety_settings=safety_settings
+    )
     parts = [prompt_text]
     for im in images:
         parts.append({"mime_type": im["mime_type"], "data": im["data"]})
-    resp = mdl.generate_content(parts)
-    return resp.text
+    
+    for attempt in range(max_retries):
+        try:
+            resp = mdl.generate_content(parts)
+            
+            if resp.candidates and len(resp.candidates) > 0:
+                candidate = resp.candidates[0]
+                if hasattr(candidate, 'content') and candidate.content.parts:
+                    return candidate.content.parts[0].text
+            
+            return resp.text
+            
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str or "ResourceExhausted" in error_str:
+                wait_time = (attempt + 1) * 30
+                logger.warning(f"Rate limited (vision), waiting {wait_time}s (attempt {attempt+1})")
+                time.sleep(wait_time)
+                continue
+            if "finish_reason" in error_str:
+                logger.warning(f"Safety filter triggered in vision call (attempt {attempt+1})")
+                if attempt < max_retries - 1:
+                    time.sleep(2)
+                    continue
+                return '{"rows": []}'
+            raise
+    
+    return '{"rows": []}'
+
+
+def call_gemini_json_vision(prompt_text: str, model: str, images: list, temperature: float = 0.0, max_retries: int = 3):
+    """
+    Call Gemini Vision API for JSON response.
+    If a global queue is set (backend mode), routes through queue to prevent rate limiting.
+    """
+    logger = logging.getLogger("eris_pca")
+    global _gemini_queue, _current_job_id
+    
+    if _gemini_queue is not None:
+        # Use queue for rate limiting (backend mode)
+        queue_status = _gemini_queue.get_queue_status()
+        if queue_status["queue_size"] > 0 or queue_status["current_request"]:
+            logger.info(f"Waiting in Gemini queue (position ~{queue_status['queue_size'] + 1})...")
+        
+        return _gemini_queue.submit(
+            _current_job_id or "unknown",
+            _call_gemini_vision_direct,
+            prompt_text, model, images, temperature, max_retries
+        )
+    else:
+        # Direct call (CLI mode)
+        return _call_gemini_vision_direct(prompt_text, model, images, temperature, max_retries)
 
 def try_parse_json(text: str):
     # Check for truncation (incomplete JSON)
@@ -548,7 +725,7 @@ def main():
     logger.info(f"Provider: {args.provider}")
     logger.info(f"OpenAI model: {openai_model}")
     logger.info(f"Gemini model: {gemini_model}")
-    chunk_limit = int(os.getenv("CHUNK_WORD_LIMIT", "3500"))
+    chunk_limit = int(os.getenv("CHUNK_WORD_LIMIT", "10000"))
     temp = float(os.getenv("TEMPERATURE", "0.0"))
     logger.info(f"Chunk word limit: {chunk_limit}")
     logger.info(f"Temperature: {temp}")

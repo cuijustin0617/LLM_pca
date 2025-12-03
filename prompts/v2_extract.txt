@@ -105,52 +105,44 @@ DISTANCE FILTER (Off-Site):
    - Include waste types that indicate industrial processes (solvents, heavy metals, etc.)
    - If Off-Site, include distance/direction (e.g., "30 m south", "adjacent east")
 
-=== FEW-SHOT EXAMPLES ====== FEW-SHOT EXAMPLES ===
+=== FEW-SHOT EXAMPLES (All from ERIS reports) ===
 
-Example 1: Multiple PCAs at same address (EXTRACT - 4 rows)
-Input: "675 Progress Avenue: A.G. Simpson Co. - metal stamping (1947-), waste generator of oils (1993), plating operations, PCB storage (1991-2000)"
-Output: 4 SEPARATE ROWS:
-  - Row 1: 675 Progress Avenue, PCA #34 (Metal Fabrication), "A.G. Simpson metal stamping 1947-"
-  - Row 2: 675 Progress Avenue, PCA #33 (Metal Treatment/Plating), "A.G. Simpson plating operations"
-  - Row 3: 675 Progress Avenue, PCA #28 (Gasoline Storage), "waste generator of oils 1993"
-  - Row 4: 675 Progress Avenue, PCA #55 (Transformer/PCB), "PCB storage 1991-2000"
+Example 1: Gas Station with Multiple Records (EXTRACT - 2 rows)
+Input: "1467 Bathurst Street (ERIS): 1516726 Ontario Inc o/a Gas Station. Six expired liquid fuel tank records (2014), five gasoline USTs (2007), ten gasoline USTs (2008). Waste generator of waste oils 2002-2019."
+Output: 2 SEPARATE ROWS:
+  - Row 1: 1467 Bathurst Street, PCA #10 (Commercial Autobody Shops), "Gas Station, Crosstown Car Wash & Auto Service. Service station operations."
+  - Row 2: 1467 Bathurst Street, PCA #28 (Gasoline Storage), "Five gasoline USTs (2007), ten USTs (2008). Waste generator of waste oils 2002-2019."
 
-Example 2: Plating shop with exact location (EXTRACT)
-Input: "690 Progress Avenue Unit 11: electro plating shop observed in FIP report (1982)"
-Output: 1 ROW: "690 Progress Avenue Unit 11", PCA #33 (Metal Treatment, Coating, Plating and Finishing)
+Example 2: Dry Cleaning with Halogenated Solvents (EXTRACT)
+Input: "521 St. Clair Avenue West (ERIS): Sketchley Cleaners, Embassy Cleaners Inc. Waste generator of halogenated solvents between 1986 and 1998."
+Output: 1 ROW: PCA #37 (Operation of Dry Cleaning Equipment), "75 m south. Waste generator of halogenated solvents 1986-1998."
 
-Example 3: Spill/leak (EXTRACT - always include)
-Input: "690 Progress Avenue Unit 14: waste oil spill identified, Macusi Wood Products (2011)"
-Output: 1 ROW: pca_number: null, pca_name: "Spill/Leak of Gasoline and Associated Products", description "waste oil spill 2011, Macusi Wood Products"
+Example 3: Metal Treatment/Manufacturing (EXTRACT)
+Input: "109-111 Vaughan Road (ERIS): Amberhue Enterprises, Canada Cleaning Supplies Ltd. Operations of jewellery and silverware manufacturing (1955)."
+Output: 1 ROW: PCA #33 (Metal Treatment, Coating, Plating and Finishing), "90 m northwest. Jewellery and silverware manufacturing 1955."
 
-Example 4: Dry cleaning with chemical handling (EXTRACT)
-Input: "670 Progress Avenue Unit 11: GBA Refineries Ltd, dry cleaning product distribution (1991-2000), 200L AST for liquid storage"
-Output: 1 ROW: PCA #37 (Operation of Dry Cleaning Equipment)
-Reasoning: Chemical handling and storage tank indicate dry cleaning operation
+Example 4: Historic Fuel Oil Tank (EXTRACT)
+Input: "1515 Bathurst Street (ERIS): St. Michaels College. Record of 500-gallon fuel oil UST (1950)."
+Output: 1 ROW: PCA #28 (Gasoline Storage), "65 m northeast. 500-gallon fuel oil UST (1950)."
 
-Example 5: UST removal with backfill (EXTRACT - 2 rows)
-Input: "Former UST at east wall removed and backfilled in 1999, unknown quality fill material used"
-Output: 2 ROWS:
-  - Row 1: PCA #28 (Gasoline Storage), "Former UST removed 1999"
-  - Row 2: PCA #30 (Fill Material), "Unknown quality backfill material 1999"
+Example 5: Historic Gasoline Tanks and Pump (EXTRACT)
+Input: "523 St. Clair Avenue West (ERIS): Hale Motors Ltd. Two records of 500-gallon gasoline tank and pump (1923). Gasoline service station operation."
+Output: 1 ROW: PCA #10 (Commercial Autobody Shops), "75 m south. Hale Motors Ltd. Two 500-gallon gasoline tanks (1923)."
 
-Example 6: Industrial operation with waste (EXTRACT)
-Input: "Dasa Manufacturing: machine shop operations, waste generator of petroleum distillates and oils (2010-2014)"
-Output: 2 ROWS:
-  - Row 1: PCA #34 (Metal Fabrication), "Dasa Manufacturing machine shop 2010-2014"
-  - Row 2: PCA #28 (Gasoline Storage), "petroleum distillates and oils 2010-2014"
+Example 6: Open Dump / Fill Material (EXTRACT)
+Input: "St. Clair Avenue West of St. Michael's College (ERIS): Listed as open-faced dump between 1911 and 1950s."
+Output: 1 ROW: PCA #30 (Fill Material), "245 m northeast. Open-faced dump 1911-1950s."
 
-Example 7: Machine shop with plating at on-site address (EXTRACT - 2 rows)
-Input: "670 Progress Unit 1-6: Manufacturing and lock assembly facility observed, FIP report indicates metal plating operations (1982)"
-Output: 2 ROWS:
-  - Row 1: address="670 Progress Avenue Unit 1-6", location_relation_to_site="On-Site", PCA #34, description="lock assembly manufacturing 1982"
-  - Row 2: address="670 Progress Avenue Unit 1-6", location_relation_to_site="On-Site", PCA #33, description="metal plating operations 1982"
+Example 7: Dry Cleaning Facility with Long History (EXTRACT)
+Input: "574-576 St. Clair Avenue West (ERIS): Russel Cleaners. Waste generator of halogenated solvents 1986-2015. Dry-cleaning facility 2004-2014."
+Output: 1 ROW: PCA #37 (Operation of Dry Cleaning Equipment), "230 m southwest. Russel Cleaners. Halogenated solvents 1986-2015."
 
 Example 8: Off-site with distance (EXTRACT)
-Input: "675 Progress Avenue (20 m south): A.G. Simpson Co. - plating operations (1947-2000)"
-Output: 1 ROW:
-  - address="675 Progress Avenue", location_relation_to_site="Off-Site", PCA #33, description="A.G. Simpson Co., plating operations (1947-2000), located 20 m south of site"
-  NOTE: Distance "20 m south" goes in description, NOT in location_relation_to_site field
+Input: "1440 Bathurst Street (ERIS): Hillcrest Motors Ltd. Auto body repair shop with six USTs (1957)."
+Output: 2 ROWS:
+  - Row 1: address="1440 Bathurst Street", location_relation_to_site="Off-Site", PCA #10, description="170 m south. Hillcrest Motors Ltd. auto body repair 1957."
+  - Row 2: address="1440 Bathurst Street", location_relation_to_site="Off-Site", PCA #28, description="170 m south. Six USTs (1957)."
+  NOTE: Distance "170 m south" goes in description, NOT in location_relation_to_site field
 
 === WHAT NOT TO EXTRACT (NO OUTPUT) ===
 

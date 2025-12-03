@@ -14,8 +14,7 @@ import {
 const navigation = [
   { name: 'Configuration', href: '/configuration', icon: Settings },
   { name: 'Extract', href: '/extract', icon: Play },
-  { name: 'Prompts', href: '/prompts', icon: FileText },
-  { name: 'Benchmark', href: '/benchmark', icon: TrendingUp },
+  { name: 'Prompts & Benchmark', href: '/prompts', icon: FileText },
 ]
 
 export function Sidebar() {
